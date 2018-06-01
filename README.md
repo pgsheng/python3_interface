@@ -20,6 +20,6 @@
 - 实现通过邮箱发送测试报告功能
 
 ### 3.项目结构图：
-![df](https://github.com/pgsheng/python3_interface/raw/master/img/ProjectStruct.png)
+![df](https://github.com/pgsheng/python3_interface/img/ProjectStruct.png)
 
 
