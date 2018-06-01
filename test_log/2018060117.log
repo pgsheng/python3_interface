@@ -1,0 +1,22 @@
+2018-06-01 17:42:37,081 - 测试 - INFO - 输出info
+2018-06-01 17:42:37,081 - 测试 - ERROR - 输出info
+2018-06-01 17:48:45,355 - 测试 - INFO - 检查点->：200
+2018-06-01 17:48:45,356 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"27.47.193.67","url":"https://httpbin.org/get"}
+
+2018-06-01 17:48:46,648 - 测试 - INFO - 检查点->：200
+2018-06-01 17:48:46,649 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"122.226.183.84","url":"https://httpbin.org/get"}
+
+2018-06-01 17:48:47,997 - 测试 - INFO - 检查点->：200
+2018-06-01 17:48:47,998 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"122.226.183.84","url":"https://httpbin.org/get"}
+
+2018-06-01 17:49:25,142 - 测试 - INFO - 检查点->：200
+2018-06-01 17:49:25,143 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"120.85.77.39","url":"https://httpbin.org/get"}
+
+2018-06-01 17:49:26,588 - 测试 - INFO - 检查点->：200
+2018-06-01 17:49:26,588 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"122.226.183.86","url":"https://httpbin.org/get"}
+
+2018-06-01 17:49:27,884 - 测试 - INFO - 检查点->：200
+2018-06-01 17:49:27,884 - 测试 - INFO - 实际返回结果->：{"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"close","Content-Length":"2","Host":"httpbin.org","User-Agent":"python-requests/2.18.4"},"origin":"120.85.77.39","url":"https://httpbin.org/get"}
+
+2018-06-01 17:50:26,193 - 测试 - INFO - 输出info
+2018-06-01 17:50:26,193 - 测试 - ERROR - 输出info
