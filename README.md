@@ -4,7 +4,7 @@
 
 - python3.6
 - requests
-- xlrd
+- xlrd 
 - openpyxl
 - HTMLTestRunner
 
