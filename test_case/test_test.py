@@ -24,10 +24,12 @@ class MyTestCase(unittest.TestCase):
 
 	@data(*testdata)
 	def test_something(self,data):
+		u'''测试用例'''
+
 		r = base.get_excel_response(data)
 		base.write_excel('test.xlsx','test',data,r)
 
-		self.log.info("检查点->：" + data['checkpoint'])
+		self.log.info("检查点->：" + data.get('checkpoint'))
 		self.log.info("实际返回结果->：" + r.text)
 		if data.get('isCheckStatusCode'):
 			self.assertEqual(str(r.status_code), data.get('checkpoint'),msg='和预期不一样')

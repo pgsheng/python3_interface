@@ -44,7 +44,7 @@ class Read_excel():
 
 
 if __name__ == "__main__":
-	filepath = Config.project_path + r'\test_data\test_01.xlsx'
+	filepath = Config.project_path + r'\test_data\test.xlsx'
 	sheetName = "test"
 	sheet = Read_excel(filepath, sheetName)
 	data = sheet.get_dict_data()

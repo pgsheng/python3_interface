@@ -6,6 +6,7 @@
 '''
 import requests
 from flask import json
+from openpyxl.styles import colors
 
 from public import Config, ReadExcel, WriteExcel
 from public.HttpService import MyHTTP
@@ -90,29 +91,34 @@ def write_excel(fileName, sheetName, testData, r):
 	WriteExcel.copy_excel(Config.project_path + r'\test_data\%s' % fileName) # 复制备份一份测试数据
 	wt = WriteExcel.Write_excel(Config.project_path + r'\test_data\%s' % fileName, sheetName)
 	row = testData.get('rowNum')
+	color = colors.BLACK
 	try:
-		wt.write(row, 10, str(r.status_code))  # 写入返回状态码statuscode,第8列
-		wt.write(row, 11, str(r.elapsed.total_seconds()))  # 耗时
-		wt.write(row, 13, r.text)  # 响应内容
-		wt.write(row, 14, "") # 异常置空
 		if testData.get('isCheckStatusCode'):
 			if str(r.status_code) == testData.get('checkpoint'):
-				wt.write(row, 12, "pass")  # 测试结果 pass
+				wt.write(row, 12, "pass",color)  # 测试结果 pass
 			else:
-				wt.write(row, 12, "fail")  # 测试结果 fail
+				color = colors.RED
+				wt.write(row, 12, "fail",color)  # 测试结果 fail
 		else:
 			if testData.get("checkpoint") == '':
-				wt.write(row, 12, "checkpoint为空")  # 没有设置检查点的值
+				wt.write(row, 12, "checkpoint为空",colors.RED)  # 没有设置检查点的值
 			elif testData.get("checkpoint") in r.text:
-				wt.write(row, 12, "pass")  # 测试结果 pass
+				wt.write(row, 12, "pass",color)  # 测试结果 pass
 			else:
-				wt.write(row, 12, "fail")  # 测试结果 fail
+				color = colors.RED
+				wt.write(row, 12, "fail",color)  # 测试结果 fail
+
+		wt.write(row, 10, str(r.status_code), color)  # 写入返回状态码statuscode,第8列
+		wt.write(row, 11, str(r.elapsed.total_seconds()), color)  # 耗时
+		wt.write(row, 13, r.text, color)  # 响应内容
+		wt.write(row, 14, "")  # 异常置空
 		wt.wb.close()
 	except Exception as msg:
+		color = colors.RED
 		wt.write(row, 10,"")
 		wt.write(row, 11,"")
-		wt.write(row, 12,"fail")
+		wt.write(row, 12,"fail",color)
 		wt.write(row, 13,"")
-		wt.write(row, 14, str(r))
+		wt.write(row, 14, str(r),color)
 		wt.wb.close()
 	return wt

@@ -348,8 +348,8 @@ a.popup_link:hover {
     background-color: #E6E6D6;
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
-    font-size: 8pt;
-    width: 500px;
+    font-size: 10pt;
+    width: 800px;
 }
 
 }
@@ -359,7 +359,7 @@ a.popup_link:hover {
     margin-bottom: 1ex;
 }
 #result_table {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     border: 1px solid #777;
 }

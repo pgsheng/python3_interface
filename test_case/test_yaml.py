@@ -37,6 +37,18 @@ def write_yaml():
 		# 将python对象转换成为yaml格式文档
 		yaml.dump(data, file)
 
+def read_txt():
+	# 你的yaml格式文件路径
+	path = Config.project_path + r'\test_data\aa.txt'
+
+	# a追加写入，w覆盖写入
+	with open(path,'r',encoding='utf-8') as file:
+		# 将python对象转换成为yaml格式文档
+		# data = file.read()
+		data = file.readline()
+		print(data)
+
 if __name__ == '__main__':
-	read_yaml()
+	# read_yaml()
 	# write_yaml()
+	read_txt()
