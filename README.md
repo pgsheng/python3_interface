@@ -2,7 +2,7 @@
 
 ### 1.环境准备：
 
-- python3.6
+- python3.7
 - requests
 - xlrd 
 - openpyxl
