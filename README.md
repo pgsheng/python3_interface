@@ -17,7 +17,7 @@
 - 使用HTMLTestRunner生成可视化的html报告
 - 可使用全局变量存储上个请求的结果是下个请求的参数，如token。
 - 封装Logger日志类
-- 实现通过邮箱发送测试报告功能
+- 实现通过邮箱发送测试报告功能 
 
 ### 3.项目结构图：
 ![](https://github.com/pgsheng/python3_interface/raw/master/img/ProjectStruct.png)
