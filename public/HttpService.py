@@ -14,7 +14,7 @@ class MyHTTP():
 	'''网络请求封装'''
 
 	def __init__(self):
-		self.log = Log('MyHTTP')
+		self.log = Log('MyHTTP').getLog()
 
 	def get(self, url, **kwargs):
 		params = kwargs.get('params')

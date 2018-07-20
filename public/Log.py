@@ -11,7 +11,7 @@ from public import Config
 class Log():
 	'''日志类'''
 
-	def __init__(self, name='接口测试'):
+	def __init__(self, name=None):
 		day = time.strftime("%Y%m%d%H", time.localtime(time.time()))  # 获取当前时间
 		file_dir = Config.project_path + '\\test_log'  # 定义日志文件存储路径
 		file = os.path.join(file_dir, (day + '.log'))  # 以当前时间命名日志文件
@@ -21,21 +21,12 @@ class Log():
 		self.logfile.setLevel(logging.INFO)  # 将INFO级别或更高的日志输出到文件
 		self.control = logging.StreamHandler()  # 定义日志输出到控制台
 		self.control.setLevel(logging.INFO)  # 将INFO级别或更高的日志输出到控制台
-		# 定义日志格式:时间、名称、级别、结果
-		self.formater = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+		# 定义日志格式:时间、文件名、行号、标记、结果
+		self.formater = logging.Formatter('%(asctime)s - %(filename)s - %(lineno)d - %(name)s : %(message)s')
 		self.logfile.setFormatter(self.formater)
 		self.control.setFormatter(self.formater)
 		self.logger.addHandler(self.logfile)
 		self.logger.addHandler(self.control)
 
-	def info(self, message):
-		self.logger.info(message)
-
-	def debug(self, message):
-		self.logger.debug(message)
-
-	def warning(self, message):
-		self.logger.warning(message)
-
-	def error(self, message):
-		self.logger.error(message)
+	def getLog(self):
+		return self.logger

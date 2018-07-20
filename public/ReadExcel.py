@@ -19,7 +19,7 @@ class Read_excel():
 		self.keys = self.table.row_values(0)  # 获取第一行作为字典的key值
 		self.rowNum = self.table.nrows  # 获取总行数
 		self.colNum = self.table.ncols  # 获取总列数
-		self.log = Log("读取excel")
+		self.log = Log("读取excel").getLog()
 
 	# 获取整张表的数据（数据装在列表中,列表的每个子元素是字典类型数据）
 	def get_dict_data(self):

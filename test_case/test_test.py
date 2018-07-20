@@ -20,7 +20,7 @@ class MyTestCase(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(self):
-		self.log = Log('测试')
+		self.log = Log('测试').getLog()
 
 	@data(*testdata)
 	def test_something(self,data):
