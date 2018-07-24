@@ -5,7 +5,7 @@
 
 import os, time, logging
 
-from public import Config
+from public import config
 
 
 class Log():
@@ -13,7 +13,7 @@ class Log():
 
 	def __init__(self, name=None):
 		day = time.strftime("%Y%m%d%H", time.localtime(time.time()))  # 获取当前时间
-		file_dir = Config.project_path + '\\test_log'  # 定义日志文件存储路径
+		file_dir = config.project_path + '\\test_log'  # 定义日志文件存储路径
 		file = os.path.join(file_dir, (day + '.log'))  # 以当前时间命名日志文件
 		self.logger = logging.Logger(name)  # 定义日志的名称
 		self.logger.setLevel(logging.INFO)  # 设置日志等级

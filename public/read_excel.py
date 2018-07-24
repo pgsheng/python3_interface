@@ -7,8 +7,8 @@
 
 import xlrd
 
-from public import Config
-from public.Log import Log
+from public import config
+from public.log import Log
 
 
 class Read_excel():
@@ -44,7 +44,7 @@ class Read_excel():
 
 
 if __name__ == "__main__":
-	filepath = Config.project_path + r'\test_data\test.xlsx'
+	filepath = config.project_path + r'\test_data\test.xlsx'
 	sheetName = "test"
 	sheet = Read_excel(filepath, sheetName)
 	data = sheet.get_dict_data()

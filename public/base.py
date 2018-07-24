@@ -8,12 +8,12 @@ import requests
 from flask import json
 from openpyxl.styles import colors
 
-from public import Config, ReadExcel, WriteExcel
-from public.HttpService import MyHTTP
+from public import config, read_excel, write_excel
+from public.http_service import MyHTTP
 
 # 拼接url，path参数是域名后面的虚拟目录部分
 def get_url(path):
-	return ''.join([Config.base_url, path])
+	return ''.join([config.base_url, path])
 
 # 封装requests请求方法，方法参数为:请求方式，接口url，请求参数
 def get_response(method, url, **DataALL):
@@ -51,7 +51,7 @@ def get_excel_response(testdata):
 		bodydata = eval(testdata["body"])
 		# 可在这里实现excel的body里面某个字段动态赋值，实现接口参数的关联，如token
 		if 'accessToken' in testdata["body"]:
-			bodydata['accessToken'] = Config.accessToken
+			bodydata['accessToken'] = config.accessToken
 	except:
 		bodydata = {}
 
@@ -80,16 +80,16 @@ def get_excel_response(testdata):
 # 这个是二次封装读取Excel表数据，返回的data是列表类型，列表中子元素是字典类型
 def get_excel_data(fileName, sheetName):
 	# fileName是文件名（要带后缀），sheetName是表名
-	sheet = ReadExcel.Read_excel(Config.project_path + r'\test_data\%s' % fileName, sheetName)
+	sheet = read_excel.Read_excel(config.project_path + r'\test_data\%s' % fileName, sheetName)
 	data = sheet.get_dict_data()
 	return data
 
 
 # 这个是二次封装写入Excel表数据，fileName是文件名，sheetName是表名，r是网络请求结果
-def write_excel(fileName, sheetName, testData, r):
+def write_to_excel(fileName, sheetName, testData, r):
 	# 这里的文件夹路径要修改为你的
-	WriteExcel.copy_excel(Config.project_path + r'\test_data\%s' % fileName) # 复制备份一份测试数据
-	wt = WriteExcel.Write_excel(Config.project_path + r'\test_data\%s' % fileName, sheetName)
+	write_excel.copy_excel(config.project_path + r'\test_data\%s' % fileName) # 复制备份一份测试数据
+	wt = write_excel.Write_excel(config.project_path + r'\test_data\%s' % fileName, sheetName)
 	row = testData.get('rowNum')
 	color = colors.BLACK
 	try:

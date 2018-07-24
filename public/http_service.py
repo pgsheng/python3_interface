@@ -7,7 +7,7 @@
 
 import requests
 
-from public.Log import Log
+from public.log import Log
 
 
 class MyHTTP():

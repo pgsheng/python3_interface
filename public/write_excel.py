@@ -9,7 +9,7 @@ import os
 
 from openpyxl.styles import Font, colors, Alignment
 
-from public import Config
+from public import config
 
 '''备份一份测试数据，以防进行写入表操作时导致表出现异常，表打不开数据丢失'''
 def copy_excel(fileName):
@@ -60,7 +60,7 @@ class Write_excel(object):
 
 if __name__ == "__main__":
 	# path = copy_excel(Config.project_path + r'\test_data\test_01.xlsx', 'Sheet1')
-	wt = Write_excel(Config.project_path + r'\test_data\test_01.xlsx', 'test')
+	wt = Write_excel(config.project_path + r'\test_data\test_01.xlsx', 'test')
 	wt.write(5, 6, "HELLEOP2", colors.RED)
 	wt.write(5, 7, "HELLEOP2")
 	wt.wb.close()
