@@ -25,7 +25,7 @@ def get_response(method, url, **DataALL):
 		resp = MyHTTP().post(url, **DataALL)
 	elif method == 'delete':
 		resp = MyHTTP().delete(url, **DataALL)
-	resp.encoding = 'utf-8'
+	resp.encoding = 'UTF-8'
 	return resp
 
 
