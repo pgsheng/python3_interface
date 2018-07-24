@@ -28,6 +28,7 @@ class Log():
 		self.logger.addHandler(self.logfile)
 		self.logger.addHandler(self.control)
 		self.logfile.close()
+		self.control.close()
 
 	def getLog(self):
 		return self.logger
