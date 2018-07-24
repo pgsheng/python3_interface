@@ -20,7 +20,7 @@ class Log():
 		self.logfile = logging.FileHandler(file, encoding="UTF-8")  # 定义日志输出到文件
 		self.logfile.setLevel(logging.DEBUG)  # 将INFO级别或更高的日志输出到文件
 		self.control = logging.StreamHandler()  # 定义日志输出到控制台
-		self.control.setLevel(logging.INFO)  # 将INFO级别或更高的日志输出到控制台
+		self.control.setLevel(logging.DEBUG)  # 将INFO级别或更高的日志输出到控制台
 		# 定义日志格式:时间、文件名、行号、标记、结果
 		self.formater = logging.Formatter('%(asctime)s - %(filename)s - %(lineno)d - %(name)s : %(message)s')
 		self.logfile.setFormatter(self.formater)

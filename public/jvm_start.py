@@ -24,22 +24,24 @@ class JVM_Start():
 		# 获得默认jvm路径
 		jvmPath = jpype.getDefaultJVMPath()
 		self.log.info(jvmPath)
-		# java扩展包路径
+		# 你的java扩展包的路径
 		ext_classpath = ''
 
 		# 判断系统类型,Linux系统使用“ ：”分隔
 		sysstr = platform.system()
 		if (sysstr == "Windows"):
+			# 你的java扩展包的路径
 			ext_classpath = r'lib/logback-core-1.1.7.jar;lib/logback-classic-1.1.7.jar'
 		elif (sysstr == "Linux"):
+			# 你的java扩展包的路径
 			ext_classpath = r'lib/logback-core-1.1.7.jar:lib/logback-classic-1.1.7.jar'
 		self.log.info("系统类型：" + sysstr)
 
-		# Java虚拟机还没有启动话，启动Java虚拟机
+		# 判断 JVM 是否已启动
 		if not jpype.isJVMStarted():
 			# 启动Java虚拟机，并加载jar包
 			jpype.startJVM(jvmPath, '-ea', '-Djava.class.path=%s' % ext_classpath)
-			self.log.info("启动jvm： %s" % ext_classpath)
+			jpype.java.lang.System.out.println("startJVM success")
 
 	''' 
 	关闭Java虚拟机
@@ -47,8 +49,9 @@ class JVM_Start():
 
 	def shutdownJVM(self):
 		if jpype.isJVMStarted():
-			jpype.shutdownJVM()
 			self.log.info("关闭jvm")
+			jpype.shutdownJVM()
+
 
 
 if __name__ == '__main__':
