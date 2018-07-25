@@ -38,7 +38,8 @@ def test_webdriver():
 
 
 	# dirvier.find_element_by_id('kw').submit() # 提交输入框的内容,功能与click类似
-	dirvier.find_element_by_id('su').click() # 点击元素
+	# dirvier.find_element_by_id('su').click() # 点击元素
+	dirvier.find_element_by_xpath('//*[@id="su"]').click() # 点击元素
 	# size = dirvier.find_element_by_id('kw').size # 获取元素的大小
 	# text = dirvier.find_element_by_id('cp').text # 获取元素的文本
 	# attribute = dirvier.find_element_by_id('kw').get_attribute() # 获取元素的属性值
@@ -59,7 +60,7 @@ def test_webdriver():
 
 	log.info(dirvier.title) # 获取标题
 
-	# dirvier.quit()
+	dirvier.quit()
 	# dirvier.close()
 
 if __name__ == '__main__':

@@ -1,0 +1,4 @@
+baidu:
+    url: 'https://www.baidu.com/'
+    input: '//input[@id="kw"]'
+    search: '//*[@id="su"]'

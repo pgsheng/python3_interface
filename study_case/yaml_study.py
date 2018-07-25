@@ -9,12 +9,12 @@ from public import config
 
 def read_yaml():
 	# 你的yaml格式文件路径
-	path = config.project_path + r'\test_data\yaml_test_data.yaml'
+	path = config.project_path + r'\study_case\data\yaml_study_data.yaml'
 
 	with open(path,'r',encoding='utf-8') as file:
 		# 将yaml格式内容转换成 dict类型
-		# yaml_data = yaml.load(file)
-		load_data = yaml.load(file.read())
+		load_data = yaml.load(file)
+		# load_data = yaml.load(file.read())
 		print(load_data)
 		print(load_data.get('complex'))
 
@@ -28,7 +28,7 @@ def read_yaml():
 
 def write_yaml():
 	# 你的yaml格式文件路径
-	path = config.project_path + r'\test_data\yaml_test_data.yaml'
+	path = config.project_path + r'\study_case\data\yaml_study_data.yaml'
 	# 待写入的数据
 	data = {'complex2': {'languages': ['Ruby', 'Perl', 'Python'], 'websites': {'YAML': 'yaml.org', 'Ruby': 'ruby-lang.org', 'Python': 'python.org'}}}
 
@@ -42,7 +42,7 @@ txt文件读写测试
 """
 def read_txt():
 	# 文件路径
-	path = config.project_path + r'\test_data\aa.txt'
+	path = config.project_path + r'\study_case\data\aa.txt'
 
 	with open(path,'r',encoding='utf-8') as file:
 		data = file.read()

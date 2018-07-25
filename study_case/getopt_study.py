@@ -9,7 +9,7 @@ import sys
 
 
 """
-1. 使用控制台执行（注意文件路径），如：python getopt_test.py -h 或 python getopt_test.py --help
+1. 使用控制台执行（注意文件路径），如：python getopt_study.py -h 或 python getopt_study.py --help
 2. 使用sys.argv[1:]过滤掉第一个参数（它是执行脚本的名字，不应算作参数的一部分）。
 3. 使用短格式分析串"hf:"，也可以写成'-h-f:'，。当一个选项只是表示开关状态时，即后面不带附加参数时，在分析串中写入选项字符。
     当选项后面是带一个附加参数时，在分析串中写入选项字符同时后面加一个":"号。所以"hf:"就表示"h"是一个开关选项；
