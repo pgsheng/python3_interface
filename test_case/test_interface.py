@@ -10,7 +10,7 @@ import unittest
 from public import base
 from ddt import ddt,data
 
-from public.Log import Log
+from public.log import Log
 
 testdata = base.get_excel_data('test.xlsx', 'test')
 
@@ -20,14 +20,14 @@ class MyTestCase(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(self):
-		self.log = Log('测试')
+		self.log = Log('测试').getLog()
 
 	@data(*testdata)
 	def test_something(self,data):
 		u'''测试用例'''
 
 		r = base.get_excel_response(data)
-		base.write_excel('test.xlsx','test',data,r)
+		base.write_to_excel('test.xlsx', 'test', data, r)
 
 		self.log.info("检查点->：" + data.get('checkpoint'))
 		self.log.info("实际返回结果->：" + r.text)

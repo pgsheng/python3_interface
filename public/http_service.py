@@ -7,20 +7,21 @@
 
 import requests
 
-from public.Log import Log
+from public.log import Log
 
 
 class MyHTTP():
 	'''网络请求封装'''
 
 	def __init__(self):
-		self.log = Log('MyHTTP')
+		self.log = Log('MyHTTP').getLog()
 
 	def get(self, url, **kwargs):
 		params = kwargs.get('params')
 		headers = kwargs.get('headers')
+		cookies = kwargs.get('cookies')
 		try:
-			r = requests.get(url, params=params, headers=headers, timeout=15)
+			r = requests.get(url, params=params, headers=headers, cookies = cookies ,timeout=15)
 			return r
 		except Exception as e:
 			self.log.error('get请求出错:%s' % e)
@@ -30,8 +31,9 @@ class MyHTTP():
 		headers = kwargs.get('headers')
 		data = kwargs.get('data')
 		json = kwargs.get('json')
+		cookies = kwargs.get('cookies')
 		try:
-			r = requests.put(url, params=params, headers=headers, data=data, json=json, timeout=30)
+			r = requests.put(url, params=params, headers=headers, data=data, json=json, cookies = cookies, timeout=30)
 			return r
 		except Exception as e:
 			self.log.error("put请求出错:%s" % e)
@@ -41,8 +43,9 @@ class MyHTTP():
 		headers = kwargs.get('headers')
 		data = kwargs.get('data')
 		json = kwargs.get('json')
+		cookies = kwargs.get('cookies')
 		try:
-			r = requests.post(url, params=params, headers=headers, data=data, json=json, timeout=100)
+			r = requests.post(url, params=params, headers=headers, data=data, json=json, cookies = cookies, timeout=100)
 			return r
 		except Exception as e:
 			self.log.error('post请求出错:%s' % e)
@@ -52,8 +55,9 @@ class MyHTTP():
 		headers = kwargs.get('headers')
 		data = kwargs.get('data')
 		json = kwargs.get('json')
+		cookies = kwargs.get('cookies')
 		try:
-			r = requests.delete(url, params=params, headers=headers, data=data, json=json, timeout=15)
+			r = requests.delete(url, params=params, headers=headers, data=data, json=json, cookies = cookies, timeout=15)
 			return r
 		except Exception as e:
 			self.log.error('detele请求出错:%s' % e)
