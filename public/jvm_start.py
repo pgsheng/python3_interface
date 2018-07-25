@@ -1,17 +1,19 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
+"""
 启动jvm
  @Author  : pgsheng
  @Time    : 2018/7/24 10:44
-'''
+"""
 import platform
+
 import jpype
 
+from public import config
 from public.log import Log
 
 
-class JVM_Start():
+class JVMStart(object):
 
 	def __init__(self):
 		self.log = Log("jvm初始化").getLog()
@@ -22,26 +24,31 @@ class JVM_Start():
 
 	def startJVM(self):
 		# 获得默认jvm路径
-		jvmPath = jpype.getDefaultJVMPath()
-		self.log.info(jvmPath)
+		jvm_path = jpype.getDefaultJVMPath()
+		# self.log.info(jvmPath)
+
 		# 你的java扩展包的路径
 		ext_classpath = ''
 
 		# 判断系统类型,Linux系统使用“ ：”分隔
 		sysstr = platform.system()
-		if (sysstr == "Windows"):
-			# 你的java扩展包的路径
-			ext_classpath = r'lib/logback-core-1.1.7.jar;lib/logback-classic-1.1.7.jar'
-		elif (sysstr == "Linux"):
-			# 你的java扩展包的路径
-			ext_classpath = r'lib/logback-core-1.1.7.jar:lib/logback-classic-1.1.7.jar'
+		if sysstr == "Windows":
+			# 你的java扩展包的路径，注意class文件路径是它所在的上级文件夹
+			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\sdk\jar_test.jar;C:\AProjectCode\Pycharm-Projects\python3_interface\sdk"
+		elif sysstr == "Linux":
+			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\sdk\jar_test.jar:C:\AProjectCode\Pycharm-Projects\python3_interface\sdk"
 		self.log.info("系统类型：" + sysstr)
 
 		# 判断 JVM 是否已启动
 		if not jpype.isJVMStarted():
 			# 启动Java虚拟机，并加载jar包
-			jpype.startJVM(jvmPath, '-ea', '-Djava.class.path=%s' % ext_classpath)
-			jpype.java.lang.System.out.println("startJVM success")
+			jpype.startJVM(jvm_path, '-ea', '-Djava.class.path=%s' % ext_classpath)
+			if jpype.isJVMStarted():
+				return True
+			else:
+				return False
+		else:
+			return True
 
 	''' 
 	关闭Java虚拟机
@@ -53,7 +60,6 @@ class JVM_Start():
 			jpype.shutdownJVM()
 
 
-
 if __name__ == '__main__':
-	JVM_Start().startJVM()
-	JVM_Start().shutdownJVM()
+	JVMStart().startJVM()
+	JVMStart().shutdownJVM()

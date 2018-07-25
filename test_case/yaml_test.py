@@ -37,11 +37,13 @@ def write_yaml():
 		# 将python对象转换成为yaml格式文档
 		yaml.dump(data, file)
 
+"""
+txt文件读写测试
+"""
 def read_txt():
 	# 文件路径
 	path = config.project_path + r'\test_data\aa.txt'
 
-	# a追加写入，w覆盖写入
 	with open(path,'r',encoding='utf-8') as file:
 		data = file.read()
 		# data = file.readline()

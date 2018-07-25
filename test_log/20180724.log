@@ -1,0 +1,122 @@
+2018-07-24 16:26:53,038 - test_test.py - 32 - 测试 : 检查点->：200
+2018-07-24 16:26:53,038 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"1"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"0b4635d7-3595-4464-b204-9e73acd110fd","X-Request-Start":"1532420811384"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=1"}
+
+2018-07-24 16:26:54,182 - test_test.py - 32 - 测试 : 检查点->：201
+2018-07-24 16:26:54,189 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"2"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"c045761e-0e12-4ffa-9922-bb9c031b4f66","X-Request-Start":"1532420812514"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=2"}
+
+2018-07-24 16:26:55,513 - test_test.py - 32 - 测试 : 检查点->：close
+2018-07-24 16:26:55,513 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"3"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"1","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"d4804b4d-1d4e-4dbf-9f28-a9cc39fe3d07","X-Request-Start":"1532420813864"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=3"}
+
+2018-07-24 16:26:56,671 - test_test.py - 32 - 测试 : 检查点->：200
+2018-07-24 16:26:56,671 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"4"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"90b4d4a1-2de9-4336-b476-77f9b0a06449","X-Request-Start":"1532420815007"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=4"}
+
+2018-07-24 16:26:57,984 - test_test.py - 32 - 测试 : 检查点->：201
+2018-07-24 16:26:57,984 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"5"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"e47f6d7e-cfba-42fc-afea-18aef77df0f3","X-Request-Start":"1532420816308"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=5"}
+
+2018-07-24 16:26:59,095 - test_test.py - 32 - 测试 : 检查点->：close
+2018-07-24 16:26:59,096 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"6"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"b00df35d-67bc-4b1c-a303-b0dbdcd03da9","X-Request-Start":"1532420817434"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=6"}
+
+2018-07-24 16:27:00,398 - test_test.py - 32 - 测试 : 检查点->：200
+2018-07-24 16:27:00,398 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"7"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"0db30b91-7f5c-40ed-bdde-7c7c1c8dc2c6","X-Request-Start":"1532420818759"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=7"}
+
+2018-07-24 16:27:01,731 - test_test.py - 32 - 测试 : 检查点->：201
+2018-07-24 16:27:01,732 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"8"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"1","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"ec725dd7-5321-4166-b0d1-ad7e6ee10604","X-Request-Start":"1532420820095"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=8"}
+
+2018-07-24 16:27:03,151 - test_test.py - 32 - 测试 : 检查点->：close
+2018-07-24 16:27:03,151 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"9"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"9c145c23-b7fb-49e8-abb1-8a5dabf20f79","X-Request-Start":"1532420821356"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=9"}
+
+2018-07-24 16:27:04,268 - test_test.py - 32 - 测试 : 检查点->：200
+2018-07-24 16:27:04,268 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"10"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"1","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"27dcda63-b41e-41b8-9567-ca7895188ed6","X-Request-Start":"1532420822601"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=10"}
+
+2018-07-24 16:27:05,613 - test_test.py - 32 - 测试 : 检查点->：201
+2018-07-24 16:27:05,614 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"11"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"2b7c1a6d-5f59-405e-8cce-d13f90ad1d99","X-Request-Start":"1532420823989"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=11"}
+
+2018-07-24 16:27:06,738 - test_test.py - 32 - 测试 : 检查点->：close
+2018-07-24 16:27:06,738 - test_test.py - 33 - 测试 : 实际返回结果->：{"args":{"show_env":"12"},"headers":{"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connect-Time":"0","Connection":"close","Content-Length":"2","Host":"httpbin.org","Total-Route-Time":"0","User-Agent":"python-requests/2.19.1","Via":"1.1 vegur","X-Forwarded-For":"113.108.193.130","X-Forwarded-Port":"443","X-Forwarded-Proto":"https","X-Request-Id":"acf11493-bae0-404a-8d3b-324b670f2734","X-Request-Start":"1532420825087"},"origin":"113.108.193.130","url":"https://httpbin.org/get?show_env=12"}
+
+2018-07-24 16:29:54,534 - test_cookie.py - 26 - cookie测试 : {"cookies":{"freeform":"me"}}
+
+2018-07-24 16:29:54,566 - test_cookie.py - 40 - cookie测试 : name = BAIDUID
+2018-07-24 16:29:54,566 - test_cookie.py - 41 - cookie测试 : Value = 9E3D394F76F00D42463C479B978A787C:FG=1
+2018-07-24 16:29:54,567 - test_cookie.py - 40 - cookie测试 : name = BDRCVFR[ZQuaEB4a2uC]
+2018-07-24 16:29:54,568 - test_cookie.py - 41 - cookie测试 : Value = mk3SLVN4HKm
+2018-07-24 16:29:54,569 - test_cookie.py - 40 - cookie测试 : name = BIDUPSID
+2018-07-24 16:29:54,569 - test_cookie.py - 41 - cookie测试 : Value = 9E3D394F76F00D42463C479B978A787C
+2018-07-24 16:29:54,570 - test_cookie.py - 40 - cookie测试 : name = H_PS_PSSID
+2018-07-24 16:29:54,571 - test_cookie.py - 41 - cookie测试 : Value = 1445_21095_26922_22073
+2018-07-24 16:29:54,572 - test_cookie.py - 40 - cookie测试 : name = PSTM
+2018-07-24 16:29:54,572 - test_cookie.py - 41 - cookie测试 : Value = 1532420993
+2018-07-24 16:29:54,573 - test_cookie.py - 40 - cookie测试 : name = BDSVRTM
+2018-07-24 16:29:54,574 - test_cookie.py - 41 - cookie测试 : Value = 0
+2018-07-24 16:29:54,574 - test_cookie.py - 40 - cookie测试 : name = BD_HOME
+2018-07-24 16:29:54,575 - test_cookie.py - 41 - cookie测试 : Value = 0
+2018-07-24 16:38:30,105 - ui_test.py - 60 - None : 王春玲_百度搜索
+2018-07-24 16:40:29,286 - cookie_test.py - 26 - cookie测试 : {"cookies":{"freeform":"me"}}
+
+2018-07-24 16:40:29,323 - cookie_test.py - 40 - cookie测试 : name = BAIDUID
+2018-07-24 16:40:29,324 - cookie_test.py - 41 - cookie测试 : Value = 7340B5B6D054801506AFB1C95A40A62F:FG=1
+2018-07-24 16:40:29,325 - cookie_test.py - 40 - cookie测试 : name = BDRCVFR[ZQuaEB4a2uC]
+2018-07-24 16:40:29,326 - cookie_test.py - 41 - cookie测试 : Value = mk3SLVN4HKm
+2018-07-24 16:40:29,327 - cookie_test.py - 40 - cookie测试 : name = BIDUPSID
+2018-07-24 16:40:29,328 - cookie_test.py - 41 - cookie测试 : Value = 7340B5B6D054801506AFB1C95A40A62F
+2018-07-24 16:40:29,330 - cookie_test.py - 40 - cookie测试 : name = H_PS_PSSID
+2018-07-24 16:40:29,330 - cookie_test.py - 41 - cookie测试 : Value = 1458_21101_20718
+2018-07-24 16:40:29,331 - cookie_test.py - 40 - cookie测试 : name = PSTM
+2018-07-24 16:40:29,332 - cookie_test.py - 41 - cookie测试 : Value = 1532421627
+2018-07-24 16:40:29,333 - cookie_test.py - 40 - cookie测试 : name = BDSVRTM
+2018-07-24 16:40:29,333 - cookie_test.py - 41 - cookie测试 : Value = 0
+2018-07-24 16:40:29,335 - cookie_test.py - 40 - cookie测试 : name = BD_HOME
+2018-07-24 16:40:29,336 - cookie_test.py - 41 - cookie测试 : Value = 0
+2018-07-24 16:44:05,369 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:44:05,380 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:44:05,496 - jvm_start.py - 42 - jvm初始化 : 启动jvm： lib/logback-core-1.1.7.jar;lib/logback-classic-1.1.7.jar
+2018-07-24 16:44:05,751 - jvm_start.py - 51 - jvm初始化 : 关闭jvm
+2018-07-24 16:47:28,657 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:47:28,668 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:47:28,804 - jvm_start.py - 43 - jvm初始化 : 启动jvm： lib/logback-core-1.1.7.jar;lib/logback-classic-1.1.7.jar
+2018-07-24 16:47:29,047 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 16:48:27,308 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:48:27,320 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:48:27,434 - jvm_start.py - 43 - jvm初始化 : 启动jvm： lib/logback-core-1.1.7.jar;lib/logback-classic-1.1.7.jar
+2018-07-24 16:48:27,676 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 16:49:06,705 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:49:06,716 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:49:07,079 - jvm_start.py - 51 - jvm初始化 : 关闭jvm
+2018-07-24 16:49:33,192 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:49:33,202 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:49:33,565 - jvm_start.py - 51 - jvm初始化 : 关闭jvm
+2018-07-24 16:49:46,411 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:49:46,423 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:49:46,542 - jvm_start.py - 50 - jvm初始化 : 关闭jvm
+2018-07-24 16:53:00,333 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 16:53:00,343 - jvm_start.py - 36 - jvm初始化 : 系统类型：Windows
+2018-07-24 16:53:00,463 - jvm_start.py - 50 - jvm初始化 : 关闭jvm
+2018-07-24 17:18:52,004 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:18:52,015 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:18:52,138 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 17:19:03,306 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:19:03,317 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:30:45,983 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:30:45,994 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:32:02,424 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:32:02,435 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:32:02,575 - jpype_test.py - 36 - None : 6868
+2018-07-24 17:32:02,583 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 17:32:23,567 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:32:23,577 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:32:23,713 - jpype_test.py - 36 - None : <class 'jpype._jclass.java.lang.Integer'>
+2018-07-24 17:32:23,715 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 17:32:41,842 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:32:41,852 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:34:11,181 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:34:11,192 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:34:11,324 - jpype_test.py - 36 - None : <class 'str'>
+2018-07-24 17:34:11,327 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 17:35:27,832 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:35:27,844 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:35:27,959 - jpype_test.py - 36 - None : <class 'str'>
+2018-07-24 17:35:27,961 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
+2018-07-24 17:36:25,865 - jvm_start.py - 26 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-24 17:36:25,877 - jvm_start.py - 38 - jvm初始化 : 系统类型：Windows
+2018-07-24 17:36:26,006 - jpype_test.py - 36 - None : <class 'str'>
+2018-07-24 17:36:26,009 - jvm_start.py - 52 - jvm初始化 : 关闭jvm
