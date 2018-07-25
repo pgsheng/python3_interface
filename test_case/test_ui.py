@@ -38,7 +38,6 @@ class BaiduSearchTest(unittest.TestCase):
 
 		self.dirvier.find_element_by_xpath(self.load_data.get('baidu').get('input')).send_keys(data.get("name"))
 		self.dirvier.find_element_by_xpath(self.load_data.get('baidu').get('search')).click()
-
 		time.sleep(3)
 		self.log.info("检查点->：" + self.dirvier.title)
 		self.assertEqual(self.dirvier.title, 'pgsheng_百度搜索',msg='和预期不一样')
