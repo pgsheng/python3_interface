@@ -325,3 +325,8 @@
 2018-07-25 17:41:36,934 - test_ui.py - 41 - ui测试 : 检查点->：百度一下，你就知道
 2018-07-25 17:42:09,777 - test_ui.py - 41 - ui测试 : 检查点->：百度一下，你就知道
 2018-07-25 17:43:04,492 - test_ui.py - 43 - ui测试 : 检查点->：pgsheng_百度搜索
+2018-07-25 20:37:17,119 - test_ui.py - 42 - ui测试 : 检查点->：pgsheng_百度搜索
+2018-07-25 20:42:42,017 - test_ui.py - 42 - ui测试 : 检查点->：pgsheng_百度搜索
+2018-07-25 20:48:38,185 - test_ui.py - 42 - ui测试 : 检查点->：pgsheng_百度搜索
+2018-07-25 20:51:57,691 - test_ui.py - 45 - ui测试 : 'NoneType' object has no attribute 'get'
+2018-07-25 20:53:29,735 - test_ui.py - 45 - ui测试 : 执行用例失败：'NoneType' object has no attribute 'get'

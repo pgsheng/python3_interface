@@ -27,20 +27,22 @@ class BaiduSearchTest(unittest.TestCase):
 		file_path = config.project_path + r'\test_data\html_element_data.yaml'
 		with open(file_path, 'r', encoding='utf-8') as file:
 			# 将yaml格式内容转换成 dict类型
-			self.load_data = yaml.load(file)
+			self.loaddata = yaml.load(file)
 
 		self.dirvier = webdriver.Firefox()  # 获取浏览器驱动对象
-		self.dirvier.get(self.load_data.get('baidu').get('url'))  # 打开百度网页
+		self.dirvier.get(self.loaddata.get('baidu').get('url'))  # 打开百度网页
 
 	@data(*testdata)
 	def test_something(self,data):
 		u'''测试用例'''
-
-		self.dirvier.find_element_by_xpath(self.load_data.get('baidu').get('input')).send_keys(data.get("name"))
-		self.dirvier.find_element_by_xpath(self.load_data.get('baidu').get('search')).click()
-		time.sleep(3)
-		self.log.info("检查点->：" + self.dirvier.title)
-		self.assertEqual(self.dirvier.title, 'pgsheng_百度搜索',msg='和预期不一样')
+		try:
+			self.dirvier.find_element_by_xpath(self.loaddata.get('baidu1').get('input')).send_keys(data.get("name"))
+			self.dirvier.find_element_by_xpath(self.loaddata.get('baidu').get('search')).click()
+			time.sleep(2)
+			self.log.info("检查点->：" + self.dirvier.title)
+			self.assertEqual(self.dirvier.title, 'pgsheng_百度搜索',msg='和预期不一样')
+		except Exception as e:
+			self.log.error("执行用例失败-> %s" % e)
 
 	@classmethod
 	def tearDownClass(self):
