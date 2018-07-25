@@ -24,7 +24,7 @@ class BaiduSearchTest(unittest.TestCase):
 	def setUpClass(self):
 		self.log = Log('ui测试').getLog()
 
-		file_path = config.project_path + r'\test_data1\html_element_data.yaml'
+		file_path = config.project_path + r'\test_data\html_element_data.yaml'
 		with open(file_path, 'r', encoding='utf-8') as file:
 			# 将yaml格式内容转换成 dict类型
 			self.load_data = yaml.load(file)
