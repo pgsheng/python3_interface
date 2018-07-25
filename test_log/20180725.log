@@ -282,3 +282,13 @@
 2018-07-25 10:48:09,281 - jpype_test.py - 56 - None : 胜
 2018-07-25 10:48:09,281 - jpype_test.py - 57 - None : 胜
 2018-07-25 10:48:09,283 - jvm_start.py - 59 - jvm初始化 : 关闭jvm
+2018-07-25 10:49:20,768 - ui_test.py - 60 - UI测试 : 百度一下，你就知道
+2018-07-25 10:50:27,802 - jvm_start.py - 40 - jvm初始化 : 系统类型：Windows
+2018-07-25 10:50:47,193 - jvm_start.py - 40 - jvm初始化 : 系统类型：Windows
+2018-07-25 10:50:47,300 - jpype_test.py - 29 - None : 哈喽！
+2018-07-25 10:50:47,312 - jpype_test.py - 45 - None : 6868
+2018-07-25 10:50:47,312 - jpype_test.py - 46 - None : <class 'str'>
+2018-07-25 10:50:47,316 - jpype_test.py - 54 - None : oldvalue
+2018-07-25 10:50:47,317 - jpype_test.py - 56 - None : 胜
+2018-07-25 10:50:47,317 - jpype_test.py - 57 - None : 胜
+2018-07-25 10:50:47,319 - jvm_start.py - 59 - jvm初始化 : 关闭jvm

@@ -34,9 +34,9 @@ class JVMStart(object):
 		sysstr = platform.system()
 		if sysstr == "Windows":
 			# 你的java扩展包的路径，注意class文件路径是它所在的上级文件夹
-			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\sdk\jar_test.jar;C:\AProjectCode\Pycharm-Projects\python3_interface\sdk"
+			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\java\jar_test.jar;C:\AProjectCode\Pycharm-Projects\python3_interface\java"
 		elif sysstr == "Linux":
-			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\sdk\jar_test.jar:C:\AProjectCode\Pycharm-Projects\python3_interface\sdk"
+			ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\java\jar_test.jar:C:\AProjectCode\Pycharm-Projects\python3_interface\java"
 		self.log.info("系统类型：" + sysstr)
 
 		# 判断 JVM 是否已启动
