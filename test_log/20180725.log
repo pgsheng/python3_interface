@@ -292,3 +292,20 @@
 2018-07-25 10:50:47,317 - jpype_test.py - 56 - None : 胜
 2018-07-25 10:50:47,317 - jpype_test.py - 57 - None : 胜
 2018-07-25 10:50:47,319 - jvm_start.py - 59 - jvm初始化 : 关闭jvm
+2018-07-25 11:16:40,028 - jvm_start.py - 39 - jvm初始化 : 系统类型：Windows
+2018-07-25 11:16:40,120 - jpype_test.py - 30 - None : 哈喽！
+2018-07-25 11:16:40,133 - jpype_test.py - 46 - None : 6868
+2018-07-25 11:16:40,133 - jpype_test.py - 47 - None : <class 'str'>
+2018-07-25 11:16:40,138 - jpype_test.py - 55 - None : oldvalue
+2018-07-25 11:16:40,138 - jpype_test.py - 57 - None : 胜
+2018-07-25 11:16:40,138 - jpype_test.py - 58 - None : 胜
+2018-07-25 11:16:40,141 - jvm_start.py - 59 - jvm初始化 : 关闭jvm
+2018-07-25 14:57:01,554 - jvm_start.py - 23 - jvm初始化 : C:\AProjectSoftware\JDK\Java8\jdk1.8.0_91\jre\bin\server\jvm.dll
+2018-07-25 14:57:01,561 - jvm_start.py - 35 - jvm初始化 : 系统类型：Windows
+2018-07-25 14:57:01,666 - jpype_test.py - 28 - None : 哈喽！
+2018-07-25 14:57:01,677 - jpype_test.py - 44 - None : 6868
+2018-07-25 14:57:01,678 - jpype_test.py - 45 - None : <class 'str'>
+2018-07-25 14:57:01,681 - jpype_test.py - 53 - None : oldvalue
+2018-07-25 14:57:01,682 - jpype_test.py - 55 - None : 胜
+2018-07-25 14:57:01,682 - jpype_test.py - 56 - None : 胜
+2018-07-25 14:57:01,684 - jvm_start.py - 54 - jvm初始化 : 关闭jvm

@@ -5,11 +5,10 @@
  @Author  : pgsheng
  @Time    : 2018/4/25 21:25
 """
-from jpype import JClass
 
+from jpype import JClass
 from public.jvm_start import JVMStart
 from public.log import Log
-
 
 class Jpype_Test():
 
@@ -19,8 +18,7 @@ class Jpype_Test():
     def startJvm(self):
         return JVMStart().startJVM()
 
-    """java的class文件调用"""
-
+    """class文件调用"""
     def get_object_class(self):
         # 获取java的实体类
         JavaClass2 = JClass("JavaClass2")
@@ -28,6 +26,7 @@ class Jpype_Test():
         javaInstance2 = JavaClass2("哈喽！")  # 实例化对象
         self.log.info(javaInstance2.getValue())  # 调用JAVA对象的方法
 
+    """直接调用JAVA API"""
     def get_base_java(self):
         # 获取java的基本类型类
         System = JClass("java.lang.System")
@@ -45,6 +44,7 @@ class Jpype_Test():
         self.log.debug(unicastPort)
         self.log.debug(type(unicastPort))
 
+    """调用JAVA第三方扩展包"""
     def get_object_jar(self):
         # 获取java的实体类
         JavaClass = JClass("com.jar.test.JavaClass")
