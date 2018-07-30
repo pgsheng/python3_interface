@@ -7,7 +7,7 @@ from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from public import HTMLTestRunner_jpg, HTMLTestRunner
+from public import HTMLTestRunner
 
 ''' 该函数功能是获最新的HTML测试报告'''
 def get_report(dir):
@@ -75,14 +75,9 @@ if __name__ == '__main__':
 	# 以“wb”方式打开文件，如果该文件已存在则将其覆盖。如果该文件不存在，创建新文件。
 	fp = open(filename, 'wb')
 	# 调用写好的HTMLTestRunner指定生成报告的文件、标题和副标题
-	# runner = HTMLTestRunner_jpg.HTMLTestRunner(stream=fp,
-	# 						title='Demo Test Report',
-	# 						description='这是测试demo的测试报告：',
-	# 						retry=1)
 	runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
 							title='Demo Test Report',
 							description='这是测试demo的测试报告：')
-
 	# 执行测试用例集并生成报告
 	runner.run(discover)
 	# 关闭文件流
