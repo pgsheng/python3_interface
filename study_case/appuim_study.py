@@ -5,33 +5,51 @@
  @Time    : 2018/7/27 11:28
 '''
 #coding=utf-8
+import time
+
+from appium import webdriver
+# coding=utf-8
+import time
+
 from appium import webdriver
 
-desired_caps = {}
-desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = '6.0'
-desired_caps['deviceName'] = '192.168.253.101:5555'
-desired_caps['appPackage'] = 'com.android.calculator2'
-desired_caps['appActivity'] = '.Calculator'
 
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+def test_calculator():
+    desired_caps = {}
+    desired_caps['platformName'] = 'Android' # 平台
+    desired_caps['platformVersion'] = '6.0' # Android系统版本
+    desired_caps['deviceName'] = '192.168.253.101:5555' # 模拟器名称，可以使用adb devices命令查看
+    desired_caps['appPackage'] = 'com.android.calculator2' # APP包名
+    desired_caps['appActivity'] = '.Calculator' # 要测试的APP的页面（即要打开的activity）
 
-driver.find_element_by_name("1").click()
+    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
-driver.find_element_by_name("5").click()
+    driver.find_element_by_name("1").click()
+    driver.find_element_by_name("5").click()
+    driver.find_element_by_name("delete").click()
+    driver.find_element_by_name("5").click()
+    driver.find_element_by_name("+").click()
+    driver.find_element_by_name("6").click()
+    driver.find_element_by_name("=").click()
 
-driver.find_element_by_name("9").click()
+    time.sleep(2)
+    driver.quit()
 
-driver.find_element_by_name("delete").click()
+def test_cloudcall():
+    desired_caps = {}
+    desired_caps['platformName'] = 'Android' # 平台
+    desired_caps['platformVersion'] = '6.0' # Android系统版本
+    desired_caps['deviceName'] = '192.168.253.101:5555' # 模拟器名称，可以使用adb devices命令查看
+    desired_caps['appPackage'] = 'com.besttone.ccdt' # APP包名
+    desired_caps['appActivity'] = 'com.besttone.ccdt.options.main.MainDrawerActivity' # 要测试的APP的页面（即要打开的activity）
 
-driver.find_element_by_name("9").click()
+    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
-driver.find_element_by_name("5").click()
+    driver.find_element_by_name("已拨号码").click()
 
-driver.find_element_by_name("+").click()
+    time.sleep(2)
+    driver.quit()
 
-driver.find_element_by_name("6").click()
-
-driver.find_element_by_name("=").click()
-
-driver.quit()
+if __name__ == '__main__':
+    # test_calculator()
+    test_cloudcall()
