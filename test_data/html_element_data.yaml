@@ -1,4 +1,5 @@
 baidu:
-    url: 'https://www.baidu.com/'
-    input: '//input[@id="kw"]'
-    search: '//*[@id="su"]'
+    url: "https://www.baidu.com/"
+    input: "id=>kw"
+    submit: "xpath=>//*[@id='su']"
+    news_link: "xpath=>//*[@id='u1']/a[@name='tj_trnews']"

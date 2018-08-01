@@ -56,3 +56,57 @@ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1533134732920	geckodriver	INFO	geckodriver 0.20.1
+1533134732952	geckodriver	INFO	Listening on 127.0.0.1:21051
+1533134736009	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.XRudFJS2eUJd"
+1533134737568	Marionette	INFO	Enabled via --marionette
+1533134739824	Marionette	INFO	Listening on port 21060
+1533134742230	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=5&pwd=sele&cb=jQuery1102045151087975073567_1533134749445&_=1533134749451, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=7&pwd=seleni&cb=jQuery1102045151087975073567_1533134749445&_=1533134749453, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=8&pwd=seleniu&cb=jQuery1102045151087975073567_1533134749445&_=1533134749454, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=1&cb=jQuery1102045151087975073567_1533134749445&_=1533134749447, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=3&pwd=se&cb=jQuery1102045151087975073567_1533134749445&_=1533134749449, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=6&pwd=selen&cb=jQuery1102045151087975073567_1533134749445&_=1533134749452, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=2&pwd=s&cb=jQuery1102045151087975073567_1533134749445&_=1533134749448, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1432_26909_21113_18560_26350_22160&req=2&csor=4&pwd=sel&cb=jQuery1102045151087975073567_1533134749445&_=1533134749450, line 1: TypeError: jQuery1102045151087975073567_1533134749445 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1432_21113_18560_26350_22160&req=2&csor=1&cb=jQuery110204547006257588413_1533134765271&_=1533134765273, line 1: TypeError: jQuery110204547006257588413_1533134765271 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1432_21113_18560_26350_22160&req=2&csor=5&pwd=pyth&cb=jQuery110204547006257588413_1533134765271&_=1533134765277, line 1: TypeError: jQuery110204547006257588413_1533134765271 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1432_21113_18560_26350_22160&req=2&csor=6&pwd=pytho&cb=jQuery110204547006257588413_1533134765271&_=1533134765278, line 1: TypeError: jQuery110204547006257588413_1533134765271 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1432_21113_18560_26350_22160&req=2&csor=4&pwd=pyt&cb=jQuery110204547006257588413_1533134765271&_=1533134765276, line 1: TypeError: jQuery110204547006257588413_1533134765271 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath

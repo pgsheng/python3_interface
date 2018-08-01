@@ -1,9 +1,9 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
+"""
  @Author  : pgsheng
  @Time    : 2018/6/3 17:33
-'''
+"""
 import time
 
 from selenium import webdriver
@@ -13,7 +13,7 @@ from public.log import Log
 
 
 def test_alert():
-    log = Log("UI测试").getLog()
+    log = Log("UI测试").get_logger()
     driver = webdriver.Firefox()
     driver.set_window_size(960, 540)  # 设置窗口大小
     driver.get('http://sahitest.com/demo/promptTest.htm')
@@ -36,7 +36,7 @@ def test_alert():
 
 
 def test_window():
-    log = Log("UI测试").getLog()
+    log = Log("UI测试").get_logger()
     driver = webdriver.Firefox()
     driver.set_window_size(960, 540)  # 设置窗口大小
     driver.get('http://sahitest.com/demo/index.htm')
@@ -71,7 +71,7 @@ def test_window():
 
 
 def test_frame():
-    log = Log("UI测试").getLog()
+    log = Log("UI测试").get_logger()
     driver = webdriver.Ie()
     # driver = webdriver.Edge()
     # driver = webdriver.Firefox()
@@ -87,7 +87,7 @@ def test_frame():
     driver.get("http://mail.163.com/")
     time.sleep(2)
     # 切换到包含登录框的frame下
-    driver.switch_to.frame("x-URS-iframe") # 根据frame的id切换到frame
+    driver.switch_to.frame("x-URS-iframe")  # 根据frame的id切换到frame
     # driver.switch_to.parent_frame() # 可以切换到上一层的frame，对于层层嵌套的frame很有用
     time.sleep(2)
 
@@ -98,6 +98,7 @@ def test_frame():
 
     time.sleep(2)
     driver.quit()
+
 
 if __name__ == '__main__':
     # test_alert()

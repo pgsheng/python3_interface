@@ -7,17 +7,21 @@
 """
 import platform
 import jpype
+
+from public import config
 from public.log import Log
+
 
 class JVMStart(object):
 
     def __init__(self):
-        self.log = Log("jvm初始化").getLog()
+        self.log = Log("jvm初始化").get_logger()
 
-    ''' 
+    """ 
     启动Java虚拟机
-    '''
-    def startJVM(self):
+    """
+
+    def start_jvm(self):
         # 获得默认jvm路径
         jvm_path = jpype.getDefaultJVMPath()
         self.log.info(jvm_path)
@@ -29,16 +33,16 @@ class JVMStart(object):
         sysstr = platform.system()
         if sysstr == "Windows":
             # java扩展包的路径或class文件所在文件夹路径，注意：class文件路径是它所在的上级文件夹
-            ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\java\jar_test.jar;C:\AProjectCode\Pycharm-Projects\python3_interface\java"
+            ext_classpath = config.sdk_path + 'jar_test.jar;' + config.sdk_path
         elif sysstr == "Linux":
-            ext_classpath = r"C:\AProjectCode\Pycharm-Projects\python3_interface\java\jar_test.jar:C:\AProjectCode\Pycharm-Projects\python3_interface\java"
+            ext_classpath = config.sdk_path + 'jar_test.jar:' + config.sdk_path +'sdk'
         self.log.info("系统类型：" + sysstr)
 
         # 判断 JVM 是否已启动
         if not jpype.isJVMStarted():
             # 启动Java虚拟机，并加载jar包
             jpype.startJVM(jvm_path, '-ea', '-Djava.class.path=%s' % ext_classpath)
-            jpype.java.lang.System.out.println( "startJVM success!")
+            jpype.java.lang.System.out.println("startJVM success!")
             if jpype.isJVMStarted():
                 return True
             else:
@@ -46,15 +50,16 @@ class JVMStart(object):
         else:
             return True
 
-    ''' 
+    """ 
     关闭Java虚拟机
-    '''
-    def shutdownJVM(self):
+    """
+
+    def shutdown_jvm(self):
         if jpype.isJVMStarted():
             self.log.info("关闭jvm")
             jpype.shutdownJVM()
 
 
 if __name__ == '__main__':
-    JVMStart().startJVM()
-    JVMStart().shutdownJVM()
+    JVMStart().start_jvm()
+    JVMStart().shutdown_jvm()

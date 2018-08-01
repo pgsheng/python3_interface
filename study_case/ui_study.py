@@ -1,9 +1,9 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
+"""
  @Author  : pgsheng
  @Time    : 2018/6/3 17:33
-'''
+"""
 import time
 
 from selenium import webdriver
@@ -12,7 +12,7 @@ from public.log import Log
 
 
 def test_webdriver():
-    log = Log("UI测试").getLog()
+    log = Log("UI测试").get_logger()
 
     driver = webdriver.Ie()
     # driver = webdriver.Firefox()  # 获取浏览器驱动对象
@@ -20,20 +20,20 @@ def test_webdriver():
 
     driver.get('https://www.baidu.com/')  # 打开一个网页
     # driver.find_element_by_id('kw').clear() # 清除文本
-    '''HTMl的属性定位,属性要唯一才能定位到'''
+    """HTMl的属性定位,属性要唯一才能定位到"""
     # driver.find_element_by_id('kw').send_keys('王春玲') # 根据html属性id定位元素，模拟按键输入
     # driver.find_element_by_name('wd').send_keys('王春玲') # 根据html属性name定位元素，模拟按键输入
     # driver.find_element_by_class_name('s_ipt').send_keys('王春玲') # 根据html属性id定位元素，模拟按键输入
     # driver.find_element_by_tag_name('input').send_keys('王春玲') # 根据标签input定位，这里定位不到，因为页面有多个input
     # driver.find_element_by_link_text('贴吧').click() # 根据标签对之间的文本信息定位，如：<a>贴吧</a>
     # driver.find_element_by_partial_link_text('一个很长').click() # 根据标签对之间的部分文本信息定位，如：<a>一个很长很长的文本</a>
-    '''XPath定位'''
+    """XPath定位"""
     # driver.find_element_by_xpath('/html/body/div/div/div[4]/div/div/from/span/input').send_keys('王春玲') # ，绝对路径定位
     # driver.find_element_by_xpath('//input[@id="kw"]').send_keys('王春玲') # XPath定位，根据元素属性id,还可以其他属性，//表示当前页面某目录
     # driver.find_element_by_xpath('//*[@id="kw"]').send_keys('王春玲') # XPath定位，根据元素属性，不指定标签名，用*替代
     # driver.find_element_by_xpath("//form[@id='form']/span/input").send_keys('王春玲') # XPath定位，上级和属性组合，
     # driver.find_element_by_xpath('//input[@id="kw" and @class="s_ipt"]').send_keys('王春玲') # 多个属性组合
-    '''CSS定位,属性要唯一才能定位到'''
+    """CSS定位,属性要唯一才能定位到"""
     # driver.find_element_by_css_selector(".s_ipt").send_keys('王春玲') # css的class属性，注意：.代表class类型的
     # driver.find_element_by_css_selector("#kw").send_keys('王春玲') # css的id属性，注意：#代表id类型的
     # driver.find_element_by_css_selector("input").send_keys('王春玲') # 标签名定位，这里定位不到，不唯一
@@ -77,7 +77,7 @@ def test_webdriver():
     time.sleep(1)
     log.info(driver.title)  # 获取标题
 
-    driver.quit() # 退出浏览器
+    driver.quit()   # 退出浏览器
     # driver.close() # 关闭当前窗口
 
 
