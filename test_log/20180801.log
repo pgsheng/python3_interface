@@ -1264,3 +1264,6 @@
   "url": "https://httpbin.org/get?show_env=12"
 }
 
+2018-08-01 22:57:24,934 - ui_baidu_test.py - 43 - 测试 : 检查点->：
+2018-08-01 22:58:18,441 - ui_baidu_test.py - 30 - 测试 : Test Pass.
+2018-08-01 22:58:23,984 - ui_baidu_test.py - 43 - 测试 : 检查点->：

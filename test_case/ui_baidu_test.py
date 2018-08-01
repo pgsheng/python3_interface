@@ -1,11 +1,13 @@
 # coding=utf-8
 import unittest
 from pageobjects.baidu_homepage import HomePage
+from public.log import Log
 
 
 class BaiduSearch(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls.log = Log('测试').get_logger()
         cls.home_page = HomePage()
 
     # def test_aclick_news(self):
@@ -25,9 +27,9 @@ class BaiduSearch(unittest.TestCase):
         self.home_page.back()
         try:
             assert 'selenium' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
-            print('Test Pass.')
+            self.log.info('Test Pass.')
         except Exception as e:
-            print('Test Fail.', format(e))
+            self.log.info('Test Fail.', format(e))
 
     def test_baidu_search2(self):
         self.home_page.sleep(2)
@@ -37,8 +39,8 @@ class BaiduSearch(unittest.TestCase):
         self.home_page.get_screenshot_img('python')  # 调用基类截图方法
 
     @classmethod
-    def tearDownClass(cls):
-        cls.home_page.quit()
+    def tearDownClass(self):
+        self.home_page.quit()
 
 
 if __name__ == '__main__':
