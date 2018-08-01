@@ -26,10 +26,10 @@ class BaiduSearch(unittest.TestCase):
         self.home_page.sleep(2)
         self.home_page.back()
         try:
-            assert 'selenium' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
+            assert 'seleniums' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
             self.log.info('Test Pass.')
         except Exception as e:
-            self.log.info('Test Fail.', format(e))
+            self.log.exception(e)
 
     def test_baidu_search2(self):
         self.home_page.sleep(2)

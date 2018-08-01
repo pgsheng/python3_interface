@@ -1267,3 +1267,10 @@
 2018-08-01 22:57:24,934 - ui_baidu_test.py - 43 - 测试 : 检查点->：
 2018-08-01 22:58:18,441 - ui_baidu_test.py - 30 - 测试 : Test Pass.
 2018-08-01 22:58:23,984 - ui_baidu_test.py - 43 - 测试 : 检查点->：
+2018-08-01 23:03:44,472 - ui_baidu_test.py - 32 - 测试 : Test Fail 
+2018-08-01 23:05:07,873 - ui_baidu_test.py - 32 - 测试 : 
+2018-08-01 23:05:51,671 - ui_baidu_test.py - 32 - 测试 : 
+Traceback (most recent call last):
+  File "E:\PycharmProjects\python3_interface\test_case\ui_baidu_test.py", line 29, in test_baidu_search
+    assert 'seleniums' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
+AssertionError
