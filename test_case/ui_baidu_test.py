@@ -22,11 +22,11 @@ class BaiduSearch(unittest.TestCase):
         self.home_page.search_input('selenium')  # 调用页面对象中的方法
         self.home_page.send_submit_btn()  # 调用页面对象类中的点击搜索按钮方法
         self.home_page.sleep(2)
-        self.home_page.get_screenshot_img('selenium')  # 调用基类截图方法
+        self.home_page.take_screenshot('selenium')  # 调用基类截图方法
         self.home_page.sleep(2)
         self.home_page.back()
         try:
-            assert 'seleniums' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
+            assert 'selenium' in self.home_page.get_title()  # 调用页面对象继承基类中的获取页面标题方法
             self.log.info('Test Pass.')
         except Exception as e:
             self.log.exception(e)
@@ -36,7 +36,7 @@ class BaiduSearch(unittest.TestCase):
         self.home_page.search_input('python')  # 调用页面对象中的方法
         self.home_page.send_submit_btn()  # 调用页面对象类中的点击搜索按钮方法
         self.home_page.sleep(2)
-        self.home_page.get_screenshot_img('python')  # 调用基类截图方法
+        self.home_page.take_screenshot('python')  # 调用基类截图方法
 
     @classmethod
     def tearDownClass(self):

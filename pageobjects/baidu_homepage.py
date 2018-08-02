@@ -20,7 +20,7 @@ class HomePage(BasePage):
         super(HomePage, self).__init__(self.load_data.get('baidu').get('url'))
 
     def search_input(self, text):
-        self.send_keys(self.load_data.get('baidu').get('input'), text)
+        self.clear_type(self.load_data.get('baidu').get('input'), text)
 
     def send_submit_btn(self):
         self.click(self.load_data.get('baidu').get('submit'))
