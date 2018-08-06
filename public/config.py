@@ -11,6 +11,7 @@ base_url = 'https://httpbin.org/'
 # 获取本文件的上上级路径（这里是获取项目路径）
 project_path = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
+study_case_path = project_path + '//study_case//'
 test_case_path = project_path + '//test_case//'
 test_data_path = project_path + '//test_data//'
 test_report_path = project_path + '//test_report//'

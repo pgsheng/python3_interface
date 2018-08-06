@@ -4,13 +4,15 @@
  @Author  : pgsheng
  @Time    : 2018/4/17 9:02
 """
+import os
 import yaml
 from public import config
 
 
 def read_yaml():
     # 你的yaml格式文件路径
-    path = config.project_path + r'\study_case\data\yaml_study_data.yaml'
+    # path = config.project_path + r'\study_case\data\yaml_study_data.yaml'
+    path = os.path.join(config.study_case_path,'data','yaml_study_data.yaml')
 
     with open(path, 'r', encoding='utf-8') as file:
         # 将yaml格式内容转换成 dict类型
