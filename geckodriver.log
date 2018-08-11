@@ -110,3 +110,31 @@ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1533645137551	geckodriver	INFO	geckodriver 0.21.0
+1533645137583	geckodriver	INFO	Listening on 127.0.0.1:1668
+1533645140563	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.MZ8MqyRmEWOc"
+1533645142191	Marionette	INFO	Enabled via --marionette
+1533645144820	Marionette	INFO	Listening on port 1677
+1533645145458	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1461_26964_26431_21107_18560&req=2&csor=1&cb=jQuery110200635449035848521_1533645151299&_=1533645151301, line 1: TypeError: jQuery110200635449035848521_1533645151299 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pa&json=1&p=3&sid=1461_26964_26431_21107_18560&req=2&csor=2&pwd=p&cb=jQuery110200635449035848521_1533645151299&_=1533645151302, line 1: TypeError: jQuery110200635449035848521_1533645151299 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pan&json=1&p=3&sid=1461_26964_26431_21107_18560&req=2&csor=3&pwd=pa&cb=jQuery110200635449035848521_1533645151299&_=1533645151303, line 1: TypeError: jQuery110200635449035848521_1533645151299 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=shen&json=1&p=3&sid=1461_26431_21107_18560&req=2&csor=4&pwd=she&cb=jQuery1102015669038996421414_1533645157988&_=1533645157993, line 1: TypeError: jQuery1102015669038996421414_1533645157988 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sheng&json=1&p=3&sid=1461_26431_21107_18560&req=2&csor=5&pwd=shen&cb=jQuery1102015669038996421414_1533645157988&_=1533645157994, line 1: TypeError: jQuery1102015669038996421414_1533645157988 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1461_26431_21107_18560&req=2&csor=6&pwd=pytho&cb=jQuery110208568824075818334_1533645160712&_=1533645160719, line 1: TypeError: jQuery110208568824075818334_1533645160712 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath

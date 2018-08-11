@@ -1833,3 +1833,79 @@ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1533645052540	geckodriver	INFO	geckodriver 0.21.0
+1533645052619	geckodriver	INFO	Listening on 127.0.0.1:1473
+1533645055656	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.N7UK89ojKF8o"
+1533645062891	Marionette	INFO	Enabled via --marionette
+1533645076484	Marionette	INFO	Listening on port 1487
+1533645076605	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=26940_1465_26967_21091_22158&req=2&csor=1&cb=jQuery110209648876853874341_1533645078589&_=1533645078591, line 1: TypeError: jQuery110209648876853874341_1533645078589 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pa&json=1&p=3&sid=26940_1465_26967_21091_22158&req=2&csor=2&pwd=p&cb=jQuery110209648876853874341_1533645078589&_=1533645078592, line 1: TypeError: jQuery110209648876853874341_1533645078589 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pan&json=1&p=3&sid=26940_1465_26967_21091_22158&req=2&csor=3&pwd=pa&cb=jQuery110209648876853874341_1533645078589&_=1533645078593, line 1: TypeError: jQuery110209648876853874341_1533645078589 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sheng&json=1&p=3&sid=26940_1465_21091_22158&req=2&csor=5&pwd=shen&cb=jQuery1102015424273530056742_1533645085527&_=1533645085533, line 1: TypeError: jQuery1102015424273530056742_1533645085527 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1533645250551	geckodriver	INFO	geckodriver 0.21.0
+1533645250574	geckodriver	INFO	Listening on 127.0.0.1:1843
+1533645253625	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.HAAy2yi3RQ7W"
+1533645255237	Marionette	INFO	Enabled via --marionette
+1533645258607	Marionette	INFO	Listening on port 1853
+1533645258954	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=26936_1437_26911_21104_26350_22158&req=2&csor=1&cb=jQuery110202601963015249493_1533645262136&_=1533645262138, line 1: TypeError: jQuery110202601963015249493_1533645262136 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pa&json=1&p=3&sid=26936_1437_26911_21104_26350_22158&req=2&csor=2&pwd=p&cb=jQuery110202601963015249493_1533645262136&_=1533645262139, line 1: TypeError: jQuery110202601963015249493_1533645262136 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pan&json=1&p=3&sid=26936_1437_26911_21104_26350_22158&req=2&csor=3&pwd=pa&cb=jQuery110202601963015249493_1533645262136&_=1533645262140, line 1: TypeError: jQuery110202601963015249493_1533645262136 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sheng&json=1&p=3&sid=26936_1437_21104_26350_22158&req=2&csor=5&pwd=shen&cb=jQuery1102040775970359446034_1533645268987&_=1533645268993, line 1: TypeError: jQuery1102040775970359446034_1533645268987 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=26936_1437_26910_21104_26350_22158&req=2&csor=4&pwd=pyt&cb=jQuery1102040986128817768197_1533645273688&_=1533645273693, line 1: TypeError: jQuery1102040986128817768197_1533645273688 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=26936_1437_26910_21104_26350_22158&req=2&csor=5&pwd=pyth&cb=jQuery1102040986128817768197_1533645273688&_=1533645273694, line 1: TypeError: jQuery1102040986128817768197_1533645273688 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=26936_1437_26910_21104_26350_22158&req=2&csor=6&pwd=pytho&cb=jQuery1102040986128817768197_1533645273688&_=1533645273695, line 1: TypeError: jQuery1102040986128817768197_1533645273688 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6176, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1533645383030	geckodriver	INFO	geckodriver 0.21.0
+1533645383060	geckodriver	INFO	Listening on 127.0.0.1:2024
+1533645386077	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.kVNZifWht2E3"
+1533645387817	Marionette	INFO	Enabled via --marionette
+1533645390389	Marionette	INFO	Listening on port 2033
+1533645391818	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pa&json=1&p=3&sid=26523_1465_21096_26922_20930&req=2&csor=2&pwd=p&cb=jQuery110209502999307114646_1533645394943&_=1533645394946, line 1: TypeError: jQuery110209502999307114646_1533645394943 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=26523_1465_21096_26922_20930&req=2&csor=1&cb=jQuery110209502999307114646_1533645394943&_=1533645394945, line 1: TypeError: jQuery110209502999307114646_1533645394943 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pan&json=1&p=3&sid=26523_1465_21096_26922_20930&req=2&csor=3&pwd=pa&cb=jQuery110209502999307114646_1533645394943&_=1533645394947, line 1: TypeError: jQuery110209502999307114646_1533645394943 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sheng&json=1&p=3&sid=26523_1465_21096_26922_20930&req=2&csor=5&pwd=shen&cb=jQuery110203192426105278553_1533645402637&_=1533645402643, line 1: TypeError: jQuery110203192426105278553_1533645402637 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
