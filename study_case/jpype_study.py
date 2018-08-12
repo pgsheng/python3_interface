@@ -1,7 +1,6 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-测试jpype是否安装成功，可以用
  @Author  : pgsheng
  @Time    : 2018/4/25 21:25
 """

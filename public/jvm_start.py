@@ -63,3 +63,7 @@ class JVMStart(object):
 if __name__ == '__main__':
     JVMStart().start_jvm()
     JVMStart().shutdown_jvm()
+
+"""
+jpype安装教程：https://www.jianshu.com/p/a701f021df1d
+"""
