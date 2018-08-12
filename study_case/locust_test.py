@@ -60,7 +60,7 @@ class WebsiteUser(HttpLocust):
 
 """
 # cd study_case
-
+  
 1、切换到性能测试脚本所在的目录，启动性能测试,控制台执行命令：
  locust -f test.py --host=https://httpbin.org
 2、浏览器访问http://localhost:8089/
