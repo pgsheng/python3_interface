@@ -45,10 +45,8 @@ def getNews(): # 获取新闻函数
     browser.get('http://finance.sina.com.cn/7x24/?tag=10')
     time.sleep(1)
 
-    soup = BeautifulSoup(browser.page_source)
+    soup = BeautifulSoup(browser.page_source,'lxml')
     info_list = soup.select('.bd_i_og')
-    print(info_list)
-    print('----------------------------------------------')
 
     for info in info_list:  # 获取页面中自动刷新的新闻
         n_time = info.select('p[class="bd_i_time_c"]')[0].get_text()  # 新闻时间及内容
