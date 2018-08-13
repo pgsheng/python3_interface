@@ -41,7 +41,7 @@ def getNews(): # 获取新闻函数
     使用selenium可以解决爬取不到js动态生成的代码问题
     """
     browser = webdriver.Firefox()
-    browser.maximize_window()
+    browser.minimize_window()
     browser.get('http://finance.sina.com.cn/7x24/?tag=10')
     time.sleep(1)
 
