@@ -10,11 +10,13 @@ import pandas as pandas
 import requests
 from bs4 import BeautifulSoup
 
+from public import config
+
 
 def test1():
     title_all = []
     article_all = []
-    url_all =[]
+    url_all = []
     date_all = []
 
     res = requests.get('http://news.sina.com.cn/china/')
@@ -57,12 +59,12 @@ def test1():
             print(article)
             print(url)
 
-
-    total = {'a_title': title_all, 'b_article': article_all,'url_all': url_all,'date_all': date_all}
+    total = {'a_title': title_all, 'b_article': article_all, 'url_all': url_all,
+             'date_all': date_all}
     # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
 
     df = pandas.DataFrame(total)
-    df.to_excel('output.xlsx','Sheet1')
+    df.to_excel(config.study_case_path + r'data\news.xlsx','Sheet1')
     print(total)
 
 
@@ -103,6 +105,7 @@ def test3():
     jd = json.loads(res.text.strip('jsonp_1534068718135(').rstrip(')'))
     print(jd)
     print(jd['result']['count']['total'])
+
 
 if __name__ == '__main__':
     test1()
