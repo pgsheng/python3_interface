@@ -1,9 +1,9 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
+"""
  @Author  : pgsheng
  @Time    : 2018/8/13 9:31
-'''
+"""
 import time
 
 import pandas
@@ -62,7 +62,7 @@ def getNews(browser):  # 获取新闻函数
 
 if __name__ == '__main__':
     """
-       使用selenium可以解决爬取不到js动态生成的代码问题
+        使用selenium可以解决爬取不到js动态生成的代码问题
     """
     # browser = webdriver.Firefox()
     browser = webdriver.Ie()

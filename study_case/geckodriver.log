@@ -1628,3 +1628,11 @@ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr
 [Child 13120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 8520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534292629453	geckodriver	INFO	geckodriver 0.21.0
+1534292629469	geckodriver	INFO	Listening on 127.0.0.1:63822
+1534292709749	geckodriver	INFO	geckodriver 0.21.0
+1534292709765	geckodriver	INFO	Listening on 127.0.0.1:63866
+1534292728267	geckodriver	INFO	geckodriver 0.21.0
+1534292728282	geckodriver	INFO	Listening on 127.0.0.1:63881
+1534292751924	geckodriver	INFO	geckodriver 0.21.0
+1534292751939	geckodriver	INFO	Listening on 127.0.0.1:63898
