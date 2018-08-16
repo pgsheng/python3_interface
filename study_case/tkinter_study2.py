@@ -13,22 +13,23 @@ class Watch(Frame):
     index = 0
 
     def __init__(self, parent=None, **kw):
-        Frame.__init__(self, parent, kw)
-        self._running = False
+        Frame.__init__(self, parent, kw)  # tkinter的初始化
         self.timestr1 = StringVar()
         self.timestr2 = StringVar()
         self.makeWidgets()
-        self.flag = True
 
     def makeWidgets(self):
+
         l1 = Label(self, textvariable=self.timestr1)
         l2 = Label(self, textvariable=self.timestr2)
-        l1.pack()
+        l1.pack() #pack布局，默认先使用的放到上面，然后依次向下排
         l2.pack()
 
     def _update(self):
         self._settime()
+        # tkinter的root窗口有一个after函数，用于在一定时间后执行一个函数，参数是（毫秒，调用的函数）
         self.timer = self.after(self.msec, self._update)
+        # print(self.timer)
 
     def _settime(self):
         today1 = str('你好' + str(self.index))
@@ -39,7 +40,7 @@ class Watch(Frame):
 
     def start(self):
         self._update()
-        self.pack(side=BOTTOM)
+        self.pack(anchor=CENTER)
 
 
 if __name__ == '__main__':
