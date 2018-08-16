@@ -22,7 +22,6 @@ def test1():
 
 def _update(self):
     self._settime()
-    # tkinter的root窗口有一个after函数，用于在一定时间后执行一个函数，参数是（毫秒，调用的函数）
     self.timer = self.after(self.msec, self._update)
 
 
