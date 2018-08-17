@@ -28,7 +28,7 @@ class Sina_7x24(Frame):
                   wraplength=250,
                   justify='left',
                   textvariable=self.timestr)
-        self.display_info = Listbox(self, width=250)
+        self.display_info = Listbox(self, width=240)
         l.pack()
         self.display_info.pack()
 
