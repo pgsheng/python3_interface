@@ -5,7 +5,7 @@
  @Time    : 2018/8/13 9:31
 """
 import time
-from tkinter import Frame, StringVar, Label, Tk, CENTER
+from tkinter import Frame, StringVar, Label, Tk, CENTER, E, Listbox
 
 import pandas
 from bs4 import BeautifulSoup
@@ -20,9 +20,17 @@ class Sina_7x24(Frame):
         Frame.__init__(self, parent, kw)  # tkinter的初始化
         self.is_first = True
         self.task_time = []
+        self.task_info = []
         self.timestr = StringVar()
-        l = Label(self, textvariable=self.timestr)
+        l = Label(self,
+                  width=250,
+                  height=150,
+                  wraplength=250,
+                  justify='left',
+                  textvariable=self.timestr)
+        self.display_info = Listbox(self, width=250)
         l.pack()
+        self.display_info.pack()
 
     def sina(self):
         data_list = self.getNews()
@@ -30,6 +38,7 @@ class Sina_7x24(Frame):
         if self.is_first:
             for data in data_list:
                 self.task_time.append(data['n_time'])
+                self.task_info.append(data['n_info'])
                 print(data['n_time'], data['n_info'])
                 time.sleep(0.1)
             self.is_first = False
@@ -39,13 +48,14 @@ class Sina_7x24(Frame):
                     pass
                 else:
                     self.task_time.append(data['n_time'])
+                    self.task_info.append(data['n_info'])
                     print('新消息', data['n_time'], data['n_info'])
 
         tk_list = data_list[::-1]
         self.timestr.set(tk_list[0].get('n_info'))
-        self.pack(anchor=CENTER)
+        self.pack(anchor=E)
 
-        self.after(1000, self.sina)
+        self.after(15000, self.sina)
 
     def getNews(self):  # 获取新闻函数
         news_list = []
