@@ -4,16 +4,21 @@
  @Author  : pgsheng
  @Time    : 2018/8/13 9:31
 """
+import sys
 import time
 from tkinter import Frame, StringVar, Label, Tk, CENTER, Listbox, END
 
 import pandas
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWebEngineWidgets import QWebEnginePage
+from PyQt5.QtWidgets import QApplication
 from bs4 import BeautifulSoup
 from selenium import webdriver
+
 from public import config
 
 
-class Sina_7x24(Frame):
+class Sina_7x24(Frame,QWebEnginePage):
 
     def __init__(self, parent=None, **kw):
         Frame.__init__(self, parent, kw)  # tkinter的初始化
@@ -25,6 +30,8 @@ class Sina_7x24(Frame):
         self.display_info = Listbox(self, width=50)
         # l.pack()
         self.display_info.pack()
+        self.app = QApplication(sys.argv)
+        QWebEnginePage.__init__(self)
 
     def _sina(self):
         data_list = self._news()
@@ -86,6 +93,18 @@ class Sina_7x24(Frame):
         time.sleep(1)
         self._sina()
 
+    def start2(self):
+        url = 'http://finance.sina.com.cn/7x24/'
+        self.loadFinished.connect(self._on_load_finished)
+        self.load(QUrl(url))
+        self.app.exec_()
+
+    def _on_load_finished(self):
+        self.html = self.toHtml(self.Callable)
+
+    def Callable(self, html_str):
+        self.html = html_str
+        self.app.quit()
 
 def main():
     root = Tk()
