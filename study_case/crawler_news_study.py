@@ -5,11 +5,14 @@
  @Time    : 2018/8/12 17:15
 """
 import json
+import sys
 
 import pandas as pandas
 import requests
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWebEngineWidgets import QWebEnginePage
+from PyQt5.QtWidgets import QApplication
 from bs4 import BeautifulSoup
-
 from public import config
 
 
@@ -23,9 +26,6 @@ def test1():
     res.encoding = 'utf-8'
     # 将requests获取的网页信息转换为BeautifulSoup的物件存于soup中，并指明其剖析器为'html.parser'
     soup = BeautifulSoup(res.text, 'html.parser')
-
-    title = soup.select('.news-item')
-    print(title)
 
     # 用beautifulSoup中的select方法可以获取相应的元素，且获取的元素为list形式
     for news in soup.select('.news-item'):  # 获取所有class为news-item的
@@ -97,6 +97,7 @@ def test2(url=None):
 
 
 def test3():
+    # 评论接口
     res = requests.get(
         'http://comment5.news.sina.com.cn/page/info?version=1&format=json&channel=gn&newsid=comos-hhqtawx2681362&group=undefined&compress=0&ie=utf-8&oe=utf-8&page=1&page_size=3&t_size=3&h_size=3&thread=1&callback=jsonp_1534068718135&_=1534068718135')
     res.encoding = 'utf-8'
@@ -106,8 +107,36 @@ def test3():
     print(jd)
     print(jd['result']['count']['total'])
 
+class Render(QWebEnginePage):
+    def __init__(self,url):
+        self.app = QApplication(sys.argv)
+        QWebEnginePage.__init__(self)
+        self.html = ''
+        self.loadFinished.connect(self._on_load_finished)
+        self.load(QUrl(url))
+        self.app.exec_()
+
+    def _on_load_finished(self):
+        self.html = self.toHtml(self.Callable)
+
+    def Callable(self, html_str):
+        self.html = html_str
+        self.app.quit()
+
+def test4():
+    url = 'http://finance.sina.com.cn/7x24/'
+    r = Render(url)
+    soup = BeautifulSoup(r.html, 'lxml')
+    info_list = soup.select('.bd_i_og')
+
+    for info in info_list:  # 获取页面中自动刷新的新闻
+        n_time = info.select('p.bd_i_time_c')[0].text  # 新闻时间及内容
+        n_info = info.select('p.bd_i_txt_c')[0].text
+        print(n_time)
+        print(n_info)
 
 if __name__ == '__main__':
-    test1()
+    # test1()
     # test2()
     # test3()
+    test4()
