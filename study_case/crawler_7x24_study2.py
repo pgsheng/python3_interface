@@ -10,6 +10,8 @@ from tkinter import Frame, StringVar, Label, Tk, CENTER, Listbox, END
 import pandas
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
 from public import config
 
 
@@ -48,7 +50,6 @@ class Sina_7x24(Frame):
 
         tk_list = data_list[::-1]
         # self.timestr.set(tk_list[0].get('n_info'))
-        # self.timestr.set(tk_list[1].get('n_info'))
         self.display_info.delete(0,END) # 删除所有的元素
         self.display_info.insert(0, tk_list[0].get('n_info'),tk_list[1].get('n_info'))
         self.pack(anchor=CENTER)
@@ -78,10 +79,11 @@ class Sina_7x24(Frame):
         """
                使用selenium可以解决爬取不到js动态生成的代码问题
         """
-        # browser = webdriver.Firefox()
+        options = Options()
+        options.add_argument('-headless') # 无界面配置
+        self.browser = webdriver.Firefox(firefox_options=options)
         # self.browser = webdriver.Ie()
         # self.browser.minimize_window()
-        self.browser = webdriver.PhantomJS()
         self.browser.get('http://finance.sina.com.cn/7x24/')
         time.sleep(1)
         self._sina()

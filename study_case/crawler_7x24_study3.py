@@ -6,7 +6,7 @@
 """
 import sys
 import time
-from tkinter import Frame, StringVar, Label, Tk, CENTER, Listbox, END
+from tkinter import Frame, Tk, CENTER, Listbox, END
 
 import pandas
 from PyQt5.QtCore import QUrl
@@ -22,6 +22,7 @@ class Sina_7x24(Frame,QWebEnginePage):
     def __init__(self, parent=None, **kw):
         Frame.__init__(self, parent, kw)  # tkinter的初始化
         self.is_first = True
+        self.html = ''
         self.task_time = []
         self.task_info = []
         # self.timestr = StringVar()
@@ -29,10 +30,15 @@ class Sina_7x24(Frame,QWebEnginePage):
         self.display_info = Listbox(self, width=50)
         # l.pack()
         self.display_info.pack()
-        self.app = QApplication(sys.argv)
-        QWebEnginePage.__init__(self)
+        self.app = QApplication(sys.argv) # PyQt5
+        QWebEnginePage.__init__(self)  # PyQt5
 
     def _sina(self):
+        url = 'http://finance.sina.com.cn/7x24/'
+        self.loadFinished.connect(self._on_load_finished)  # PyQt5
+        self.load(QUrl(url))  # PyQt5
+        self.app.exec_()  # PyQt5
+
         data_list = self._news()
 
         if self.is_first:
@@ -80,19 +86,15 @@ class Sina_7x24(Frame,QWebEnginePage):
             news_list.append(data)
         return news_list[::-1]  # 这里倒序，这样打印时才会先打印旧新闻，后打印新新闻
 
-    def start(self):
-        url = 'http://finance.sina.com.cn/7x24/'
-        self.loadFinished.connect(self._on_load_finished)
-        self.load(QUrl(url))
-        self.app.exec_()
-        self._sina()
-
     def _on_load_finished(self):
-        self.html = self.toHtml(self.Callable)
+        self.html = self.toHtml(self.callable) # PyQt5
 
-    def Callable(self, html_str):
+    def callable(self, html_str):
         self.html = html_str
-        self.app.quit()
+        self.app.quit() # PyQt5
+
+    def start(self):
+        self._sina()
 
 def main():
     root = Tk()
