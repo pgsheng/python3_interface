@@ -12,7 +12,7 @@ from appium import webdriver
 def test_calculator():
     desired_caps = {}
     desired_caps['platformName'] = 'Android'  # 平台
-    desired_caps['platformVersion'] = '5.0'  # Android系统版本
+    desired_caps['platformVersion'] = '5.1.1'  # Android系统版本
     desired_caps['deviceName'] = '192.168.253.101:5555'  # 模拟器名称，可以使用adb devices命令查看
     desired_caps['appPackage'] = 'com.android.calculator2'  # APP包名
     desired_caps['appActivity'] = '.Calculator'  # 要测试的APP的页面（即要打开的activity）
@@ -34,19 +34,21 @@ def test_calculator():
 def test_cloud_call():
     desired_caps = {}
     desired_caps['platformName'] = 'Android'  # 平台
-    desired_caps['platformVersion'] = '5.0'  # Android系统版本
-    desired_caps['deviceName'] = '192.168.253.101:5555'  # 模拟器名称，可以使用adb devices命令查看
+    desired_caps['platformVersion'] = '5.1.1'  # Android系统版本
+    desired_caps['deviceName'] = '192.168.193.101:5555'  # 模拟器名称，可以使用adb devices命令查看
     desired_caps['appPackage'] = 'com.besttone.ccdt'  # APP包名
+    desired_caps['noReset'] = True
     desired_caps['appActivity'] = 'com.besttone.ccdt.options.main.MainDrawerActivity'  # 要测试的APP的页面（即要打开的activity）
 
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
-    driver.find_element_by_name("已拨号码").click()
+    # driver.find_element_by_name("已拨号码").click()
+    driver.find_element_by_name("客户").click()
 
-    time.sleep(2)
-    driver.quit()
+    time.sleep(5)
+    # driver.quit()
 
 
 if __name__ == '__main__':
-    test_calculator()
+    # test_calculator()
     test_cloud_call()
