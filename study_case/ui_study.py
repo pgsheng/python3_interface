@@ -12,10 +12,10 @@ from public.log import Log
 
 
 def test_webdriver():
-    log = Log("UI测试").get_logger()
+    # log = Log("UI测试").get_logger()
 
-    driver = webdriver.Ie()
-    # driver = webdriver.Firefox()  # 获取浏览器驱动对象
+    # driver = webdriver.Ie()
+    driver = webdriver.Firefox()  # 获取浏览器驱动对象
     driver.set_window_size(960, 540)  # 设置窗口大小
 
     driver.get('https://www.baidu.com/')  # 打开一个网页
@@ -74,8 +74,11 @@ def test_webdriver():
     # driver.maximize_window() # 设置窗口最大化
     # driver.minimize_window() # 设置窗口最小化
 
-    time.sleep(1)
-    log.info(driver.title)  # 获取标题
+    time.sleep(5)
+    # log.info(driver.title)  # 获取标题
+    driver.execute_script("window.scrollTo(200,1000);")
+
+    time.sleep(5)
 
     driver.quit()   # 退出浏览器
     # driver.close() # 关闭当前窗口

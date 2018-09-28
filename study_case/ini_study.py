@@ -9,9 +9,9 @@ from configparser import ConfigParser
 
 def read_ini():
     config = ConfigParser()
-    config.read('C:\AProjectCode\Pycharm-Projects\python3_interface\study_case\data\config.ini')
-    # a = config.get("ZIP", "MD5")
-    a = config["ZIP"]["MD5"]
+    config.read('C:\AProjectCode\Python\python3_interface\study_case\data\config.ini')
+    a = config.get("ZIP", "MD5")
+    # a = config["ZIP"]["MD5"]
     print(a)
 
 
@@ -21,9 +21,9 @@ def write_yaml():
     config.set("book", "title", "the python standard library")
     config.set("book", "author", "fredrik lundh")
     # a追加写入，w覆盖写入
-    config.write(open('C:\AProjectCode\Pycharm-Projects\python3_interface\study_case\data\config.ini', "a"))
+    config.write(open('C:\AProjectCode\Python\python3_interface\study_case\data\config.ini', "a"))
 
 
 if __name__ == '__main__':
-    # read_ini()
-    write_yaml()
+    read_ini()
+    # write_yaml()
