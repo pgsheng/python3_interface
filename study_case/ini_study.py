@@ -9,7 +9,7 @@ from configparser import ConfigParser
 
 def read_ini():
     config = ConfigParser()
-    config.read('C:\AProjectCode\Python\python3_interface\study_case\data\config.ini')
+    config.read('C:\AProjectCode\Python\python3_interface\study_case\data\config.ini',encoding="utf-8")
     a = config.get("ZIP", "MD5")
     # a = config["ZIP"]["MD5"]
     print(a)
