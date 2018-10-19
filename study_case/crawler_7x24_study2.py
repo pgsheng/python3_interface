@@ -5,7 +5,6 @@
  @Time    : 2018/8/13 9:31
 """
 import time
-from tkinter import Frame, StringVar, Label, Tk, CENTER, Listbox, END
 
 import pandas
 from bs4 import BeautifulSoup
@@ -15,18 +14,12 @@ from selenium.webdriver.firefox.options import Options
 from public import config
 
 
-class Sina_7x24(Frame):
+class Sina_7x24():
 
-    def __init__(self, parent=None, **kw):
-        Frame.__init__(self, parent, kw)  # tkinter的初始化
+    def __init__(self):
         self.is_first = True
         self.task_time = []
         self.task_info = []
-        # self.timestr = StringVar()
-        # l = Label(self, textvariable=self.timestr)
-        self.display_info = Listbox(self, width=50)
-        # l.pack()
-        self.display_info.pack()
 
     def _sina(self):
         data_list = self._news()
@@ -48,18 +41,13 @@ class Sina_7x24(Frame):
                     print('-' * 30)
                     print('新消息', data['n_time'], data['n_info'])
 
-        tk_list = data_list[::-1]
-        # self.timestr.set(tk_list[0].get('n_info'))
-        self.display_info.delete(0,END) # 删除所有的元素
-        self.display_info.insert(0, tk_list[0].get('n_info'),tk_list[1].get('n_info'))
-        self.pack(anchor=CENTER)
-
         total = {'Time': self.task_time[::-1], 'Content': self.task_info[::-1]}
         # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
         df = pandas.DataFrame(total)
         df.to_excel(config.study_case_path + r'data\7x24_2.xlsx', 'Sheet1')
 
-        self.after(30000, self._sina)  # 每隔 N 秒跑一次
+        time.sleep(3)
+        self._sina()  # 每隔 N 秒跑一次
 
     def _news(self):  # 获取新闻函数
         news_list = []
@@ -77,24 +65,17 @@ class Sina_7x24(Frame):
 
     def start(self):
         """
-               使用selenium可以解决爬取不到js动态生成的代码问题
+          用selenium可以解决爬取不到js动态生成的代码问题
         """
         options = Options()
-        options.add_argument('-headless') # 无界面配置
+        options.add_argument('-headless')  # 无界面配置
         self.browser = webdriver.Firefox(firefox_options=options)
         # self.browser = webdriver.Ie()
-        # self.browser.minimize_window()
         self.browser.get('http://finance.sina.com.cn/7x24/')
         time.sleep(1)
         self._sina()
 
 
-def main():
-    root = Tk()
-    # root.geometry('250x150')
-    mw = Sina_7x24(root)
-    mw.start()
-    root.mainloop()
-
 if __name__ == '__main__':
-    main()
+    mw = Sina_7x24()
+    mw.start()
