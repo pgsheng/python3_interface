@@ -2108,3 +2108,41 @@ JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1:
 JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1539940363265	geckodriver	INFO	geckodriver 0.21.0
+1539940363280	geckodriver	INFO	Listening on 127.0.0.1:59316
+1539940366337	mozrunner::runner	INFO	Running command: "C:\\ABasicSoftware\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\pgsheng\\AppData\\Local\\Temp\\rust_mozprofile.SUBlqhJ7I3TE"
+*** You are running in headless mode.
+1539940368708	Marionette	INFO	Listening on port 59324
+1539940369082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539940369114	Marionette	DEBUG	[6442450945] Frame script loaded
+1539940369116	Marionette	DEBUG	[6442450945] Frame script registered
+1539940369127	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539940369245	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539940369543	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://finance.sina.com.cn/7x24/
+JavaScript error: http://beacon.sina.com.cn/h.js, line 1: ReferenceError: etag_ngx_str is not defined
+1539940370123	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://finance.sina.com.cn/7x24/
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1539940438150	geckodriver	INFO	geckodriver 0.21.0
+1539940438161	geckodriver	INFO	Listening on 127.0.0.1:59432
+1539940441206	mozrunner::runner	INFO	Running command: "C:\\ABasicSoftware\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\pgsheng\\AppData\\Local\\Temp\\rust_mozprofile.N24ckvfEwW6i"
+*** You are running in headless mode.
+1539940443430	Marionette	INFO	Listening on port 59440
+1539940443523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539940443560	Marionette	DEBUG	[6442450945] Frame script loaded
+1539940443563	Marionette	DEBUG	[6442450945] Frame script registered
+1539940443608	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539940443728	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539940444015	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://finance.sina.com.cn/7x24/
+JavaScript error: http://beacon.sina.com.cn/h.js, line 1: ReferenceError: etag_ngx_str is not defined
+1539940444606	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://finance.sina.com.cn/7x24/
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://static.bshare.cn/js/libs/fingerprint2.min.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).

@@ -18,7 +18,7 @@ from public import config
 
 class Sina_7x24(QWebEnginePage):
 
-    def __init__(self, parent=None, **kw):
+    def __init__(self):
         self.is_first = True
         self.html = ''
         self.task_time = []
@@ -54,7 +54,8 @@ class Sina_7x24(QWebEnginePage):
         total = {'Time': self.task_time[::-1], 'Content': self.task_info[::-1]}
         # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
         df = pandas.DataFrame(total)
-        df.to_excel(config.study_case_path + r'data\7x24_2.xlsx', 'Sheet1')
+        df.to_excel(config.study_case_path + r'data\7x24_3.xlsx', 'Sheet1')
+        print('-' * 60)
 
         time.sleep(3)
         self._sina()  # 每隔 N 秒跑一次

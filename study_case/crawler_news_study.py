@@ -28,49 +28,56 @@ def test1():
     soup = BeautifulSoup(res.text, 'html.parser')
 
     # 用beautifulSoup中的select方法可以获取相应的元素，且获取的元素为list形式
-    for news in soup.select('.news-item'):  # 获取所有class为news-item的
-        if len(news.select('h2')) > 0:
-            print(news)
-            # h2 = news.select('h2')[0].text
-            # time = news.select('.time')[0].text
-            url = news.select('a')[0]['href']
-
-            # test2(url)
-            res2 = requests.get(url)
-            res2.encoding = 'utf-8'
-            soup2 = BeautifulSoup(res2.text, 'html.parser')
-
-            if len(soup2.select('.main-title')) <= 0:
-                continue
-            title = soup2.select('.main-title')[0].text
-            date = soup2.select('span.date')[0].contents[0]
-            article = []
-            # 循环id为article下的所有p标签,不包含最后一个
-            for p in soup2.select('#article p')[:-1]:
-                article.append(p.text.strip())
-
-            title_all.append(title)
-            date_all.append(date)
-            article_all.append(article)
-            url_all.append(url)
-
-            print(title)
-            print(date)
-            print(article)
-            print(url)
-
-    total = {'a_title': title_all, 'b_article': article_all, 'url_all': url_all,
-             'date_all': date_all}
-    # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
-
-    df = pandas.DataFrame(total)
-    df.to_excel(config.study_case_path + r'data\news.xlsx','Sheet1')
-    print(total)
+    news = soup.select('.news-1')[0].select('a')
+    print(news)
+    for new in news:
+        url = new['href']
+        title = new.text
+        print(url)
+        print(title)
+    # for new in soup.select('.news-item'):  # 获取所有class为news-item的
+    #     if len(news.select('h2')) > 0:
+    #         print(news)
+    #         # h2 = news.select('h2')[0].text
+    #         # time = news.select('.time')[0].text
+    #         url = news.select('a')[0]['href']
+    #
+    #         # test2(url)
+    #         res2 = requests.get(url)
+    #         res2.encoding = 'utf-8'
+    #         soup2 = BeautifulSoup(res2.text, 'html.parser')
+    #
+    #         if len(soup2.select('.main-title')) <= 0:
+    #             continue
+    #         title = soup2.select('.main-title')[0].text
+    #         date = soup2.select('span.date')[0].contents[0]
+    #         article = []
+    #         # 循环id为article下的所有p标签,不包含最后一个
+    #         for p in soup2.select('#article p')[:-1]:
+    #             article.append(p.text.strip())
+    #
+    #         title_all.append(title)
+    #         date_all.append(date)
+    #         article_all.append(article)
+    #         url_all.append(url)
+    #
+    #         print(title)
+    #         print(date)
+    #         print(article)
+    #         print(url)
+    #
+    # total = {'a_title': title_all, 'b_article': article_all, 'url_all': url_all,
+    #          'date_all': date_all}
+    # # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
+    #
+    # df = pandas.DataFrame(total)
+    # df.to_excel(config.study_case_path + r'data\news.xlsx','Sheet1')
+    # print(total)
 
 
 def test2(url=None):
-    res = requests.get(url)
-    # res = requests.get('http://news.sina.com.cn/c/nd/2018-04-11/doc-ifyteqtq7576205.shtml')
+    # res = requests.get(url)
+    res = requests.get('http://news.sina.com.cn/c/nd/2018-04-11/doc-ifyteqtq7576205.shtml')
     res.encoding = 'utf-8'
     soup = BeautifulSoup(res.text, 'html.parser')
 
@@ -136,7 +143,7 @@ def test4():
         print(n_info)
 
 if __name__ == '__main__':
-    # test1()
+    test1()
     # test2()
-    test3()
+    # test3()
     # test4()
