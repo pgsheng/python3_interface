@@ -22,7 +22,7 @@ def test1():
     url_all = []
     date_all = []
 
-    res = requests.get('http://news.sina.com.cn/china/')
+    res = requests.get('http://news.sina.com.cn/china/') #requests爬取不到js动态生成的代码
     res.encoding = 'utf-8'
     # 将requests获取的网页信息转换为BeautifulSoup的物件存于soup中，并指明其剖析器为'html.parser'
     soup = BeautifulSoup(res.text, 'html.parser')
@@ -138,5 +138,5 @@ def test4():
 if __name__ == '__main__':
     # test1()
     # test2()
-    # test3()
-    test4()
+    test3()
+    # test4()
