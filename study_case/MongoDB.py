@@ -94,7 +94,7 @@ class MongoDB(object):
         for x in value_list:
             self.log.info(x)
 
-        self.log.info('*'*30)
+        self.log.info('-' * 20)
 
         # 指定条件查询
         myquery = {"name": "Facebook"}
@@ -102,10 +102,18 @@ class MongoDB(object):
         for x in value_list:
             self.log.info(x)
 
-        self.log.info('*'*30)
+        self.log.info('-' * 20)
 
         # 高级查询,第一个字母 ASCII 值大于 "H" 的数据
-        myquery = { "name": { "$gt": "H" } }
+        myquery = {"name": {"$gt": "H"}}
+        value_list = self.collection.find(myquery)
+        for x in value_list:
+            self.log.info(x)
+
+        self.log.info('-' * 20)
+
+        # 使用正则表达式查询,第一个字母为 "F" 的数据
+        myquery = {"name": {"$regex": "^F" }}
         value_list = self.collection.find(myquery)
         for x in value_list:
             self.log.info(x)
