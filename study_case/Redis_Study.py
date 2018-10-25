@@ -15,8 +15,15 @@ class RedisStudy(object):
         self.log = Log().get_logger()
 
     def study(self):
+        # 1、一般连接方式
         r = redis.Redis(host='127.0.0.1', port=6379, db=0)
-        r.set('name', 'zhangsan')  # 添加
+        r.set('name', 'zhangsan0')  # 添加
+        self.log.info(r.get('name'))  # 获取
+
+        # 2、连接池
+        pool = redis.ConnectionPool(host='127.0.0.1', port=6379)
+        r = redis.Redis(connection_pool=pool)
+        r.set('name', 'zhangsan2')  # 添加
         self.log.info(r.get('name'))  # 获取
 
 if __name__ == '__main__':
