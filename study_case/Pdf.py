@@ -13,7 +13,9 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter, process_p
 from pdfminer.pdfparser import PDFParser, PDFDocument
 
 from public.log import Log
-
+"""
+pip install pdfminer3k
+"""
 
 class Pdf(object):
 

@@ -186,5 +186,6 @@ if __name__ == '__main__':
     1、pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] 
     由于目标计算机积极拒绝，无法连接。 原因：未装MongoDB或者MongoDB服务没有开启
     2、启动服务：mongod --dbpath E:\MongoDB\data  或 net start MongoDB（管理员打开cmd）
+    3、关闭：net stop MongoDB
 
 """
