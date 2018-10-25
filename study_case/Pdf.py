@@ -4,11 +4,12 @@
  @Author  : pgsheng
  @Time    : 2018/10/24 14:15
 """
+import io
 from io import StringIO
 
-from pdfminer.converter import PDFPageAggregator
+from pdfminer.converter import PDFPageAggregator, TextConverter
 from pdfminer.layout import LAParams
-from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter, process_pdf
 from pdfminer.pdfparser import PDFParser, PDFDocument
 
 from public.log import Log
@@ -49,6 +50,16 @@ class Pdf(object):
                                 self.log.info(results)
                                 f.write(results)
 
-
+    def read2(self):
+        pdfFile = open(r'C:\AProjectCode\Python\python3_interface\study_case\data\开发指南.pdf', 'rb')
+        retstr = io.StringIO()
+        laparams = LAParams()
+        rsrcmgr = PDFResourceManager()
+        device = TextConverter(rsrcmgr, retstr, laparams=laparams)
+        process_pdf(rsrcmgr, device, pdfFile, pagenos=set(), maxpages=0, password='',
+                    check_extractable=True)
+        device.close()
+        print(retstr.getvalue())
+        pdfFile.close()
 if __name__ == '__main__':
-    Pdf().read()
+    Pdf().read2()

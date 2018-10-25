@@ -16,7 +16,7 @@ class JpypeTest(object):
         self.log = Log().get_logger()
 
     def startJvm(self):
-        return JVMStart().start_jvm()
+        return JVMStart().start_jvm(['jar_test.jar'])
 
     """class文件调用"""
 

@@ -1,0 +1,592 @@
+(cid:2606)(cid:3664)IMSDK(cid:2895)(cid:1870)(cid:3312)(cid:1814)(cid:1153)Android(cid:1154)
+(cid:2606)(cid:3664)IMSDK(cid:2895)(cid:1870)(cid:3312)(cid:1814)(cid:1153)Android(cid:1154)
+(cid:1246)(cid:821)sdk(cid:2785)(cid:1442)(cid:4190)(cid:5205)
+(cid:1323)(cid:821)sdk(cid:1253)(cid:6905)(cid:3528)(cid:1391)(cid:6612)(cid:3585)
+1(cid:821)sdk(cid:3528)(cid:1391)(cid:1777)(cid:1932)(cid:1622)(cid:2619)(cid:1171)
+2(cid:821)accessId(cid:6068)(cid:1872)(cid:3548)(cid:4137)
+3(cid:821)(cid:6953)(cid:6408)KEFUDEMO(cid:7601)(cid:4947)(cid:1171)
+(cid:1251)(cid:821)(cid:2895)(cid:2468)(cid:7518)(cid:3182)
+1(cid:821)(cid:2645)(cid:1601)(cid:6738)(cid:4320)
+2(cid:821)(cid:2388)(cid:1707)(cid:1697)(cid:2468)(cid:1784)(cid:1380)(cid:5041)
+(cid:7167)(cid:6493)(cid:1171)(cid:7537)(cid:6493)(cid:1509)(cid:3503)(cid:4913)(cid:1622)(cid:2619)
+3(cid:821)(cid:3379)(cid:1879)(cid:6612)(cid:3585)
+(cid:1697)(cid:2468)(cid:1784)SDK
+SDK(cid:1697)(cid:2468)(cid:1784)(cid:4913)(cid:3379)(cid:1879)(cid:4938)(cid:1933)
+(cid:6068)(cid:1872)(cid:7112)(cid:5597)(cid:3565)(cid:5205)(cid:5333)(cid:4696)(cid:3379)(cid:1879).
+(cid:6068)(cid:1872)(cid:3238)(cid:5766)(cid:5471)(cid:3379)(cid:1879)
+(cid:1407)(cid:6590)(cid:2895)(cid:2468)(cid:3379)(cid:1879)
+(cid:1367)(cid:3664)(cid:1747)(cid:2191)(cid:6068)(cid:1872)(cid:4222)(cid:3059)(cid:3674)(cid:6619)(cid:3524)
+(cid:2848)(cid:3470)(cid:3379)(cid:3501)(cid:2191)
+(cid:6068)(cid:1872)(cid:1912)(cid:1891)(cid:4351)(cid:3130)(cid:2870)(cid:3598)(cid:1928)(cid:2895)(cid:1936)
+(cid:6888)(cid:1352)(cid:2785)(cid:2606)(cid:3664)
+(cid:3401)(cid:1339)(cid:5174)(cid:5466)(cid:4792)(cid:6522)
+(cid:4222)(cid:3059)(cid:2603)(cid:1435)
+(cid:3306)(cid:6448)(cid:1246)(cid:3701)(cid:4222)(cid:3059)
+(cid:1870)(cid:6982)(cid:4222)(cid:3059)
+(cid:2927)(cid:1707)MP3(cid:3794)(cid:2903)(cid:6605)(cid:7594)
+(cid:7167)(cid:1870)(cid:4222)(cid:3059)
+(cid:3379)(cid:3501)(cid:3547)(cid:4222)(cid:3059)
+(cid:6068)(cid:1872)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:4913)(cid:4222)(cid:3059)
+(cid:3653)(cid:3547)(cid:1246)(cid:3701)(cid:4222)(cid:3059)(cid:3524)(cid:3357)(cid:1705)(cid:3524)(cid:3357)(cid:2858)(cid:1278)
+(cid:1699)(cid:3545)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:3524)(cid:3357)(cid:3598)(cid:1928)(cid:7095)(cid:1872)(cid:1674)
+(cid:6068)(cid:1872)(cid:6567)(cid:1392)(cid:1692)(cid:6418)(cid:3524)(cid:3357)
+(cid:3401)(cid:1339)(cid:6567)(cid:1392)(cid:5486)(cid:3726)
+(cid:2606)(cid:3664)(cid:1286)(cid:1750)(cid:1870)(cid:6776)(cid:4913)(cid:6567)(cid:1392)
+(cid:2785)(cid:1897)(cid:821)(cid:2472)(cid:1911)(cid:821)(cid:2407)(cid:1567)(cid:3381)(cid:6982)
+(cid:6562)(cid:2606)(cid:3563)(cid:2021)(cid:2859)(cid:3545)(cid:2895)(cid:2642)(cid:6590)(cid:3576)(cid:7401)(cid:7112)(cid:5597)(cid:6068)(cid:1872)
+(cid:4147)(cid:7296)
+(cid:6561)(cid:5597)IP(cid:2248)(cid:2254)((cid:5178)(cid:3661)(cid:1327)(cid:4768)(cid:3201))
+(cid:2895)(cid:1936)(cid:1609)(cid:7406)log(cid:3217)(cid:1830)
+4(cid:821)(cid:4272)(cid:4253)
+(cid:2213)(cid:821)(cid:2890)(cid:1424)(cid:1745)(cid:5766)
+1(cid:821)(cid:2439)(cid:7537)(cid:5844)(cid:2599)(cid:1294)(cid:4768)(cid:3201)(cid:2407)(cid:1567)(cid:1982)(cid:3682)(cid:2191)(cid:1352)(cid:2407)(cid:1567)
+ 
+  
+2(cid:821)(cid:6561)(cid:5597)(cid:1259)(cid:2690)(cid:2871)(cid:2821)(cid:1745)(cid:5766)
+3(cid:821)(cid:6561)(cid:5597)(cid:3224)(cid:2688)(cid:1502)(cid:3059)
+4(cid:821)(cid:1870)(cid:6982)(cid:2079)(cid:2013)(cid:7294)(cid:3379)
+5(cid:821)(cid:2895)(cid:1936)(cid:1912)(cid:1286)(cid:1750)(cid:1407)(cid:6590)(cid:1153)(cid:1912)(cid:1891)(cid:6988)(cid:3296)sdk(cid:3932)(cid:2903)(cid:1154)
+6(cid:821)(cid:3676)sdk(cid:3498)(cid:3310)(cid:2229)(cid:7468)(cid:5973)(cid:3528)(cid:4551)
+(cid:1330)(cid:821)(cid:2825)(cid:6496)(cid:7407)(cid:7628)(cid:2386)(cid:4696)
+1(cid:821)(cid:2645)(cid:1601)(cid:2606)(cid:3664)sdk(cid:1912)(cid:1870)(cid:4671)(cid:3256)(cid:7321)(cid:1153)(cid:7601)(cid:4947)(cid:3256)(cid:7321)(cid:1157)sdk demo (cid:6953)(cid:6408)(cid:3979)(cid:2825)(cid:1154)(cid:5580)(cid:2653) .so (cid:2858)
+2(cid:821)(cid:4222)(cid:3059)(cid:3379)(cid:3501)(cid:1255)(cid:3604)(cid:5135)(cid:1157)(cid:1429)(cid:2241)(cid:1870)(cid:6982)(cid:4222)(cid:3059)(cid:1912)(cid:1910)(cid:3576)(cid:3604)(cid:5135)(cid:1295)(cid:1721)(cid:3379)(cid:3501)(cid:4913)(cid:4222)(cid:3059)
+3(cid:821)(cid:2606)(cid:3664)im(cid:6981)(cid:1674)(cid:1912)(cid:1157)(cid:1626)(cid:3962)(cid:6960)(cid:1601)(cid:2606)(cid:3664)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:2897)(cid:2825)(cid:821)(cid:7404)(cid:6981)
+4(cid:821)sdk(cid:7518)(cid:3182)(cid:1912)(cid:6418)(cid:3096)(cid:3604)(cid:5135)(cid:1255)(cid:1674)(cid:3702)
+5(cid:821)(cid:2079)(cid:2013)(cid:1870)(cid:6982)(cid:7294)(cid:3379)(cid:2606)(cid:3201)(cid:5266)(cid:1870)(cid:6982)(cid:1674)(cid:1860)pc(cid:2262)(cid:2821)(cid:5266)(cid:3501)(cid:1255)(cid:1705)
+(cid:1605)(cid:821)(cid:4551)(cid:3676)(cid:6612)(cid:3585)
+2.7.0(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+2.7.1(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+2.8.0(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+2.8.1(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+2.8.2(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:1246)(cid:821)sdk(cid:2785)(cid:1442)(cid:4190)(cid:5205)
+ 
+ 
+ 
+ 
+  
+(cid:1323)(cid:821)sdk(cid:1253)(cid:6905)(cid:3528)(cid:1391)(cid:6612)(cid:3585)
+1(cid:821)sdk(cid:3528)(cid:1391)(cid:1777)(cid:1932)(cid:1622)(cid:2619)(cid:1171)
+(cid:3205)(cid:7537)jar(cid:1777)
+(cid:2927)(cid:7594)(cid:3205)(cid:7537)so(cid:2858)(cid:1153)demo (cid:1278)(cid:1885)(cid:1932)(cid:3661)(cid:7089)(cid:1683)(cid:1286)(cid:6493)(cid:2840)(cid:1891)(cid:1154)
+(cid:2642)(cid:3379)(cid:6612)(cid:3585)(cid:3528)(cid:3817)
+(cid:6953)(cid:6408)(cid:1322)(cid:1466)demo
+2(cid:821)accessId(cid:6068)(cid:1872)(cid:3548)(cid:4137)
+(cid:4909)(cid:2927)(cid:1975)(cid:1886)(cid:1278)(cid:2974)(cid:5585)(cid:5258)(cid:1157)(cid:4457)(cid:1675)(cid:2786)(cid:1478)(cid:3659)(cid:1253)(cid:7566)(cid:4913)(cid:6561)(cid:5597)(cid:1157)(cid:6988)(cid:3296)(cid:1894)(cid:1478)(cid:7566)(cid:3715)(cid:1278)(cid:4913)(cid:4288)(cid:7026)(cid:3379)(cid:1601)(cid:7112)(cid:5597)(cid:1157)(cid:6988)(cid:3296)(cid:5199)(cid:1750)(cid:2606)(cid:3664)(cid:7112)(cid:5597)(cid:1157)
+(cid:4457)(cid:1675)(cid:4274)(cid:1746)(cid:3314)(cid:7221)(cid:1157)(cid:1832)(cid:1890)(cid:1696)(cid:2892)(cid:1246)(cid:1275)(cid:2859)(cid:4768)(cid:4913)(cid:3379)(cid:1601)(cid:1897)(cid:822)(cid:2241)(cid:1696)(cid:2892)(cid:2437)(cid:4913)(cid:2859)(cid:4768)(cid:4457)(cid:1675)(cid:7112)(cid:5597)(cid:6612)(cid:3585)(cid:1890)(cid:3761)(cid:4961)(cid:2642)(cid:2859)(cid:4913)accessId,(cid:4768)
+(cid:3980)ID(cid:1832)(cid:1890)(cid:1697)(cid:2468)(cid:1784)(cid:2606)(cid:3664)SDK(cid:822)
+3(cid:821)(cid:6953)(cid:6408)KEFUDEMO(cid:7601)(cid:4947)(cid:1171)
+(cid:6598)(cid:7601)(cid:4947)(cid:1285)android studio (cid:7601)(cid:4947)(cid:1157)(cid:6615)(cid:4768)android studio(cid:6960)(cid:6408)(cid:3217)(cid:2895)
+(cid:7601)(cid:4947)(cid:3217)(cid:2895)(cid:1295)(cid:1912)(cid:2356)(cid:1631)(cid:1863)(cid:3524)(cid:1912)(cid:1890)(cid:4951)(cid:3379)(cid:6953)(cid:6408)((cid:1863)(cid:3524)(cid:1509)(cid:3503)(cid:3528)(cid:1391)(cid:1285)MainActivity)(cid:1172)
+  
+  
+  
+  
+helper.initSdkChat("com.m7.imkf.KEFU_NEW_MSG", 
+                  "(cid:6615)(cid:2356)(cid:1631)(cid:1912)(cid:1891)(cid:6068)(cid:1872)(cid:4913)accessId", 
+                   "hhtest", 
+                   "userId");
+((cid:2356)(cid:1631)(cid:6068)(cid:1872)(cid:4913)accessId(cid:1912)(cid:1890)(cid:4951)(cid:3379)(cid:6953)(cid:6408)demo,(cid:3761)(cid:4961)(cid:3508)(cid:3726))
+(cid:1251)(cid:821)(cid:2895)(cid:2468)(cid:7518)(cid:3182)
+1(cid:821)(cid:2645)(cid:1601)(cid:6738)(cid:4320)
+(cid:2649)IMKFSDK-x.x.x.jar(cid:2645)(cid:1601)(cid:1705)(cid:7601)(cid:4947)(cid:1278)(cid:4913)libs(cid:4947)(cid:2927)(cid:1278)(cid:822)
+(cid:5969)(cid:1461)(cid:4768)(cid:1870)(cid:6982)(cid:2927)(cid:7594)(cid:1745)(cid:5766)(cid:1157)(cid:6958)(cid:7537)(cid:2388)(cid:1707)jniLibs(cid:4947)(cid:2927)(cid:1278)(cid:4913)so(cid:1777)(cid:1157)demo(cid:1278)(cid:1777)(cid:1932)(cid:1286)(cid:4190)(cid:3794)(cid:2903)(cid:1157)(cid:2388)(cid:1707)(cid:5844)(cid:2793)(cid:3205)(cid:7537)(cid:3794)
+(cid:2903)(cid:4913)(cid:1832)(cid:1890)(cid:1153)(cid:2439)(cid:7537)(cid:3205)(cid:3661)(cid:3794)(cid:2903)(cid:4457)(cid:1675)(cid:1253)(cid:6905)so(cid:2858)(cid:1154)
+(cid:1509)(cid:3503) AndroidManifest.xml (cid:3528)(cid:1391)
+((cid:2241)AndroidManifest.xml(cid:3528)(cid:1391)(cid:1278)(cid:4274)(cid:1746)(cid:4952)(cid:1609)(cid:3686)(cid:7476)(cid:1382)(cid:1866)(cid:4952)(cid:1609)(cid:1380)(cid:5041)(cid:1157)(cid:1613)(cid:1435)(cid:3761)(cid:4961)demo)
+  
+  
+  <service   android:name="com.moor.imkf.tcpservice.service.IMService">  
+  </service>
+  <receiver  android:name="com.moor.imkf.receiver.NetWorkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" 
+/>
+            </intent-filter>
+  </receiver>
+2(cid:821)(cid:2388)(cid:1707)(cid:1697)(cid:2468)(cid:1784)(cid:1380)(cid:5041)
+(cid:2649)demo(cid:1278)(cid:4913)(cid:6738)(cid:4320)(cid:3528)(cid:1391)(cid:1866)(cid:4952)(cid:1609)(cid:1380)(cid:5041)(cid:3528)(cid:1391)(cid:2388)(cid:1707)(cid:1705)(cid:5844)(cid:2793)(cid:4913)(cid:7601)(cid:4947)(cid:1278)
+(cid:7167)(cid:6493)(cid:1171)(cid:7537)(cid:6493)(cid:1509)(cid:3503)(cid:4913)(cid:1622)(cid:2619)
+1(cid:821)MianActivity.java(cid:1278)(cid:1697)(cid:2468)(cid:1784)SDK(cid:3379)(cid:1879)(cid:1278)(cid:2356)(cid:1631)action,accessId(cid:5301)(cid:4952)(cid:1609)(cid:1863)(cid:3524)AndroidManifest.xml(cid:1278)(cid:4913)
+(cid:4222)(cid:3059)receiver(cid:1278)(cid:1157)action(cid:4913)name(cid:1278)(cid:2356)(cid:1631)(cid:1697)(cid:2468)(cid:1784)SDK(cid:3576)(cid:3205)(cid:2356)(cid:4913)action(cid:1157)(cid:2976)(cid:7603)(cid:1499)(cid:6564)(cid:6598)action(cid:4913)(cid:43466)(cid:1246)(cid:5848)(cid:1157)(cid:1928)
+(cid:1694)(cid:3379)(cid:3501)(cid:1255)(cid:1705)(cid:4222)(cid:3059)(cid:822) (cid:5969)(cid:6493)(cid:1509)(cid:3503)(cid:1612)(cid:1278)(cid:4913)(cid:4952)(cid:1609)(cid:2802)(cid:2676)(cid:6738)(cid:4320)
+2(cid:821)(cid:2407)(cid:1567)(cid:1171) head_default_local.png(cid:1285)(cid:5844)(cid:2793)(cid:2407)(cid:1567)(cid:1157)head_default_robot.png(cid:1285)(cid:2606)(cid:3664)(cid:2407)(cid:1567)(cid:1157)(cid:5969)(cid:7537)(cid:3658)(cid:3352)(cid:4951)
+(cid:3379)(cid:3658)(cid:3352)(cid:6959)2(cid:2911)(cid:2230)(cid:4550)(cid:1832)(cid:1890)(cid:822)
+3(cid:821)(cid:1461)(cid:4768)demo(cid:3576)(cid:7603)(cid:1697)(cid:2468)(cid:1784)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:6418)(cid:3096)(cid:1745)(cid:5766)
+new Thread(new Runnable() {
+            @Override
+            public void run() {
+com.m7.imkfsdk.utils.FaceConversionUtil.getInstace().
+            getFileText(getApplicationContext());
+            }
+ }).start();
+3(cid:821)(cid:3379)(cid:1879)(cid:6612)(cid:3585)
+(cid:1697)(cid:2468)(cid:1784)SDK
+IMChatManager.getInstance().init(getApplicationContext(),  
+             "receiverAction", 
+             "accessId",    
+             "username ",  
+             "userId");   
+(cid:1612)(cid:1278)(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171)
+Context context, (cid:2859)(cid:4768)(cid:1252)(cid:1253)(cid:3528).
+String receiverAction (cid:4147)(cid:1625)(cid:3379)(cid:3501)(cid:4222)(cid:3059)(cid:2848)(cid:3470)(cid:4913)action(cid:1157)(cid:2356)(cid:1631)(cid:5844)(cid:2793)(cid:2599)(cid:1294)(cid:4913)(cid:1157)(cid:6598)(cid:43466)(cid:1310)(cid:2961)(cid:2356)(cid:1631)(cid:1705).
+AndroidManifest.xml(cid:1278)(cid:4913)NewMsgReceiver(cid:1278)(cid:4913)action(cid:1278)(cid:822) 
+String accessId, (cid:3379)(cid:1601)(cid:1897),(cid:2976)(cid:2356)(cid:7601). 
+  
+  
+  
+  
+String username, (cid:4768)(cid:3201)(cid:1911)(cid:1157)(cid:4768)(cid:3702)(cid:2241)(cid:1912)(cid:1891)(cid:3604)(cid:5135). 
+String userId, (cid:4768)(cid:3201)id(cid:1157)(cid:4768)(cid:3702)(cid:3773)(cid:6569)(cid:4768)(cid:3201). 
+SDK(cid:1697)(cid:2468)(cid:1784)(cid:4913)(cid:3379)(cid:1879)(cid:4938)(cid:1933)
+MChatManager.getInstance().setOnInitListener(new InitListener() {
+        @Override
+        public void oninitSuccess() {
+            LogUtil.d("MobileApplication", "sdk(cid:1697)(cid:2468)(cid:1784)(cid:3182)(cid:1745)");
+        }
+        @Override
+        public void onInitFailed() {
+            LogUtil.d("MobileApplication", "sdk(cid:1697)(cid:2468)(cid:1784)(cid:2406)(cid:6707)");
+        }
+    });
+(cid:4147)(cid:3130)(cid:1171)(cid:6598)(cid:2215)(cid:6627)(cid:3379)(cid:1879)(cid:1885)(cid:3598)(cid:4768)(cid:3702)(cid:1699)(cid:3545)SDK(cid:3598)(cid:1928)(cid:1697)(cid:2468)(cid:1784)(cid:3182)(cid:1745)(cid:1319)(cid:1157)(cid:4147)(cid:3130)(cid:1171)(cid:1885)(cid:3661)(cid:3182)(cid:1745)(cid:1319)(cid:1295)(cid:1912)(cid:3213)(cid:1890)(cid:1382)(cid:1461)(cid:4768)IM(cid:4952)(cid:1609)(cid:1745)
+(cid:5766),(cid:6598)(cid:6956)(cid:2215)(cid:3379)(cid:1879)(cid:3598)(cid:2241)(cid:1286)(cid:5466)(cid:5205)(cid:1278)(cid:1157)(cid:1890)(cid:1382)(cid:4951)(cid:3379)(cid:3481)(cid:1442)UI 
+(cid:6068)(cid:1872)(cid:7112)(cid:5597)(cid:3565)(cid:5205)(cid:5333)(cid:4696)(cid:3379)(cid:1879).
+(cid:2895)(cid:2468)(cid:1407)(cid:6590)(cid:1721)(cid:1590)(cid:2961)(cid:6068)(cid:1872)(cid:3598)(cid:1928)(cid:7112)(cid:5597)(cid:3565)(cid:5205)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171) (cid:1613)(cid:1435)(cid:1461)(cid:4768)(cid:6599)(cid:6496)demo
+IMChatManager.getInstance().getWebchatScheduleConfig(InfoDao.getInstance().
+getConnectionId(), new GetGlobleConfigListen() {
+            @Override
+            public void getSchedule(ScheduleConfig sc) {
+            }
+            @Override
+            public void getPeers() {
+            }
+ });
+(cid:6068)(cid:1872)(cid:3238)(cid:5766)(cid:5471)(cid:3379)(cid:1879)
+(cid:2895)(cid:2468)(cid:1407)(cid:6590)(cid:1721)(cid:1590)(cid:2961)(cid:6068)(cid:1872)(cid:1912)(cid:1891)(cid:7112)(cid:5597)(cid:4913)(cid:3238)(cid:5766)(cid:5471)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChatManager.getInstance().getPeers(new GetPeersListener() {
+            @Override
+            public void onSuccess(List<Peer> peers) {
+            }
+            @Override
+            public void onFailed() {
+            }
+ }); 
+  
+  
+  
+                
+                
+onSuccess(cid:3379)(cid:1879)(cid:1278)(cid:6956)(cid:2215)(cid:4913)(cid:1832)(cid:3598)(cid:3238)(cid:5766)(cid:5471)(cid:4913)(cid:3524)(cid:3357)(cid:1692)(cid:6418)
+(cid:1407)(cid:6590)(cid:2895)(cid:2468)(cid:3379)(cid:1879)
+(cid:2926)(cid:2895)(cid:2468)(cid:1246)(cid:3962)(cid:3547)(cid:1407)(cid:6590)(cid:3576)(cid:1157)(cid:7537)(cid:6615)(cid:4066)(cid:6598)(cid:3379)(cid:1879)(cid:6999)(cid:5027)(cid:3664)(cid:1747)(cid:2191)(cid:1157)(cid:2842)(cid:2649)(cid:7537)(cid:6493)(cid:5686)(cid:5422)(cid:4913)(cid:3238)(cid:5766)(cid:5471)id(cid:1411)(cid:6960)(cid:3702)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253):
+IMChatManager.getInstance().beginSession(peerId, new 
+OnSessionBeginListener() {
+            @Override
+            public void onSuccess() {
+            }
+            @Override
+            public void onFailed() {    
+            }
+});
+(cid:6598)(cid:3379)(cid:1879)(cid:4913)(cid:2215)(cid:6627)(cid:1278) onSuccess(cid:6418)(cid:5135)(cid:1407)(cid:6590)(cid:2895)(cid:2468)(cid:3182)(cid:1745)(cid:1319) onFailed(cid:6418)(cid:5135)(cid:3379)(cid:1879)(cid:6615)(cid:4066)(cid:2406)(cid:6707)(cid:1157)(cid:1613)(cid:1435)(cid:6615)(cid:1863)(cid:5645)(cid:3401)(cid:1472)(cid:4913)
+demo(cid:822)
+(cid:1367)(cid:3664)(cid:1747)(cid:2191)(cid:6068)(cid:1872)(cid:4222)(cid:3059)(cid:3674)(cid:6619)(cid:3524)
+(cid:4768)(cid:3201)(cid:5174)(cid:2895)(cid:1912)(cid:1157)(cid:2262)(cid:2821)(cid:1915)(cid:2606)(cid:3201)(cid:1870)(cid:6982)(cid:4222)(cid:3059)(cid:4913)(cid:3674)(cid:6619)(cid:3524)
+IMChatManager.getInstance().getMsgUnReadCountFromService(new                    
+                   IMChatManager.HttpUnReadListen() {
+                        @Override
+                        public void getUnRead(int acount) {
+                        }
+                    });
+(cid:2848)(cid:3470)(cid:3379)(cid:3501)(cid:2191)
+(cid:6627)(cid:4768)(cid:6950)(cid:6598)(cid:3379)(cid:1879)(cid:1912)(cid:1157)(cid:7537)(cid:2241)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:1278)(cid:4147)(cid:1625)(cid:2848)(cid:3470)(cid:3702)(cid:3379)(cid:3501)(cid:2926)(cid:1721)(cid:3598)(cid:3682)(cid:2191)(cid:1352)(cid:6958)(cid:3598)(cid:1352)(cid:2785)(cid:2606)(cid:3664)(cid:4913)(cid:4587)(cid:3006)(cid:1157)(cid:6960)(cid:6408)(cid:4788)(cid:7566)(cid:4913)(cid:4952)
+(cid:2859)(cid:1874)(cid:1784)(cid:822)(cid:2848)(cid:3470)(cid:3379)(cid:3501)(cid:2191)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+class KeFuStatusReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if(IMChatManager.ROBOT_ACTION.equals(action)) {
+                //(cid:2926)(cid:1721)(cid:3598)(cid:3682)(cid:2191)(cid:1352)
+                handler.sendEmptyMessage(0x111);
+            }else if(IMChatManager.ONLINE_ACTION.equals(action)) {
+                //(cid:2926)(cid:1721)(cid:2606)(cid:3664)(cid:2241)(cid:5466)
+                handler.sendEmptyMessage(0x222);
+            } else if(IMChatManager.OFFLINE_ACTION.equals(action)) {
+                //(cid:2926)(cid:1721)(cid:2606)(cid:3664)(cid:1255)(cid:2241)(cid:5466)
+  
+  
+  
+                handler.sendEmptyMessage(0x333);
+            }
+        }
+    }
+(cid:1613)(cid:1435)(cid:6615)(cid:1863)(cid:4961)demo(cid:1172)
+(cid:6068)(cid:1872)(cid:1912)(cid:1891)(cid:4351)(cid:3130)(cid:2870)(cid:3598)(cid:1928)(cid:2895)(cid:1936)
+(cid:6068)(cid:1872)(cid:1912)(cid:1891)(cid:4351)(cid:3130)(cid:2870)(cid:3598)(cid:1928)(cid:2895)(cid:1936)(cid:4913)(cid:7112)(cid:5597) (cid:2241)(cid:6627)(cid:4768)(cid:2592)beginSession(cid:3182)(cid:1745)(cid:1912)(cid:1157)(cid:1890)(cid:1382)(cid:6999)(cid:6950).
+IMChatManager.getInstance().isInvestigateOn()
+(cid:3548)(cid:4137)(cid:3702)(cid:6068)(cid:1872)(cid:4351)(cid:3130)(cid:2870)(cid:6567)(cid:1392)(cid:3598)(cid:1928)(cid:2895)(cid:1936)(cid:1157)(cid:3702)(cid:7500)(cid:6224)(cid:3186)(cid:3604)(cid:5135)(cid:6567)(cid:1392)(cid:3314)(cid:7221)(cid:822)
+(cid:6888)(cid:1352)(cid:2785)(cid:2606)(cid:3664)
+(cid:2926)(cid:3664)(cid:1747)(cid:2191)(cid:7112)(cid:5597)(cid:1319)(cid:3682)(cid:2191)(cid:1352)(cid:5681)(cid:2400)(cid:1912)(cid:1157)(cid:6999)(cid:6950)(cid:6888)(cid:1352)(cid:2785)(cid:3379)(cid:1879)(cid:1890)(cid:1382)(cid:1256)(cid:1352)(cid:2785)(cid:2606)(cid:3664)(cid:6960)(cid:6408)(cid:5681)(cid:2400)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChatManager.getInstance().convertManual(new OnConvertManualListener() {
+                @Override
+                public void onLine() {
+                    //(cid:3661)(cid:2606)(cid:3664)(cid:2241)(cid:5466)(cid:1157)(cid:7500)(cid:6224)(cid:6888)(cid:1352)(cid:2785)(cid:3314)(cid:7221)
+                    Toast.makeText(ChatActivity.this, "(cid:6888)(cid:1352)(cid:2785)(cid:3664)(cid:1747)(cid:3182)(cid:1745)", 
+Toast.LENGTH_SHORT).show();
+                }
+                @Override
+                public void offLine() {
+                    //(cid:2926)(cid:1721)(cid:4108)(cid:3661)(cid:2606)(cid:3664)(cid:2241)(cid:5466)(cid:1157)(cid:2920)(cid:1674)(cid:5174)(cid:5466)(cid:4792)(cid:6522)(cid:3803) 
+                }
+});
+(cid:3182)(cid:1745)(cid:1295)(cid:1912)(cid:1157)(cid:1694)(cid:1890)(cid:1382)(cid:1256)(cid:1352)(cid:2785)(cid:2606)(cid:3664)(cid:6960)(cid:6408)(cid:5681)(cid:2400)(cid:822)
+(cid:3401)(cid:1339)(cid:5174)(cid:5466)(cid:4792)(cid:6522)
+(cid:2926)(cid:2606)(cid:3664)(cid:1255)(cid:2241)(cid:5466)(cid:3576)(cid:1157)(cid:1890)(cid:1382)(cid:3401)(cid:1339)(cid:5174)(cid:5466)(cid:4792)(cid:6522)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253):
+  
+  
+  
+IMChatManager.getInstance().submitOfflineMessage(peerId, content, phone, 
+email, new OnSubmitOfflineMessageListener() {
+                            @Override
+                            public void onSuccess() {
+                                dismiss();
+                                Toast.makeText(getActivity(), "(cid:3401)(cid:1339)(cid:4792)(cid:6522)(cid:3182)(cid:1745)", 
+Toast.LENGTH_SHORT).show();
+                            }
+                            @Override
+                            public void onFailed() {
+                                dismiss();
+                                Toast.makeText(getActivity(), "(cid:3401)(cid:1339)(cid:4792)(cid:6522)(cid:2406)(cid:6707)", 
+Toast.LENGTH_SHORT).show();
+                            }
+ });
+(cid:3401)(cid:1339)(cid:5174)(cid:5466)(cid:4792)(cid:6522)(cid:1278)(cid:1863)(cid:3524)peerId(cid:1285)(cid:3238)(cid:5766)(cid:5471)(cid:4913)id, content(cid:1285)(cid:4792)(cid:6522)(cid:1622)(cid:2619),phone(cid:3598)(cid:4778)(cid:6590),email(cid:3598)(cid:7058)(cid:5343)(cid:822)
+(cid:4222)(cid:3059)(cid:2603)(cid:1435)
+(cid:4788)(cid:7566)(cid:3604)(cid:5135)(cid:3576)(cid:1407)(cid:4768)(cid:1705)(cid:4222)(cid:3059)(cid:4913)(cid:1246)(cid:1334)(cid:2690)(cid:3028)(cid:6960)(cid:6408)(cid:1255)(cid:1910)(cid:4913)(cid:3604)(cid:5135)(cid:1157)(cid:1253)(cid:7566)(cid:2649)(cid:4222)(cid:3059)(cid:1278)(cid:4913)(cid:1613)(cid:1435)(cid:2690)(cid:3028)(cid:2688)(cid:5135)(cid:2439)(cid:1253)(cid:1171) (cid:4222)(cid:3059)(cid:2603)(cid:1435)(cid:5380)
+(cid:1285)FromToMessage. 
+(cid:2690)(cid:3028)
+userType
+(cid:6612)(cid:3585)
+(cid:4768)(cid:3201)(cid:1870)(cid:6982)(cid:4222)(cid:3059)(cid:4913)(cid:5380)(cid:2291)(cid:1171)(cid:1870)(cid:6982)(cid:4913)(cid:4222)(cid:3059)(cid:1285)”0”,(cid:3379)(cid:3501)(cid:4913)(cid:4222)(cid:3059)(cid:1285)”1”
+msgType
+(cid:4222)(cid:3059)(cid:5380)(cid:2291)(cid:1171)(cid:4947)(cid:1721)(cid:3661)4(cid:5183)(cid:1157)(cid:1683)(cid:1702)(cid:1285)(cid:3528)(cid:3676)(cid:4222)(cid:3059)(cid:1157)(cid:2927)(cid:7594)(cid:4222)(cid:3059)(cid:1157)(cid:2230)(cid:4550)(cid:4222)(cid:3059),  (cid:5027)(cid:6569)(cid:2858)(cid:3528)(cid:3676)
+(cid:4222)(cid:3059)(cid:1870)(cid:6982)(cid:3186)(cid:3379)(cid:3501)(cid:4913)(cid:3576)(cid:7413)
+(cid:4222)(cid:3059)(cid:4913)(cid:3528)(cid:3676)(cid:1622)(cid:2619)
+(cid:4222)(cid:3059)(cid:1870)(cid:6982)(cid:4913)(cid:4587)(cid:3006)
+(cid:5969)(cid:1285)(cid:2927)(cid:7594)(cid:4222)(cid:3059)(cid:1157)(cid:6418)(cid:5135)(cid:2927)(cid:7594)(cid:3576)(cid:7401)
+(cid:2927)(cid:7594)(cid:3528)(cid:1391)(cid:3186)(cid:2230)(cid:4550)(cid:3528)(cid:1391)(cid:2241)(cid:3676)(cid:2248)(cid:4913)(cid:6816)(cid:2950)
+when
+message
+sendState
+recordTime
+ﬁlePath
+(cid:3653)(cid:2394)(cid:6599)(cid:5473)(cid:6615)(cid:3761)(cid:4961)demo
+(cid:3306)(cid:6448)(cid:1246)(cid:3701)(cid:4222)(cid:3059)
+(cid:3528)(cid:3676)(cid:4222)(cid:3059)(cid:1171)
+(cid:1461)(cid:4768)(cid:2439)(cid:1253)(cid:1380)(cid:5041)
+FromToMessage fromToMessage = IMMessage.createTxtMessage(txt);
+(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171) String txt, (cid:4222)(cid:3059)(cid:3528)(cid:3676)(cid:1622)(cid:2619).
+  
+  
+(cid:2927)(cid:7594)(cid:4222)(cid:3059):
+(cid:1461)(cid:4768)(cid:2439)(cid:1253)(cid:1380)(cid:5041). 
+FromToMessage fromToMessage = IMMessage.createAudioMessage(mTime, 
+filePath);
+(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171) ﬂoat mTime, (cid:2927)(cid:7594)(cid:3576)(cid:7401) String ﬁlePath, (cid:2927)(cid:7594)(cid:2241)(cid:3676)(cid:2248)(cid:4913)(cid:6816)(cid:2950)
+(cid:2230)(cid:4550)(cid:4222)(cid:3059):
+(cid:1461)(cid:4768)(cid:2439)(cid:1253)(cid:1380)(cid:5041)
+FromToMessage fromToMessage = 
+IMMessage.createImageMessage(picFileFullName);
+(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171) String picFileFullName, (cid:2230)(cid:4550)(cid:2241)(cid:3676)(cid:2248)(cid:4913)(cid:6816)(cid:2950)
+(cid:3528)(cid:1391)(cid:4222)(cid:3059)(cid:1171)
+FromToMessage fromToMessage = IMMessage.createFileMessage(path, fileName, 
+fileSizeStr);
+(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171) String path, (cid:3528)(cid:1391)(cid:2241)(cid:3676)(cid:2248)(cid:4913)(cid:6816)(cid:2950) String ﬁleName, (cid:3528)(cid:1391)(cid:1911)(cid:2561) String ﬁleSizeStr, (cid:3528)(cid:1391)(cid:2399)(cid:2652) (cid:3306)
+(cid:6448)(cid:2437)(cid:4913)(cid:4222)(cid:3059)(cid:2241)(cid:1870)(cid:6982)(cid:3576)(cid:4768)(cid:1705)(cid:822)
+(cid:1870)(cid:6982)(cid:4222)(cid:3059)
+(cid:1461)(cid:4768)(cid:2439)(cid:1253)(cid:1380)(cid:5041):
+IMChat.getInstance().sendMessage(fromToMessage, new ChatListener() {
+            @Override
+            public void onSuccess() {   
+            }
+            @Override
+            public void onFailed() {    
+            }
+            @Override
+            public void onProgress() {
+            }
+        });
+(cid:1863)(cid:3524)(cid:6612)(cid:3585)(cid:1171) FromToMessage fromToMessage, (cid:6493)(cid:1870)(cid:6982)(cid:4913)(cid:4222)(cid:3059) ChatListener ,(cid:4222)(cid:3059)(cid:1870)(cid:6982)(cid:4913)(cid:3379)(cid:1879)(cid:4938)(cid:1933)(cid:1157)
+(cid:1870)(cid:6982)(cid:3182)(cid:1745)(cid:1157)(cid:2406)(cid:6707)(cid:3186)(cid:3979)(cid:2241)(cid:1870)(cid:6982)(cid:1157)(cid:6598)(cid:2215)(cid:6627)(cid:3379)(cid:1879)(cid:1278)(cid:1890)(cid:1382)(cid:4951)(cid:3379)(cid:6960)(cid:6408)(cid:4788)(cid:7566)(cid:4913)(cid:3481)(cid:1442)(cid:822)(cid:1870)(cid:6982)(cid:4913)(cid:4222)(cid:3059)(cid:2562)(cid:1705)(cid:1319)(cid:3676)(cid:2248)(cid:3524)(cid:3357)(cid:2858)
+(cid:1278)(cid:1157)(cid:1613)(cid:1435)(cid:1890)(cid:1863)(cid:4961)(cid:3401)(cid:1472)(cid:4913)demo
+(cid:2927)(cid:1707)MP3(cid:3794)(cid:2903)(cid:6605)(cid:7594)
+  
+  
+(cid:4775)(cid:1325)(cid:6812)(cid:2840)(cid:1891)(cid:4913)(cid:7537)(cid:6493)(cid:1157)(cid:1870)(cid:6982)(cid:4913)(cid:2927)(cid:7594)(cid:3528)(cid:1391)(cid:3794)(cid:2903)(cid:7537)(cid:1285)mp3(cid:3794)(cid:2903)(cid:1157)(cid:2217)(cid:3980)(cid:3401)(cid:1472)(cid:1319)(cid:2927)(cid:1707)mp3(cid:3794)(cid:2903)(cid:4913)(cid:3548)(cid:4137)(cid:1157)(cid:1380)(cid:5041)(cid:2439)
+(cid:1253)(cid:1171)
+MP3Recorder mp3Recorder = new MP3Recorder(file);//(cid:1697)(cid:2468)(cid:1784)(cid:2927)(cid:7594)(cid:2191)
+mp3Recorder.start();//(cid:2895)(cid:2468)(cid:2927)(cid:1707)
+mp3Recorder.stop();//(cid:5486)(cid:3699)(cid:2927)(cid:1707)
+(cid:1612)(cid:1278)(cid:4913)(cid:1863)(cid:3524)(cid:1285)(cid:1171)File ﬁle(cid:2927)(cid:7594)(cid:1499)(cid:2562)(cid:3528)(cid:1391),(cid:1613)(cid:1435)(cid:1461)(cid:4768)(cid:1890)(cid:1863)(cid:4961)(cid:3401)(cid:1472)(cid:4913)demo
+(cid:7167)(cid:1870)(cid:4222)(cid:3059)
+(cid:2926)(cid:3661)(cid:3576)(cid:1522)(cid:1870)(cid:6982)(cid:2406)(cid:6707)(cid:1912)(cid:1157)(cid:7537)(cid:7167)(cid:3547)(cid:1870)(cid:6982)(cid:6598)(cid:3701)(cid:4222)(cid:3059)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChat.getInstance().reSendMessage(fromToMessage, new ChatListener() {
+            @Override
+            public void onSuccess() {
+            }
+            @Override
+            public void onFailed() {
+            }
+            @Override
+            public void onProgress() {
+           }
+        });
+(cid:3379)(cid:3501)(cid:3547)(cid:4222)(cid:3059)
+(cid:7537)(cid:6999)(cid:6950)(cid:4147)(cid:1625)(cid:2848)(cid:3470)(cid:3702)(cid:6068)(cid:1872)(cid:3547)(cid:4222)(cid:3059)(cid:1157)(cid:7698)(cid:1590)(cid:7537)(cid:6493)(cid:1246)(cid:1275)(cid:1602)(cid:2676)(cid:4147)(cid:1625)(cid:4913)(cid:2848)(cid:3470)(cid:1157)(cid:2241)AndroidManifest.xml(cid:1278)(cid:1380)(cid:5041)(cid:1285)(cid:1171)
+<receiver
+       android:name="com.m7.imkfsdk.receiver.NewMsgReceiver"
+       android:enabled="true"
+       >
+    <intent-filter android:priority="2147483647" >
+    <!—(cid:1509)(cid:3503)(cid:3980)action(cid:1285)(cid:5844)(cid:2793)(cid:2599)(cid:1294)(cid:4913)(cid:1157)(cid:6598)action(cid:2976)(cid:7603)(cid:1982)SDK(cid:1697)(cid:2468)(cid:1784)(cid:3379)(cid:1879)(cid:1278)(cid:3205)(cid:2356)(cid:4913)(cid:1246)(cid:3791),(cid:1288)(cid:1466)(cid:2439)(cid:1253)-->
+     <action android:name=“com.m7.demo.action” />
+     </intent-filter>
+</receiver>
+(cid:6615)(cid:1590)(cid:1509)(cid:3503)(cid:3980)action(cid:4913)(cid:43466)(cid:1157)(cid:1982)SDK(cid:1697)(cid:2468)(cid:1784)(cid:3576)(cid:1411)(cid:1601)(cid:4913)(cid:43466)(cid:2976)(cid:7603)(cid:4952)(cid:1910)(cid:1157)(cid:1928)(cid:1694)(cid:3379)(cid:3501)(cid:1255)(cid:1705)(cid:3547)(cid:4222)(cid:3059)(cid:4913)(cid:2848)(cid:3470)(cid:1157)(cid:4147)(cid:3130)(cid:2926)(cid:3379)
+(cid:3501)(cid:1705)(cid:6598)(cid:2848)(cid:3470)(cid:1912)(cid:1157)(cid:4222)(cid:3059)(cid:2794)(cid:5482)(cid:1499)(cid:2562)(cid:1705)(cid:1319)(cid:3676)(cid:2248)(cid:4913)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:1319)(cid:822)(cid:1613)(cid:1435)(cid:6615)(cid:3761)(cid:4961)demo(cid:822)
+(cid:6068)(cid:1872)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:4913)(cid:4222)(cid:3059)
+(cid:2241)(cid:4788)(cid:7566)(cid:1252)(cid:3604)(cid:5135)(cid:4222)(cid:3059)(cid:2666)(cid:2961)(cid:1590)(cid:1367)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:6068)(cid:2961)(cid:4222)(cid:3059)(cid:3524)(cid:3357)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+  
+  
+  
+List<FromToMessage>fromToMessages=IMChatManager.getInstance().getMessages(1
+);
+(cid:1863)(cid:3524)(cid:1278)(cid:4913)(cid:3524)(cid:2561)(cid:1285)(cid:1872)(cid:5291)(cid:1662)(cid:7597)(cid:4913)(cid:3524)(cid:3357)(cid:1157)(cid:4768)(cid:1325)(cid:1253)(cid:3273)(cid:1746)(cid:6905)(cid:3653)(cid:2394)(cid:4222)(cid:3059)(cid:3576)(cid:1461)(cid:4768),(cid:7957)(cid:6538)(cid:3598)(cid:1246)(cid:7597)15(cid:3701)(cid:4222)(cid:3059)(cid:3524)(cid:3357)(cid:822)(cid:6959)(cid:3791)(cid:2666)(cid:6068)
+(cid:1872)(cid:1705)(cid:1319)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:4913)(cid:4222)(cid:3059)(cid:1319)(cid:1157)(cid:1295)(cid:1912)(cid:2666)(cid:1890)(cid:1382)(cid:2241)(cid:4788)(cid:7566)(cid:6960)(cid:6408)(cid:3604)(cid:5135)(cid:3481)(cid:1442)(cid:1319)(cid:822)(cid:1613)(cid:1435)(cid:1863)(cid:5645)demo(cid:1278)(cid:822)
+(cid:3653)(cid:3547)(cid:1246)(cid:3701)(cid:4222)(cid:3059)(cid:3524)(cid:3357)(cid:1705)(cid:3524)(cid:3357)(cid:2858)(cid:1278)
+(cid:5969)(cid:7537)(cid:6493)(cid:2649)(cid:4222)(cid:3059)(cid:4913)(cid:3524)(cid:3357)(cid:1509)(cid:3503)(cid:1912)(cid:1499)(cid:2562)(cid:1705)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChatManager.getInstance().updateMessageToDB(message);
+(cid:1863)(cid:3524)(cid:1285)FromToMessage message,(cid:1509)(cid:3503)(cid:3524)(cid:3357)(cid:1912)(cid:4913)(cid:4222)(cid:3059)(cid:822)
+(cid:1699)(cid:3545)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:3524)(cid:3357)(cid:3598)(cid:1928)(cid:7095)(cid:1872)(cid:1674)
+(cid:4788)(cid:7566)(cid:3604)(cid:5135)(cid:3576)(cid:7537)(cid:6493)(cid:1699)(cid:3545)(cid:3676)(cid:2248)(cid:3524)(cid:3357)(cid:2858)(cid:1278)(cid:4913)(cid:3524)(cid:3357)(cid:3598)(cid:1928)(cid:2794)(cid:5482)(cid:6441)(cid:1602)(cid:7089)(cid:1872)(cid:1674)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChatManager.getInstance().isReachEndMessage(size);
+(cid:6068)(cid:1872)(cid:6567)(cid:1392)(cid:1692)(cid:6418)(cid:3524)(cid:3357)
+(cid:6068)(cid:1872)(cid:1912)(cid:1891)(cid:7112)(cid:5597)(cid:4913)(cid:6567)(cid:1392)(cid:1692)(cid:6418)(cid:3524)(cid:3357)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+List<Investigate> investigates = 
+IMChatManager.getInstance().getInvestigate();
+(cid:6956)(cid:2215)(cid:4913)(cid:5486)(cid:3726)(cid:5486)(cid:3726)(cid:1285)(cid:1171)List investigates(cid:1157)(cid:1832)(cid:1285)(cid:6567)(cid:1392)(cid:2603)(cid:1435)(cid:4913)(cid:1692)(cid:6418)(cid:1157)Investigate(cid:1278)(cid:4913)name(cid:2690)(cid:3028)(cid:1285)(cid:6598)(cid:6567)(cid:1392)(cid:4913)
+(cid:1911)(cid:5197)(cid:1157)(cid:1890)(cid:4768)(cid:3702)(cid:3604)(cid:5135)(cid:2241)(cid:4788)(cid:7566)(cid:1252)(cid:822)
+(cid:3401)(cid:1339)(cid:6567)(cid:1392)(cid:5486)(cid:3726)
+(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+  
+  
+  
+  
+IMChatManager.getInstance().submitInvestigate(investigate, new 
+SubmitInvestigateListener() {
+             @Override
+             public void onSuccess() {
+     Toast.makeText(InvestigateActivity.this, "(cid:6567)(cid:1392)(cid:3401)(cid:1339)(cid:3182)(cid:1745)", 
+Toast.LENGTH_SHORT).show();
+                    }
+             @Override
+             public void onFailed() {
+     Toast.makeText(InvestigateActivity.this, "(cid:6567)(cid:1392)(cid:3401)(cid:1339)(cid:2406)
+(cid:6707)",Toast.LENGTH_SHORT).show();
+                    }
+});
+(cid:1863)(cid:3524)(cid:1285)(cid:1171) Investigate investigate (cid:6567)(cid:1392)(cid:2603)(cid:1435) SubmitInvestigateListener (cid:3401)(cid:1339)(cid:6567)(cid:1392)(cid:2215)(cid:6627)(cid:3379)(cid:1879) (cid:4147)(cid:1171)(cid:6598)(cid:3379)
+(cid:1879)(cid:1885)(cid:3661)(cid:2241)(cid:1256)(cid:1352)(cid:2785)(cid:2606)(cid:3664)(cid:5681)(cid:2400)(cid:6950)(cid:1912)(cid:6567)(cid:1392)(cid:3213)(cid:3661)(cid:3130)(cid:1294)(cid:822)
+(cid:2606)(cid:3664)(cid:1286)(cid:1750)(cid:1870)(cid:6776)(cid:4913)(cid:6567)(cid:1392)
+(cid:2606)(cid:3664)(cid:2241)(cid:3664)(cid:1747)(cid:2592)(cid:2606)(cid:3201)(cid:1912)(cid:1310)(cid:1890)(cid:1382)(cid:1286)(cid:1750)(cid:1870)(cid:6776)(cid:6567)(cid:1392)(cid:4913)(cid:6615)(cid:4066)(cid:1157)(cid:2606)(cid:3201)(cid:5266)(cid:7537)(cid:6493)(cid:1442)(cid:1674)(cid:4952)(cid:2859)(cid:4913)(cid:2021)(cid:2859)(cid:1157)(cid:2606)(cid:3201)(cid:5266)(cid:2241)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:4147)
+(cid:1625)(cid:4952)(cid:2859)(cid:4913)(cid:2848)(cid:3470)(cid:1157)(cid:3379)(cid:3501)(cid:1705)(cid:4952)(cid:2859)(cid:4913)(cid:1322)(cid:1391)(cid:1407)(cid:4766)(cid:3182)(cid:1246)(cid:1275)(cid:6567)(cid:1392)(cid:4913)(cid:4222)(cid:3059)(cid:1157)(cid:4457)(cid:1675)(cid:2592)(cid:6567)(cid:1392)(cid:1295)(cid:1912)(cid:6598)(cid:4222)(cid:3059)(cid:1407)(cid:6441)(cid:1698)(cid:7483)(cid:1157)(cid:4766)(cid:3182)(cid:6567)
+(cid:1392)(cid:4222)(cid:3059)(cid:4913)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+private void sendInvestigate() {
+    ArrayList<Investigate> investigates = (ArrayList<Investigate>) 
+IMChatManager.getInstance().getInvestigate();
+    IMMessage.createInvestigateMessage(investigates);
+    updateMessage();
+}
+(cid:2785)(cid:1897)(cid:821)(cid:2472)(cid:1911)(cid:821)(cid:2407)(cid:1567)(cid:3381)(cid:6982)
+(cid:2241)(cid:3379)(cid:1601)(cid:5681)(cid:2400)(cid:1407)(cid:6590)(cid:1912)(cid:1157)(cid:1407)(cid:3241)(cid:2606)(cid:3664)(cid:1352)(cid:1959)(cid:4913)(cid:2785)(cid:1897)(cid:821)(cid:2472)(cid:1911)(cid:1982)(cid:2407)(cid:1567)(cid:1502)(cid:3059)(cid:3381)(cid:6982)(cid:2215)(cid:3702)(cid:822)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:1278)(cid:6999)(cid:6950)(cid:3379)(cid:3501)
+IMChatManager.USERINFO_ACTION(cid:4913)(cid:2848)(cid:3470)(cid:3702)(cid:6068)(cid:1872)(cid:2642)(cid:2859)(cid:3524)(cid:3357)(cid:822)
+(cid:6562)(cid:2606)(cid:3563)(cid:2021)(cid:2859)(cid:3545)(cid:2895)(cid:2642)(cid:6590)(cid:3576)(cid:7401)(cid:7112)(cid:5597)(cid:6068)(cid:1872)
+(cid:6999)(cid:6950)GlobalSet globalSet = GlobalSetDao.getInstance().getGlobalSet();(cid:3702)(cid:6068)(cid:1872)(cid:7112)(cid:5597)(cid:1502)(cid:3059)(cid:1157)(cid:7166)(cid:7566)(cid:4913)
+break_len(cid:1380)(cid:6418)(cid:3545)(cid:2895)(cid:2642)(cid:6590)(cid:3576)(cid:7401)(cid:1157)break_tips_len(cid:1380)(cid:6418)(cid:3545)(cid:2895)(cid:1721)(cid:3401)(cid:5135)(cid:3576)(cid:7401)(cid:1157)break_tips(cid:1380)(cid:6418)(cid:3401)(cid:5135)(cid:1622)(cid:2619)(cid:822)
+(cid:4147)(cid:7296)
+(cid:5969)(cid:7537)(cid:4147)(cid:7296)(cid:2926)(cid:1721)(cid:4768)(cid:3201)(cid:1157)(cid:1694)(cid:1890)(cid:1382)(cid:6627)(cid:4768)(cid:6598)(cid:3379)(cid:1879)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+IMChatManager.getInstance().quit();
+(cid:6561)(cid:5597)IP(cid:2248)(cid:2254)((cid:5178)(cid:3661)(cid:1327)(cid:4768)(cid:3201))
+  
+  
+  
+  
+  
+(cid:5969)(cid:7537)(cid:6561)(cid:5597)(cid:5844)(cid:2793)(cid:3664)(cid:1747)(cid:2191)(cid:4913)(cid:2248)(cid:2254)(cid:1153)(cid:2241)(cid:1697)(cid:2468)(cid:1784)(cid:1295)(cid:1721)(cid:6627)(cid:4768)(cid:1382)(cid:1253)(cid:3548)(cid:4137)(cid:1154)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+//(cid:6561)(cid:5597)tcp(cid:2248)(cid:2254)
+IMChatManager.getInstance().setTcpIpAndPort("11.111.1.11", 8006);
+//(cid:6561)(cid:5597)http(cid:2248)(cid:2254)
+IMChatManager.getInstance().setHttpIp("http://11.111.1.11:4999/sdkChat");
+(cid:2895)(cid:1936)(cid:1609)(cid:7406)log(cid:3217)(cid:1830)
+sdk(cid:1278)(cid:1777)(cid:1932)(cid:2822)(cid:1751)(cid:2895)(cid:1870)(cid:1352)(cid:1959)(cid:2895)(cid:1870)(cid:4913)(cid:3524)(cid:3357)log,(cid:1252)(cid:5466)(cid:3576)(cid:1890)(cid:3793)(cid:3357)(cid:7537)(cid:4066)(cid:2895)(cid:1609)(cid:1157)(cid:1380)(cid:5041)(cid:2439)(cid:1253)(cid:1171)
+ //(cid:1609)(cid:7406)log
+ IMChatManager.getInstance().closeLog();
+ //(cid:3217)(cid:2895)log
+ IMChatManager.getInstance().openLog();
+4(cid:821)(cid:4272)(cid:4253)
+(cid:4272)(cid:4253)(cid:3576)(cid:1746)(cid:1252)(cid:2439)(cid:1253)(cid:1380)(cid:5041)(cid:1171)
+-keep class com.moor.imkf.** { *; }
+shrinkResources(cid:6561)(cid:5597)(cid:1285)false(cid:1157)(cid:1255)(cid:4496)(cid:6418)(cid:3096)(cid:3604)(cid:5135)(cid:1255)(cid:3979)(cid:5087)
+(cid:2213)(cid:821)(cid:2890)(cid:1424)(cid:1745)(cid:5766)
+1(cid:821)(cid:2439)(cid:7537)(cid:5844)(cid:2599)(cid:1294)(cid:4768)(cid:3201)(cid:2407)(cid:1567)(cid:1982)(cid:3682)(cid:2191)(cid:1352)(cid:2407)(cid:1567)
+  
+  
+  
+  
+2(cid:821)(cid:6561)(cid:5597)(cid:1259)(cid:2690)(cid:2871)(cid:2821)(cid:1745)(cid:5766)
+(cid:6627)(cid:4768)beginSession(cid:4913)(cid:7167)(cid:6905)(cid:3548)(cid:4137)(cid:1157)(cid:1890)(cid:1411)(cid:1601)json(cid:2561)(cid:5287)(cid:1280)(cid:1157)(cid:5135)(cid:1466)(cid:2439)(cid:1253)(cid:1171)
+String otherParams = "";
+JSONObject jsonObject = new JSONObject();
+try {
+    jsonObject.put("agent", "8131");
+} catch (JSONException e) {
+    e.printStackTrace();
+}
+otherParams = jsonObject.toString();
+IMChatManager.getInstance().beginSession(peerId, otherParams, new 
+OnSessionBeginListener() {})
+3(cid:821)(cid:6561)(cid:5597)(cid:3224)(cid:2688)(cid:1502)(cid:3059)
+  
+  
+(cid:6627)(cid:4768)beginSession(cid:4913)(cid:7167)(cid:6905)(cid:3548)(cid:4137)(cid:1157)(cid:1890)(cid:1411)(cid:1601)json(cid:2561)(cid:5287)(cid:1280)(cid:1157)(cid:5135)(cid:1466)(cid:2439)(cid:1253)
+        JSONObject j = new JSONObject();
+        JSONObject j2 = new JSONObject();
+        try{
+            j.put("name","(cid:4197)(cid:6582)(cid:3224)(cid:2688)(cid:2561)(cid:4007)");
+            j2.put("customField",URLEncoder.encode(j.toString()));
+        }catch ( e){
+        }
+    IMChatManager.getInstance().beginSession(peerId ,j2.toString(),new 
+OnSessionBeginListener() {});
+4(cid:821)(cid:1870)(cid:6982)(cid:2079)(cid:2013)(cid:7294)(cid:3379)
+(cid:2241)(cid:1697)(cid:2468)(cid:1784)(cid:1295)(cid:1721)(cid:6627)(cid:4768)setCard(new CardInfo())
+(cid:3761)(cid:4961)(cid:5135)(cid:1466)(cid:1380)(cid:5041)
+  CardInfo ci = new CardInfo("(cid:2230)(cid:4550)url", "(cid:5291)(cid:1246)(cid:6408)(cid:1622)(cid:2619)", "(cid:5291)(cid:1323)(cid:6408)(cid:1622)(cid:2619)", "(cid:5291)(cid:1251)(cid:6408)(cid:1622)(cid:2619)", 
+"(cid:4457)(cid:1675)(cid:6817)(cid:6888)(cid:7294)(cid:3379)");
+  //(cid:6561)(cid:5597)card
+  helper.setCard(ci);
+  //(cid:6561)(cid:5597)(cid:1863)(cid:3524)(cid:1697)(cid:2468)(cid:1784)
+  helper.initSdkChat("com.m7.imkf.KEFU_NEW_MSG", 
+                  "(cid:6615)(cid:2356)(cid:1631)(cid:1912)(cid:1891)(cid:6068)(cid:1872)(cid:4913)accessId", 
+                   "hhtest", 
+                   "userId");
+5(cid:821)(cid:2895)(cid:1936)(cid:1912)(cid:1286)(cid:1750)(cid:1407)(cid:6590)(cid:1153)(cid:1912)(cid:1891)(cid:6988)(cid:3296)sdk(cid:3932)(cid:2903)(cid:1154)
+(cid:1609)(cid:7406)(cid:1407)(cid:6590)(cid:1473)(cid:3567)(cid:1499)(cid:3310)(cid:7401)(cid:6963)(cid:3379)(demo(cid:1278)(cid:1285)R.id.chat_tv_back(cid:4913)(cid:4147)(cid:7296)(cid:3314)(cid:7221))
+IMChatManager.getInstance().onLineQuitSDK();
+(cid:6068)(cid:1872)(cid:3674)(cid:6619)(cid:4222)(cid:3059)(cid:3524)
+int unReadCount = IMChatManager.getInstance().getMsgUnReadCount();
+6(cid:821)(cid:3676)sdk(cid:3498)(cid:3310)(cid:2229)(cid:7468)(cid:5973)(cid:3528)(cid:4551)
+  
+  
+  
+           
+(cid:2439)(cid:7537)(cid:5199)(cid:3865)(cid:1705)(cid:7601)(cid:4947)(cid:1278)(cid:1157)(cid:6615)(cid:2649)values-en(cid:1253)(cid:4913)string.xml(cid:2388)(cid:1707)(cid:1705)(cid:7601)(cid:4947)(cid:1278)(cid:6598)(cid:3528)(cid:1391)(cid:1253)
+(cid:5969)(cid:7537)(cid:1684)(cid:3352)(cid:1890)(cid:3793)(cid:3357)(cid:7537)(cid:4066)(cid:2241)(cid:4788)(cid:7566)(cid:1746)(cid:6905)(cid:1295)(cid:1721)(cid:1153)(cid:1602)(cid:2676)(cid:1890)(cid:2241)(cid:7601)(cid:4947)application(cid:5380)(cid:1278)(cid:1154)(cid:3223)(cid:6408)(cid:1382)(cid:1253)(cid:1380)(cid:5041)(cid:1171)
+//(cid:1746)(cid:6905)(cid:7957)(cid:6538) (cid:1278)(cid:3528)
+initLocaleLanguage(cid:1153)“”(cid:1154);
+//(cid:6549)(cid:6905)(cid:5973)(cid:3528)
+initLocaleLanguage(cid:1153)“en”(cid:1154);
+private void initLocaleLanguage(String language) {
+        Resources resources = getApplicationContext().getResources();
+        Configuration configuration = resources.getConfiguration();
+        configuration.locale = new Locale(language);
+        resources.updateConfiguration(configuration, 
+resources.getDisplayMetrics());//(cid:3653)(cid:3547)(cid:7112)(cid:5597)
+    }
+(cid:1330)(cid:821)(cid:2825)(cid:6496)(cid:7407)(cid:7628)(cid:2386)(cid:4696)
+1(cid:821)(cid:2645)(cid:1601)(cid:2606)(cid:3664)sdk(cid:1912)(cid:1870)(cid:4671)(cid:3256)(cid:7321)(cid:1153)(cid:7601)(cid:4947)(cid:3256)(cid:7321)(cid:1157)sdk demo (cid:6953)(cid:6408)(cid:3979)(cid:2825)(cid:1154)(cid:5580)(cid:2653) .so (cid:2858)
+(cid:1890)(cid:5766)(cid:1851)(cid:2217)(cid:1171)(cid:1246)(cid:5873)(cid:3598)(cid:2217)(cid:1285)(cid:4015)(cid:1275)(cid:2840)(cid:1891)(cid:1253)(cid:4913)so(cid:2858)(cid:3524)(cid:7169)(cid:821)(cid:5183)(cid:5380)(cid:1255)(cid:5497)(cid:1246)(cid:1157)(cid:1885)(cid:6493)(cid:1499)(cid:6564)(cid:4015)(cid:1275)(cid:2840)(cid:1891)(cid:1253)(cid:4913)so(cid:2858)(cid:3524)(cid:7169)(cid:1246)(cid:5848)(cid:1157)
+(cid:1832)(cid:1890)(cid:1644)(cid:5495)(cid:7407)(cid:7628);
+(cid:6516)(cid:1644)(cid:1171)(cid:3793)(cid:3357)(cid:7601)(cid:4947)(cid:1851)(cid:3661)(cid:4947)(cid:2927)(cid:4274)(cid:1746)(cid:2642)(cid:2859)so(cid:2858) (cid:1153)(cid:4457)(cid:1675)(cid:1253)(cid:6905)so(cid:2858)(cid:1154)
+2(cid:821)(cid:4222)(cid:3059)(cid:3379)(cid:3501)(cid:1255)(cid:3604)(cid:5135)(cid:1157)(cid:1429)(cid:2241)(cid:1870)(cid:6982)(cid:4222)(cid:3059)(cid:1912)(cid:1910)(cid:3576)(cid:3604)(cid:5135)(cid:1295)(cid:1721)(cid:3379)(cid:3501)(cid:4913)(cid:4222)(cid:3059)
+(cid:1890)(cid:5766)(cid:1851)(cid:2217)(cid:1171)
+  
+  
+  
+1(cid:821)(cid:3379)(cid:1873)(cid:4222)(cid:3059)(cid:4913)service(cid:4147)(cid:1625)(cid:3576)(cid:4913)action(cid:1982)(cid:4938)(cid:1933)(cid:3576)(cid:4913)action(cid:1255)(cid:1246)(cid:5848) (cid:1153)(cid:1697)(cid:2468)(cid:1784)(cid:1863)(cid:3524)1(cid:1982)(cid:4276)(cid:1812)(cid:3528)(cid:1391)(cid:4913)receiver
+(cid:4913)action(cid:3598)(cid:1928)(cid:1246)(cid:5848)(cid:1154)
+2(cid:1171)(cid:3844)(cid:3761)com.m7.imkfsdk.receiver.NewMsgReceiver(cid:4913)(cid:3528)(cid:1391)(cid:3598)(cid:1928)(cid:1982)demo(cid:1278)(cid:4913)(cid:3528)(cid:1391)(cid:1777)(cid:1911)(cid:3598)(cid:1928)(cid:1246)(cid:5848)(cid:1153)(cid:2217)
+jar(cid:1278)(cid:2848)(cid:3470)(cid:3312)(cid:1915)(cid:4913)(cid:3598)(cid:6598)(cid:1777)(cid:1911)(cid:1253)(cid:4913)NewMsgReceiver(cid:1157)android8.0(cid:1382)(cid:1912)(cid:2848)(cid:3470)(cid:7537)(cid:3437)(cid:2819)(cid:1777)(cid:1911)(cid:1154) 
+3(cid:821)(cid:2606)(cid:3664)im(cid:6981)(cid:1674)(cid:1912)(cid:1157)(cid:1626)(cid:3962)(cid:6960)(cid:1601)(cid:2606)(cid:3664)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:2897)(cid:2825)(cid:821)(cid:7404)(cid:6981)
+(cid:1890)(cid:5766)(cid:1851)(cid:2217)(cid:1171)(cid:2241)(cid:4457)(cid:1675)(cid:6981)(cid:1674)(cid:3314)(cid:7221)(cid:3598)(cid:3674)(cid:4274)(cid:1746)(cid:6981)(cid:1674)sdk(cid:1380)(cid:5041).
+//(cid:6981)(cid:1674)(cid:5681)(cid:2400)(cid:4788)(cid:7566)(cid:2666)(cid:4147)(cid:7296)(cid:1319)SDK(cid:1157)(cid:5969)(cid:1255)(cid:7537)(cid:6493)(cid:4147)(cid:7296)(cid:1694)(cid:3241)(cid:6598)(cid:2386)(cid:1380)(cid:5041)(cid:1860)(cid:3367)
+IMChatManager.getInstance().quit();
+IMChatManager.isKFSDK = false;
+4(cid:821)sdk(cid:7518)(cid:3182)(cid:1912)(cid:6418)(cid:3096)(cid:3604)(cid:5135)(cid:1255)(cid:1674)(cid:3702)
+(cid:1851)(cid:2217)(cid:1171)1(cid:821)assets(cid:3528)(cid:1391)(cid:1253)(cid:6418)(cid:3096)(cid:2642)(cid:2859)(cid:1609)(cid:5422) emojikf(cid:1255)(cid:2562)(cid:2241)
+​ 2(cid:821)(cid:3674)(cid:4274)(cid:1746)(cid:6418)(cid:3096)(cid:1697)(cid:2468)(cid:1784)(cid:1380)(cid:5041)
+(cid:6516)(cid:1644)(cid:1171)(cid:2649)demo(cid:7166)(cid:4913)emojikf(cid:3528)(cid:1391)(cid:3305)(cid:6700)(cid:1705)(cid:7601)(cid:4947)(cid:1278)(cid:6598)(cid:4947)(cid:2927)(cid:1253)(cid:821)(cid:4274)(cid:1746)(cid:1697)(cid:2468)(cid:1784)(cid:1380)(cid:5041)·
+//(cid:1697)(cid:2468)(cid:1784)(cid:6418)(cid:3096)
+new Thread(new Runnable() {
+            @Override
+            public void run() {
+com.m7.imkfsdk.utils.FaceConversionUtil.getInstace().
+            getFileText(getApplicationContext());
+            }
+ }).start();
+5(cid:821)(cid:2079)(cid:2013)(cid:1870)(cid:6982)(cid:7294)(cid:3379)(cid:2606)(cid:3201)(cid:5266)(cid:1870)(cid:6982)(cid:1674)(cid:1860)pc(cid:2262)(cid:2821)(cid:5266)(cid:3501)(cid:1255)(cid:1705)
+(cid:6516)(cid:1644)(cid:1171)(cid:2649)(cid:1870)(cid:6982)(cid:4457)(cid:1675)(cid:7294)(cid:3379)(cid:6960)(cid:6408)utf-8(cid:6888)(cid:5041)
+  CardInfo ci = null;
+try {
+   ci = new 
+CardInfo("http://seopic.699pic.com/photo/40023/0579.jpg_wh1200.jpg",
+                     "(cid:3183)(cid:3598)(cid:1246)(cid:1275)(cid:3773)(cid:7628)(cid:2926)(cid:1697)(cid:6619)(cid:1313)", 
+                     "(cid:3183)(cid:3598)name(cid:2926)(cid:1697)(cid:6619)(cid:1313)(cid:822)", 
+                     "(cid:1392)(cid:3794) 1000-9999", 
+                      URLEncoder.encode(s, "utf-8"));
+ } catch (Exception e) {
+                    e.printStackTrace();
+                }
+  helper.setCard(ci);
+(cid:1605)(cid:821)(cid:4551)(cid:3676)(cid:6612)(cid:3585)
+  
+  
+  
+(cid:1605)(cid:821)(cid:4551)(cid:3676)(cid:6612)(cid:3585)
+2.7.0(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:1872)(cid:4222)demo(cid:7166)(cid:7566)(cid:1609)(cid:1325)application (cid:4913)(cid:7089)(cid:1683)(cid:1153)demo(cid:1278)MobileApplication(cid:3528)(cid:1391)(cid:1154)
+(cid:1295)(cid:1721)(cid:3205)(cid:3661)(cid:4913) MobileApplication.isSDK (cid:4913)(cid:1699)(cid:3545)(cid:1602)(cid:3503)(cid:1285)IMChatManager.isKFSDK 
+(cid:2649)(cid:1295)(cid:1721)MobileApplication(cid:5380)(cid:1278)(cid:4913) (cid:6418)(cid:3096)(cid:4913)(cid:1697)(cid:2468)(cid:1784) (cid:5199)(cid:1705) MainActivty (cid:5380)
+(cid:1405)(cid:1784)(cid:7089)(cid:1683)(cid:1380)(cid:5041)
+(cid:1509)(cid:2388)(cid:1870)(cid:4671)bug
+(cid:1698)(cid:7483)(cid:2394)(cid:1439)(cid:3528)(cid:1391)(cid:1157)(cid:1658)(cid:2653)(cid:1435)(cid:5196)
+2.7.1(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:3498)(cid:3310)(cid:2229)(cid:7468)(cid:5973)(cid:3528)(cid:4551)
+(cid:1405)(cid:1784)(cid:7089)(cid:1683)(cid:1380)(cid:5041)
+(cid:1509)(cid:2388)(cid:2794)(cid:1870)(cid:4671)(cid:2897)(cid:2825)
+2.8.0(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:4274)(cid:1746)(cid:1286)(cid:1750)(cid:1407)(cid:6590)(cid:1745)(cid:5766)
+(cid:1405)(cid:1784)(cid:7089)(cid:1683)(cid:1380)(cid:5041)
+(cid:1509)(cid:2388)(cid:1246)(cid:1870)(cid:4671)bug
+2.8.1(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:6627)(cid:3526)(cid:1380)(cid:5041)(cid:1601)(cid:1879)(cid:1380)(cid:5041)
+(cid:6627)(cid:3526)(cid:2927)(cid:7594)(cid:821)(cid:4505)(cid:4952)(cid:3686)(cid:7476)(cid:4777)(cid:6615)(cid:1430)(cid:5597)
+(cid:4274)(cid:1746)(cid:2079)(cid:2013)(cid:7294)(cid:3379)(cid:1745)(cid:5766)
+(cid:1509)(cid:2388)android8.0(cid:1382)(cid:1912)(cid:2848)(cid:3470)(cid:1982)(cid:6999)(cid:5027)(cid:3379)(cid:1873)(cid:2897)(cid:2825)
+2.8.2(cid:3653)(cid:3547)(cid:3565)(cid:2986)
+(cid:1509)(cid:2388)(cid:3528)(cid:1391)(cid:1253)(cid:6905)(cid:1982)(cid:3528)(cid:1391)(cid:3217)(cid:2895)(cid:4551)(cid:3676)(cid:6983)(cid:7112)(cid:7407)(cid:7628)
+(cid:1509)(cid:3503)(cid:4222)(cid:3059)(cid:6549)(cid:2927)(cid:3604)(cid:5135)(cid:1382)userId(cid:4913)(cid:1473)(cid:3357)(cid:1153)(cid:1910)(cid:1246)userId(cid:4913)(cid:4768)(cid:3201)(cid:1890)(cid:1382)(cid:4961)(cid:6496)(cid:5681)(cid:2400)(cid:6549)(cid:2927)(cid:1154)
+(cid:1405)(cid:1784)(cid:7089)(cid:1683)(cid:1380)(cid:5041)(cid:821)(cid:1509)(cid:2388)(cid:1246)(cid:1870)(cid:4671)bug
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 

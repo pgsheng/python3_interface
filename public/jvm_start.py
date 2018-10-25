@@ -6,6 +6,7 @@
  @Time    : 2018/7/24 10:44
 """
 import platform
+
 import jpype
 
 from public import config
@@ -21,10 +22,10 @@ class JVMStart(object):
     启动Java虚拟机
     """
 
-    def start_jvm(self):
+    def start_jvm(self, jar_list):
         # 获得默认jvm路径
         jvm_path = jpype.getDefaultJVMPath()
-        self.log.info(jvm_path)
+        # self.log.info(jvm_path)
 
         # 你的java扩展包的路径
         ext_classpath = ''
@@ -33,10 +34,14 @@ class JVMStart(object):
         sysstr = platform.system()
         if sysstr == "Windows":
             # java扩展包的路径或class文件所在文件夹路径，注意：class文件路径是它所在的上级文件夹
-            ext_classpath = config.sdk_path + 'jar_test.jar;' + config.sdk_path
+            ext_classpath = config.sdk_path
+            for name in jar_list:
+                ext_classpath += ';' + config.sdk_path + '%s' % name
         elif sysstr == "Linux":
-            ext_classpath = config.sdk_path + 'jar_test.jar:' + config.sdk_path +'sdk'
-        self.log.info("系统类型：" + sysstr)
+            ext_classpath = config.sdk_path + 'sdk'
+            for name in jar_list:
+                ext_classpath = ':' + config.sdk_path + '%s' % name
+        # self.log.info("系统类型：" + sysstr)
 
         # 判断 JVM 是否已启动
         if not jpype.isJVMStarted():
@@ -61,7 +66,7 @@ class JVMStart(object):
 
 
 if __name__ == '__main__':
-    JVMStart().start_jvm()
+    JVMStart().start_jvm(['jar_test.jar'])
     JVMStart().shutdown_jvm()
 
 """
