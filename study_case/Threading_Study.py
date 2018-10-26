@@ -16,14 +16,17 @@ class ThreadingStudy(object):
         self.log = Log().get_logger()
 
     def test(self, t=0):
-        while True:
+        print('thread %s is running...' % threading.current_thread().name)
+        for i in range(5):
             time.sleep(2)
             self.log.info(t)
+        print('thread %s is ended...' % threading.current_thread().name)
 
 
 if __name__ == '__main__':
+    print('thread %s is running...' % threading.current_thread().name)
     tt = []
-    t2 = threading.Thread(target=ThreadingStudy().test, args=(1,))
+    t2 = threading.Thread(target=ThreadingStudy().test, args=(1,)) # 注意方法不能带括号
     t = threading.Thread(target=ThreadingStudy().test, args=(2,))
     tt.append(t)
     tt.append(t2)
@@ -34,6 +37,7 @@ if __name__ == '__main__':
 
     for i in tt:
         i.join()
+    print('thread %s is ended...' % threading.current_thread().name)
 
 """
 默认情况下主程序会等子线程全部执行完毕才停止的。
