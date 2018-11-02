@@ -71,58 +71,58 @@ class MongoDB(object):
         # 输出插入的所有文档对应的 _id 值
         self.log.info(results.inserted_ids)
 
-        students = [
-            {"_id": 1, "name": "知乎", "alexa": "103", "url": "https://www.zhihu.com"},
-            {"_id": 2, "name": "Github", "alexa": "109", "url": "https://www.github.com"}
-        ]
-        results = self.collection.insert_many(students)  # 自己指定 id，插入
-        # 输出插入的所有文档对应的 _id 值
-        self.log.info(results.inserted_ids)
+        # students = [
+        #     {"_id": 1, "name": "知乎", "alexa": "103", "url": "https://www.zhihu.com"},
+        #     {"_id": 2, "name": "Github", "alexa": "109", "url": "https://www.github.com"}
+        # ]
+        # results = self.collection.insert_many(students)  # 自己指定 id，插入
+        # # 输出插入的所有文档对应的 _id 值
+        # self.log.info(results.inserted_ids)
 
     def db_find(self):
         # results = self.collection.find_one()  # 查询集合中的第一条数据。
         # self.log.info(results)
         #
-        # for x in self.collection.find():  # 查询集合中的所有数据
-        #     self.log.info(x)
+        for x in self.collection.find():  # 查询集合中的所有数据
+            self.log.info(x)
 
         # find() 方法来查询指定字段的数据，将要返回的字段对应值设置为 1。
         # 除了 _id 你不能在一个对象中同时指定 0 和 1，如果你设置了一个字段为 0，则其他都为 1，反之亦然。
-        # self.collection.find({}, {"name": 0, "alexa": 1}) 会抛异常
-        value_list = self.collection.find({}, {"_id": 0, "name": 1, "alexa": 1})
-        for x in value_list:
-            self.log.info(x)
-
-        self.log.info('-' * 20)
-
-        # 指定条件查询
-        myquery = {"name": "Facebook"}
-        value_list = self.collection.find(myquery)
-        for x in value_list:
-            self.log.info(x)
-
-        self.log.info('-' * 20)
-
-        # 高级查询,第一个字母 ASCII 值大于 "H" 的数据
-        myquery = {"name": {"$gt": "H"}}
-        value_list = self.collection.find(myquery)
-        for x in value_list:
-            self.log.info(x)
-
-        self.log.info('-' * 20)
-
-        # 使用正则表达式查询,第一个字母为 "F" 的数据
-        myquery = {"name": {"$regex": "^F"}}
-        value_list = self.collection.find(myquery)
-        for x in value_list:
-            self.log.info(x)
-
-        self.log.info('-' * 20)
-
-        # 返回指定条数记录，设置指定条数的记录可以使用 limit() 方法，该方法只接受一个数字参数
-        value_list = self.collection.find().limit(2)
-        for x in value_list:
-            self.log.info(x)
+        # # self.collection.find({}, {"name": 0, "alexa": 1}) 会抛异常
+        # value_list = self.collection.find({}, {"_id": 0, "name": 1, "alexa": 1})
+        # for x in value_list:
+        #     self.log.info(x)
+        #
+        # self.log.info('-' * 20)
+        #
+        # # 指定条件查询
+        # myquery = {"name": "Facebook"}
+        # value_list = self.collection.find(myquery)
+        # for x in value_list:
+        #     self.log.info(x)
+        #
+        # self.log.info('-' * 20)
+        #
+        # # 高级查询,第一个字母 ASCII 值大于 "H" 的数据
+        # myquery = {"name": {"$gt": "H"}}
+        # value_list = self.collection.find(myquery)
+        # for x in value_list:
+        #     self.log.info(x)
+        #
+        # self.log.info('-' * 20)
+        #
+        # # 使用正则表达式查询,第一个字母为 "F" 的数据
+        # myquery = {"name": {"$regex": "^F"}}
+        # value_list = self.collection.find(myquery)
+        # for x in value_list:
+        #     self.log.info(x)
+        #
+        # self.log.info('-' * 20)
+        #
+        # # 返回指定条数记录，设置指定条数的记录可以使用 limit() 方法，该方法只接受一个数字参数
+        # value_list = self.collection.find().limit(2)
+        # for x in value_list:
+        #     self.log.info(x)
 
     def db_update(self):
         value_list = self.collection.find()  # 查询集合中的所有数据
@@ -160,6 +160,8 @@ class MongoDB(object):
         myquery = {"name": {"$regex": "^G"}}
         result = self.collection.delete_many(myquery)# 删除所有 name 字段中以 G 开头的文档
         self.log.info('删除结果：%s' % result.deleted_count)
+
+        # self.db.drop_collection("students") #  删除整个collection
 
         value_list = self.collection.find()
         for x in value_list:

@@ -59,6 +59,6 @@ def read_txt():
 
 
 if __name__ == '__main__':
-    read_yaml()
+    # read_yaml()
 # write_yaml()
-# read_txt()
+    read_txt()
