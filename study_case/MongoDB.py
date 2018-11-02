@@ -4,6 +4,9 @@
  @Author  : pgsheng
  @Time    : 2018/10/23 14:31
 """
+import subprocess
+import time
+
 import pymongo
 
 from public.log import Log
@@ -158,10 +161,10 @@ class MongoDB(object):
         # self.collection.delete_one(myquery)# 删除 name 字段值为 "Taobao" 的第一个匹配文档
 
         myquery = {"name": {"$regex": "^G"}}
-        result = self.collection.delete_many(myquery)# 删除所有 name 字段中以 G 开头的文档
+        result = self.collection.delete_many(myquery)  # 删除所有 name 字段中以 G 开头的文档
         self.log.info('删除结果：%s' % result.deleted_count)
 
-        # self.db.drop_collection("students") #  删除整个collection
+        self.db.drop_collection("students") #  删除整个collection
 
         value_list = self.collection.find()
         for x in value_list:
@@ -177,11 +180,16 @@ class MongoDB(object):
 
 if __name__ == '__main__':
     m = MongoDB()
-    # m.db_insert()
+    m.db_insert()
     # m.db_find()
     # m.db_update()
     # m.db_sort()
-    m.db_delete()
+    # m.db_delete()
+    client = pymongo.MongoClient(host='localhost', port=27017)
+    db = client['scrapydb']  # 指定数据库
+    collection = db['teachers']  # 指定集合
+    for x in collection.find():  # 查询集合中的所有数据
+        print(x)
 
 """
 常见异常：
@@ -189,5 +197,4 @@ if __name__ == '__main__':
     由于目标计算机积极拒绝，无法连接。 原因：未装MongoDB或者MongoDB服务没有开启
     2、启动服务：mongod --dbpath E:\MongoDB\data  或 net start MongoDB（管理员打开cmd）
     3、关闭：net stop MongoDB
-
 """
