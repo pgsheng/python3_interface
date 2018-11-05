@@ -4,7 +4,7 @@
  @Author  : pgsheng
  @Time    : 2018/10/23 14:31
 """
-import MySQLdb
+import pymysql
 
 from public.log import Log
 
@@ -13,11 +13,11 @@ class MySQLStudy(object):
     def __init__(self):
         self.log = Log().get_logger()
         # 打开数据库连接
-        self.db = MySQLdb.connect(host='localhost',
+        self.db = pymysql.connect(host='localhost',
                                   port=3306,
                                   user='root',
-                                  passwd='123456',
-                                  charset='utf-8')
+                                  password='123456',
+                                  charset='utf8')
         self.cursor = self.db.cursor()
 
     def db_create(self):
