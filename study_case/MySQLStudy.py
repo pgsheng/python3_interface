@@ -98,7 +98,7 @@ class MySQLStudy(object):
         sql = "replace into teacher(name,age)values('小米2',100)" # REPLACE时，表中必须有唯一索引
         self.cursor.execute(sql)
 
-        # 判断存不存在的那个字段要设置成unique索引,这里前后name值要一样，前面数据是插入，后面是更新
+        # 2、判断存不存在的那个字段要设置成unique索引,这里前后name值要一样，前面数据是插入，后面是更新
         sql2 = "insert into teacher(name,age)values('小马2',110) on duplicate key update name= '小马2',age=100"
         self.cursor.execute(sql2)
 
