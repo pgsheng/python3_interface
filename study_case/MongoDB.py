@@ -141,7 +141,7 @@ class MongoDB(object):
         # 将 alexa 字段的值为10000 的改为 111
         myquery = {"alexa": "111"}
         newvalues = {"$set": {"alexa": "112"}}
-        result = self.collection.update_many(myquery, newvalues)  # 修改所有匹配到的记录
+        result = self.collection.update_many(myquery, newvalues, upsert=True)  # 修改所有匹配到的记录,upsert=True不存在就插入，默认是False
         self.log.info('修改数据结果：%s' % result.modified_count)
 
         self.log.info('-' * 20)
