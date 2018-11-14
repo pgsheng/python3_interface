@@ -4,6 +4,7 @@
  @Author  : pgsheng
  @Time    : 2018/4/17 9:02
 """
+import json
 import os
 import yaml
 from public import config
@@ -58,7 +59,41 @@ def read_txt():
         print(data)
 
 
+def read_json():
+    path = os.path.join(config.study_case_path,'data','sina7x24.json')
+
+    with open(path, 'r', encoding='utf-8') as file:
+        load_data = json.load(file) # 文件流对象
+        print(load_data)
+        # print(load_data.get('date'))
+
+    with open(path, 'r', encoding='utf-8') as file:
+        load_all_data = json.loads(file.read()) # 字符串
+        for data in load_all_data:
+            print(data)
+            # print(data.get('complex'))
+
+    with open(path, 'r', encoding='utf-8') as file:
+        load_all_data = file.read()
+        print(load_all_data) # 字符串 str
+
+
+
+def write_json():
+    # 你的yaml格式文件路径
+    path = config.project_path + r'\study_case\data\yaml_study_data.yaml'
+    # 待写入的数据
+    data = {'complex2': {'languages': ['Ruby', 'Perl', 'Python'],
+                         'websites': {'YAML': 'yaml.org', 'Ruby': 'ruby-lang.org', 'Python': 'python.org'}}}
+
+    # a追加写入，w覆盖写入
+    with open(path, 'a', encoding='utf-8') as file:
+        # 将python对象转换成为yaml格式文档
+        yaml.dump(data, file)
+
+
 if __name__ == '__main__':
     # read_yaml()
 # write_yaml()
-    read_txt()
+#     read_txt()
+    read_json()
