@@ -30,7 +30,7 @@ class ServerChan(object):
         url = ''.join([self.host, self.sckey])
         # text：消息标题，最长为256，必填。
         # desp：消息内容，最长64Kb，可空，支持MarkDown。
-        text = time.strftime("%Y%m%d %H-%M-%S", time.localtime(time.time()))
+        text = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
         params = {'text': text, 'desp': 'good'}
         r = requests.request('post', url=url, params=params) # get或post皆可
         if r.json()['errno'] == 0:
@@ -45,5 +45,5 @@ class ServerChan(object):
 
 
 if __name__ == '__main__':
-    # ServerChan().send()
-    ServerChan().timeing()
+    ServerChan().send()
+    # ServerChan().timeing()
