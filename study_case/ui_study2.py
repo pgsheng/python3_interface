@@ -44,8 +44,9 @@ def test_window():
     time.sleep(2)
 
     current_window = driver.current_window_handle  # 获取当前窗口的handle name
+    time.sleep(5)
     driver.find_element_by_link_text('Window Open Test With Title').click()  # 新窗口打开另一个网页
-    driver.find_element_by_link_text('Window Open Test').click()  # 新窗口打开另一个网页
+    # driver.find_element_by_link_text('Window Open Test').click()  # 新窗口打开另一个网页
 
     time.sleep(2)
     all_windows = driver.window_handles  # 获取所有窗口handle name
@@ -64,6 +65,7 @@ def test_window():
     log.info(driver.title)  # 打印当前页面title
 
     driver.close()
+    time.sleep(5)
     driver.switch_to.window(current_window)  # 关闭新窗口之后，driver并不会自动跳转回原窗口，而是需要你switch回来
     log.info(driver.title)  # 打印原页面title
 
@@ -102,5 +104,5 @@ def test_frame():
 
 if __name__ == '__main__':
     # test_alert()
-    # test_window()
-    test_frame()
+    test_window()
+    # test_frame()
