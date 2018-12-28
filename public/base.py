@@ -4,8 +4,9 @@
  @Author  : pgsheng
  @Time    : 2018/4/7 15:24
 """
+import json
+
 import requests
-from flask import json
 from openpyxl.styles import colors
 
 from public import config, read_excel, write_excel

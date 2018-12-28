@@ -1983,3 +1983,5 @@ pc_channel_win.cc, line 346
 [GPU 451
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1545983960502	geckodriver	INFO	geckodriver 0.21.0
+1545983960524	geckodriver	INFO	Listening on 127.0.0.1:60348
