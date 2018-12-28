@@ -4,6 +4,8 @@
  @Author  : Alin
  @Time    : 2018/8/9 20:24
 '''
+import os
+
 import gevent
 from gevent import monkey
 
@@ -63,3 +65,8 @@ class WebsiteUser(HttpLocust):
  locust -f locust_study.py --host=https://httpbin.org
 2、浏览器访问http://localhost:8089/
 """
+
+
+# if __name__ == '__main__':
+    # os.system('locust -f locust_study.py')
+    # os.system('locust -f ./locust_study.py   --no-web -c 1000 -r 10 -t 1h')
