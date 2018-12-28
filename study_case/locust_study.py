@@ -56,17 +56,27 @@ class WebsiteUser(HttpLocust):
     task_set = UserBehavior
     min_wait = 3000
     max_wait = 6000
-
+    host = 'https://httpbin.org' # 指定压测地址
 
 """
 # cd study_case
   
 1、切换到性能测试脚本所在的目录，启动性能测试,控制台执行命令：
- locust -f locust_study.py --host=https://httpbin.org
+ locust -f locust_study.py 
 2、浏览器访问http://localhost:8089/
 """
 
 
-# if __name__ == '__main__':
-    # os.system('locust -f locust_study.py')
-    # os.system('locust -f ./locust_study.py   --no-web -c 1000 -r 10 -t 1h')
+if __name__ == '__main__':
+    os.system('locust -f locust_study.py')
+    # os.system('locust -f ./locust_study.py --port=8089 --no-web -c 1000 -r 10 -t 1h')
+
+"""
+-f ：指定性能测试脚本文件
+--host ：指定压测地址 如,--host=https://httpbin.org
+--port ：指定端口 如,--port=8089
+--no-web ：表示不使用web界面运行测试
+-c ：设置虚拟用户数
+-r ：设置每秒启动虚拟用户数
+-t : 设置运行时间
+"""
