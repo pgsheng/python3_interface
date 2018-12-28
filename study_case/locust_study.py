@@ -68,8 +68,8 @@ class WebsiteUser(HttpLocust):
 
 
 if __name__ == '__main__':
-    os.system('locust -f locust_study.py')
-    # os.system('locust -f ./locust_study.py --port=8089 --no-web -c 1000 -r 10 -t 1h')
+    # os.system('locust -f locust_study.py')
+    os.system('locust -f locust_study.py  --no-web -c 5 -r 1 --csv=测试 --logfile=a.log')
 
 """
 -f ：指定性能测试脚本文件
@@ -79,4 +79,7 @@ if __name__ == '__main__':
 -c ：设置虚拟用户数
 -r ：设置每秒启动虚拟用户数
 -t : 设置运行时间
+--only-summary ：只打印摘要统计
+--csv=CSVFILEBA：以CSV格式存储当前请求测试数据，--csv=测试
+----logfile=LOGFILE ：日志文件路径，--logfile=a.log
 """
