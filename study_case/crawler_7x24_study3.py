@@ -55,9 +55,8 @@ class Sina_7x24(QWebEnginePage):
         # ( 运行起始点 )用pandas模块处理数据并转化为excel文档
         df = pandas.DataFrame(total)
         df.to_excel(config.study_case_path + r'data\7x24_3.xlsx', 'Sheet1')
-        print('-' * 60)
 
-        time.sleep(3)
+        time.sleep(15)
         self._sina()  # 每隔 N 秒跑一次
 
     def _news(self):  # 获取新闻函数
