@@ -69,7 +69,7 @@ class WebsiteUser(HttpLocust):
 
 if __name__ == '__main__':
     # os.system('locust -f locust_study.py')
-    os.system('locust -f locust_study.py  --no-web -c 100 -r 10 --csv=测试 --logfile=a.log')
+    os.system('locust -f locust_study.py  --no-web -c 80 -r 10 --csv=测试 --logfile=a.log')
 
 """
 -f ：指定性能测试脚本文件
