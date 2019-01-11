@@ -179,13 +179,14 @@ class MongoDB(object):
 
 
 if __name__ == '__main__':
-    m = MongoDB()
-    m.db_insert()
+    # m = MongoDB()
+    # m.db_insert()
     # m.db_find()
     # m.db_update()
     # m.db_sort()
     # m.db_delete()
-    client = pymongo.MongoClient(host='localhost', port=27017)
+    # client = pymongo.MongoClient(host='localhost', port=27017)
+    client = pymongo.MongoClient("mongodb://admin:123456@localhost:27017/?authSource=admin")
     db = client['scrapydb']  # 指定数据库
     collection = db['teachers']  # 指定集合
     for x in collection.find():  # 查询集合中的所有数据
