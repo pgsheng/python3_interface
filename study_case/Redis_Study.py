@@ -21,10 +21,11 @@ class RedisStudy(object):
         self.log.info(r.get('mykey1'))  # 获取
 
         # 2、连接池
-        pool = redis.ConnectionPool(host='127.0.0.1', port=6379, db=0,password=12345)
+        pool = redis.ConnectionPool(host='127.0.0.1', port=6379, db=0, password=12345)
         r = redis.Redis(connection_pool=pool)
         r.set('name2', 'zhangsan2')  # 添加
         self.log.info(r.get('name2'))  # 获取
+
 
 if __name__ == '__main__':
     r = RedisStudy()
