@@ -18,7 +18,7 @@ class RedisStudy(object):
         # 1、一般连接方式
         r = redis.Redis(host='127.0.0.1', port=6379, db=0, password=12345)
         # r.set('name', 'zhangsan0')  # 添加
-        self.log.info(r.get('name'))  # 获取
+        self.log.info(r.get('mykey1'))  # 获取
 
         # 2、连接池
         pool = redis.ConnectionPool(host='127.0.0.1', port=6379, db=0,password=12345)
