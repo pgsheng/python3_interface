@@ -23,9 +23,17 @@ class RedisStudy(object):
         # 2、连接池
         pool = redis.ConnectionPool(host='127.0.0.1', port=6379, db=0, password=12345)
         r = redis.Redis(connection_pool=pool)
-        r.set('name2', 'zhangsan2')  # 添加
+        # r.set('name2', 'zhangsan2')  # 添加
+        # r.setex('name2', 'zhangsan11',15)  #设置过期时间（秒）
         self.log.info(r.get('name2'))  # 获取
 
+        # r.mset(name3='zhangsan', name4='lisi')    # 批量设置值
+        self.log.info(r.mget("name3", "name4"))
+        self.log.info(r.mget(["name3", "name4"]))
+
+        self.log.info(r.getset("name2", "wangwu"))  #  设置新值，打印原值
+        self.log.info(r.get("name2"))  # 输出新值
+        self.log.info(r.getrange("name2", 0, 3))  # #根据字节获取子序列
 
 if __name__ == '__main__':
     r = RedisStudy()
