@@ -181,7 +181,7 @@ class MongoDB(object):
 if __name__ == '__main__':
     m = MongoDB()
     # m.db_insert()
-    # m.db_find()
+    m.db_find()
     # m.db_update()
     # m.db_sort()
     # m.db_delete()
