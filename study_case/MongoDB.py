@@ -20,8 +20,8 @@ class MongoDB(object):
             连接MongoDB我们需要使用PyMongo库里面的MongoClient，一般来说传入MongoDB的IP及端口即可，第一个参数为地址host，
             第二个参数为端口port，端口如果不传默认是27017。
         """
-        self.client = pymongo.MongoClient(host='localhost', port=27017)
-        # client = pymongo.MongoClient('mongodb://localhost:27017/')  # 可以达到同样的连接效果。
+        # self.client = pymongo.MongoClient(host='localhost', port=27017,username='admin',password='pgsheng123')
+        self.client = pymongo.MongoClient('mongodb://admin:pgsheng123@localhost:27017/')  # 可以达到同样的连接效果。
         """
         2、指定数据库
             MongoDB分为一个个数据库，需要指定要操作哪个数据库，在这里我以test数据库为例进行说明
@@ -180,12 +180,12 @@ class MongoDB(object):
 
 if __name__ == '__main__':
     m = MongoDB()
-    m.db_insert()
+    # m.db_insert()
     # m.db_find()
     # m.db_update()
     # m.db_sort()
     # m.db_delete()
-    client = pymongo.MongoClient(host='localhost', port=27017)
+    client = pymongo.MongoClient('mongodb://admin:pgsheng123@localhost:27017/')
     db = client['scrapydb']  # 指定数据库
     collection = db['teachers']  # 指定集合
     for x in collection.find():  # 查询集合中的所有数据
