@@ -61,7 +61,7 @@ class MySQLStudy(object):
         self.conn.close()
 
     def db_find2(self):
-        name = "小米"
+        name = "小米2"
         age = "100"
 
         # 1、字符串拼接查询语句
@@ -72,7 +72,7 @@ class MySQLStudy(object):
         self.log.info(data1)
 
         # 2、pymysql提供的参数化查询语句，注意与字符串方式的区别
-        self.cursor.execute("select name,age from teacher where name=%s and age=%s", (name, age))
+        self.cursor.execute("select name,age from teacher where name like  '%%%s%%'" % name)
         data2 = self.cursor.fetchone()  # 按照顺序进行
         self.log.info(data2)
 
@@ -122,9 +122,9 @@ if __name__ == '__main__':
     # m.db_create()
     # m.db_insert()
     # m.db_find()
-    # m.db_find2()
+    m.db_find2()
     # m.db_update()
-    m.db_update2()
+    # m.db_update2()
     # m.db_delete()
 
 """
