@@ -10,6 +10,7 @@ class MyFrame(wx.Frame):
         self.title = wx.StaticText(panel, label="请输入用户名和密码")
         self.label_user = wx.StaticText(panel, label="用户名:")
         self.text_user = wx.TextCtrl(panel, style=wx.TE_LEFT)
+        self.text_user.Bind(wx.EVT_TEXT,self.Input)
         self.label_pwd = wx.StaticText(panel, label="密   码:")
         self.text_password = wx.TextCtrl(panel, style=wx.TE_PASSWORD)
         # 创建“确定”和“取消”按钮, 并绑定事件
@@ -56,6 +57,10 @@ class MyFrame(wx.Frame):
         self.text_user.SetValue("")  # 清空输入的用户名
         self.text_password.SetValue("")  # 清空输入的密码
 
+    def Input(self, event):  # 没有event点击取消会报错
+        """ 点击取消按钮，执行方法 """
+        username = self.text_user.GetValue()  # 获取输入的用户名
+        print(username)
 
 if __name__ == '__main__':
     app = wx.App()  # 初始化
