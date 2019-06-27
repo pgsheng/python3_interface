@@ -19,11 +19,6 @@ class MyFrame(wx.Frame):
         self.text_password = wx.TextCtrl(panel, pos=(100, 90), size=(235, 25), style=wx.TE_PASSWORD)
         # print(self.text_password)
 
-        # 创建“确定”和“取消”按钮, 并绑定事件
-        self.bt_confirm = wx.Button(panel, label='确定')
-        # self.bt_confirm.Bind(wx.EVT_BUTTON, self.OnclickSubmit)
-        self.bt_cancel = wx.Button(panel, label='取消')
-        # self.bt_cancel.Bind(wx.EVT_BUTTON, self.OnclickCancel)
 
 if __name__ == '__main__':
     app = wx.App()                      # 初始化应用
